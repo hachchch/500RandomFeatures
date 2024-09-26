@@ -1,1397 +1,1389 @@
 [{
         "name": "Unit1",
-        "unitType": "Civilian Water",
+        "unitType": "Bomber",
         "movement": 3,
-        "cost": 291,
-        "strength": 67,
-        "requiredTech": "Acoustics",
-        ["[65]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
-        "attackSound": "shipguns"
+        "cost": 340,
+        "strength": 78,
+        "requiredTech": "Metallurgy",
+        "uniques": ["[+36]% Strength <vs [Scout] units>","[+3] Sight"],
+        "attackSound": "jetgun"
         },{
         "name": "Unit2",
-        "unitType": "Melee Water",
+        "unitType": "Archery",
         "movement": 3,
-        "cost": 337,
-        "strength": 82,
-        "requiredTech": "Industrialization",
-        ["No defensive terrain bonus","Can move after attacking"],
-        "attackSound": "missile"
+        "range": 3,
+        "cost": 213,
+        "strength": 94,
+        "rangedStrength": 101,
+        "requiredTech": "Biology",
+        "uniques": ["Can move after attacking","No defensive terrain bonus"],
+        "attackSound": "bombing"
         },{
         "name": "Unit3",
-        "unitType": "Civilian Water",
+        "unitType": "Mounted",
         "movement": 3,
-        "cost": 15,
-        "strength": 4,
-        "requiredTech": "Pottery",
-        ["Must set up to ranged attack","No defensive terrain bonus"],
+        "cost": 384,
+        "strength": 96,
+        "requiredTech": "Radio",
+        "uniques": ["No defensive terrain bonus","[+36]% Strength <vs [Scout] units>"],
         "attackSound": "shot"
         },{
         "name": "Unit4",
-        "unitType": "Helicopter",
-        "movement": 3,
-        "cost": 260,
-        "strength": 141,
-        "requiredTech": "Lasers",
-        ["[+22]% Strength <vs [Bomber,Air] units>","Must set up to ranged attack"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit5",
-        "unitType": "Bomber",
-        "movement": 3,
-        "cost": 100,
-        "strength": 31,
-        "requiredTech": "Construction",
-        ["[+3] Sight","[+3] Sight"],
-        "attackSound": "missile"
-        },{
-        "name": "Unit6",
-        "unitType": "Atomic Bomber",
-        "movement": 3,
-        "cost": 316,
-        "strength": 89,
-        "requiredTech": "Dynamite",
-        ["Can move after attacking","Can move after attacking"],
-        "attackSound": "shipCannonVolley"
-        },{
-        "name": "Unit7",
-        "unitType": "Civilian Water",
-        "movement": 3,
-        "cost": 183,
-        "strength": 170,
-        "requiredTech": "Nuclear Fusion",
-        ["No defensive terrain bonus","Must set up to ranged attack"],
-        "attackSound": "cannon"
-        },{
-        "name": "Unit8",
-        "unitType": "Civilian",
-        "movement": 3,
-        "cost": 282,
-        "strength": 128,
-        "requiredTech": "Electronics",
-        ["[+58]% Strength <vs [Units90] units>","No defensive terrain bonus"],
-        "attackSound": "bombing"
-        },{
-        "name": "Unit9",
-        "unitType": "Fighter",
-        "movement": 3,
-        "cost": 467,
-        "strength": 126,
-        "requiredTech": "Rocketry",
-        ["[+55]% Strength <vs [Units88] units>","[+47]% Strength <vs [Units31] units>"],
-        "attackSound": "artillery"
-        },{
-        "name": "Unit10",
         "unitType": "Armored",
         "movement": 3,
-        "cost": 34,
-        "strength": 27,
-        "requiredTech": "Mathematics",
-        ["[+62]% Strength <vs [Units145] units>","[+3] Sight"],
+        "cost": 477,
+        "strength": 125,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[+3] Sight","[10]% Strength <vs cities> <when attacking>"],
+        "attackSound": "gdrAttack"
+        },{
+        "name": "Unit5",
+        "unitType": "Helicopter",
+        "movement": 3,
+        "cost": 158,
+        "strength": 73,
+        "requiredTech": "Navigation",
+        "uniques": ["Can see over obstacles","[+3] Sight"],
+        "attackSound": "metalhit"
+        },{
+        "name": "Unit6",
+        "unitType": "Fighter",
+        "movement": 3,
+        "cost": 154,
+        "strength": 88,
+        "requiredTech": "Archaeology",
+        "uniques": ["[+65]% Strength <vs [Units8] units>","Must set up to ranged attack"],
+        "attackSound": "arrow"
+        },{
+        "name": "Unit7",
+        "unitType": "Helicopter",
+        "movement": 3,
+        "cost": 400,
+        "strength": 89,
+        "requiredTech": "Electricity",
+        "uniques": ["[+26]% Strength <vs [Units29] units>","No defensive terrain bonus"],
         "attackSound": "shipCannonVolley"
         },{
-        "name": "Unit11",
-        "unitType": "Archery",
-        "movement": 3,
-        "range": 3,
-        "cost": 425,
-        "strength": 164,
-        "rangedStrength": 183,
-        "requiredTech": "Stealth",
-        ["Can see over obstacles","[+3] Sight"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit12",
-        "unitType": "Civilian",
-        "movement": 3,
-        "cost": 54,
-        "strength": 41,
-        "requiredTech": "Civil Service",
-        ["No defensive terrain bonus","[39]% Strength <vs cities> <when attacking>"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit13",
-        "unitType": "Siege",
-        "movement": 3,
-        "cost": 494,
-        "strength": 129,
-        "requiredTech": "Advanced Ballistics",
-        ["[+28]% Strength <vs [Siege,Land] units>","[+39]% Strength <vs [Aircraft Carrier,Water] units>"],
-        "attackSound": "bombing"
-        },{
-        "name": "Unit14",
+        "name": "Unit8",
         "unitType": "Ranged Water",
         "movement": 3,
         "range": 3,
-        "cost": 432,
-        "strength": 95,
-        "rangedStrength": 91,
-        "requiredTech": "Flight",
-        ["[+3] Sight","Can see over obstacles"],
-        "attackSound": "jetgun"
+        "cost": 85,
+        "strength": 55,
+        "rangedStrength": 49,
+        "requiredTech": "Chivalry",
+        "uniques": ["No defensive terrain bonus","Never appears as a Barbarian unit"],
+        "attackSound": "throw"
         },{
-        "name": "Unit15",
-        "unitType": "Siege",
+        "name": "Unit9",
+        "unitType": "Armored",
         "movement": 3,
-        "cost": 363,
-        "strength": 73,
-        "requiredTech": "Printing Press",
-        ["[+3] Sight","[67]% Strength <vs cities> <when attacking>"],
+        "cost": 30,
+        "strength": 6,
+        "requiredTech": "Writing",
+        "uniques": ["[+31]% Strength <vs [Units70] units>","Never appears as a Barbarian unit"],
+        "attackSound": "metalhit"
+        },{
+        "name": "Unit10",
+        "unitType": "Sword",
+        "movement": 3,
+        "cost": 530,
+        "strength": 109,
+        "requiredTech": "Refrigeration",
+        "uniques": ["[-48]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit11",
+        "unitType": "Missile",
+        "movement": 3,
+        "cost": 102,
+        "strength": 48,
+        "requiredTech": "Civil Service",
+        "uniques": ["Can move after attacking","[+18]% Strength <vs [Units24] units>"],
+        "attackSound": "shipCannonVolley"
+        },{
+        "name": "Unit12",
+        "unitType": "Submarine",
+        "movement": 3,
+        "cost": 381,
+        "strength": 108,
+        "requiredTech": "Refrigeration",
+        "uniques": ["Can move after attacking","Can see over obstacles"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit13",
+        "unitType": "Submarine",
+        "movement": 3,
+        "cost": 447,
+        "strength": 154,
+        "requiredTech": "Stealth",
+        "uniques": ["No defensive terrain bonus","No defensive terrain bonus"],
+        "attackSound": "horse"
+        },{
+        "name": "Unit14",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "cost": 61,
+        "strength": 21,
+        "requiredTech": "Optics",
+        "uniques": ["Can see over obstacles","No defensive terrain bonus"],
         "attackSound": "crossbow"
         },{
-        "name": "Unit16",
+        "name": "Unit15",
         "unitType": "Civilian Water",
         "movement": 3,
-        "cost": 139,
-        "strength": 42,
-        "requiredTech": "Engineering",
-        ["[+3] Sight","No defensive terrain bonus"],
-        "attackSound": "machinegun"
+        "cost": 213,
+        "strength": 84,
+        "requiredTech": "Scientific Theory",
+        "uniques": ["[53]% Strength <vs cities> <when attacking>","[+63]% Strength <vs [Units93] units>"],
+        "attackSound": "missile"
+        },{
+        "name": "Unit16",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "cost": 590,
+        "strength": 134,
+        "requiredTech": "Pharmaceuticals",
+        "uniques": ["[+70]% Strength <vs [Units95] units>","[+3] Sight"],
+        "attackSound": "metalhit"
         },{
         "name": "Unit17",
-        "unitType": "Fighter",
+        "unitType": "Scout",
         "movement": 3,
-        "cost": 605,
-        "strength": 161,
-        "requiredTech": "Robotics",
-        ["Can see over obstacles","Can see over obstacles"],
+        "cost": 178,
+        "strength": 90,
+        "requiredTech": "Dynamite",
+        "uniques": ["Never appears as a Barbarian unit","Can move after attacking"],
         "attackSound": "missile"
         },{
         "name": "Unit18",
-        "unitType": "Gunpowder",
+        "unitType": "Siege",
         "movement": 3,
-        "cost": 440,
-        "strength": 92,
-        "requiredTech": "Biology",
-        ["[+44]% Strength <vs [Archery,Land] units>","[+3] Sight"],
-        "attackSound": "throw"
+        "cost": 188,
+        "strength": 75,
+        "requiredTech": "Economics",
+        "uniques": ["[+48]% Strength <vs [Siege] units>","[+54]% Strength <vs [Units147] units>"],
+        "attackSound": "jetgun"
         },{
         "name": "Unit19",
-        "unitType": "Submarine",
+        "unitType": "Mounted",
         "movement": 3,
-        "cost": 302,
-        "strength": 108,
-        "requiredTech": "Steam Power",
-        ["[+3] Sight","[+21]% Strength <vs [Units74] units>"],
-        "attackSound": "machinegun"
+        "cost": 28,
+        "strength": 18,
+        "requiredTech": "The Wheel",
+        "uniques": ["[+3] Sight","Must set up to ranged attack"],
+        "attackSound": "metalhit"
         },{
         "name": "Unit20",
-        "unitType": "Civilian Water",
+        "unitType": "Siege",
         "movement": 3,
-        "cost": 93,
-        "strength": 78,
-        "requiredTech": "Industrialization",
-        ["[+3] Sight","Can see over obstacles"],
-        "attackSound": "throw"
+        "cost": 117,
+        "strength": 84,
+        "requiredTech": "Military Science",
+        "uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus"],
+        "attackSound": "bombing"
         },{
         "name": "Unit21",
-        "unitType": "Missile",
+        "unitType": "Siege",
         "movement": 3,
-        "cost": 203,
-        "strength": 57,
-        "requiredTech": "Education",
-        ["[-36]% Strength <vs cities> <when attacking>","[+67]% Strength <vs [Units123] units>"],
+        "cost": 3,
+        "strength": 2,
+        "requiredTech": "Sailing",
+        "uniques": ["Never appears as a Barbarian unit","Never appears as a Barbarian unit"],
         "attackSound": "tankshot"
         },{
         "name": "Unit22",
-        "unitType": "Bomber",
+        "unitType": "Fighter",
         "movement": 3,
-        "cost": 523,
-        "strength": 146,
-        "requiredTech": "Globalization",
-        ["[60]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-        "attackSound": "gdrAttack"
+        "cost": 314,
+        "strength": 133,
+        "requiredTech": "Nuclear Fission",
+        "uniques": ["Can see over obstacles","[46]% Strength <vs cities> <when attacking>"],
+        "attackSound": "bombing"
         },{
         "name": "Unit23",
+        "unitType": "Submarine",
+        "movement": 3,
+        "cost": 184,
+        "strength": 60,
+        "requiredTech": "Astronomy",
+        "uniques": ["[-21]% Strength <vs cities> <when attacking>","Can see over obstacles"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit24",
         "unitType": "Ranged Gunpowder",
         "movement": 3,
         "range": 3,
-        "cost": 66,
-        "strength": 21,
-        "rangedStrength": 18,
-        "requiredTech": "Masonry",
-        ["[36]% Strength <vs cities> <when attacking>","Can move after attacking"],
-        "attackSound": "shipguns"
-        },{
-        "name": "Unit24",
-        "unitType": "Archery",
-        "movement": 3,
-        "range": 3,
-        "cost": 408,
-        "strength": 118,
-        "rangedStrength": 122,
-        "requiredTech": "Replaceable Parts",
-        ["[24]% Strength <vs cities> <when attacking>","[+10]% Strength <vs [Units49] units>"],
-        "attackSound": "machinegun"
+        "cost": 348,
+        "strength": 141,
+        "rangedStrength": 121,
+        "requiredTech": "Computers",
+        "uniques": ["[59]% Strength <vs cities> <when attacking>","[+11]% Strength <vs [Units69] units>"],
+        "attackSound": "arrow"
         },{
         "name": "Unit25",
         "unitType": "Melee Water",
         "movement": 3,
-        "cost": 595,
-        "strength": 130,
-        "requiredTech": "Mobile Tactics",
-        ["Never appears as a Barbarian unit","Never appears as a Barbarian unit"],
-        "attackSound": "machinegun"
+        "cost": 87,
+        "strength": 61,
+        "requiredTech": "Machinery",
+        "uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus"],
+        "attackSound": "cannon"
         },{
         "name": "Unit26",
-        "unitType": "Scout",
+        "unitType": "Civilian Water",
         "movement": 3,
-        "cost": 200,
-        "strength": 105,
-        "requiredTech": "Radio",
-        ["Can move after attacking","[-8]% Strength <vs cities> <when attacking>"],
-        "attackSound": "arrow"
+        "cost": 478,
+        "strength": 133,
+        "requiredTech": "Particle Physics",
+        "uniques": ["Never appears as a Barbarian unit","[96]% Strength <vs cities> <when attacking>"],
+        "attackSound": "shot"
         },{
         "name": "Unit27",
-        "unitType": "Siege",
+        "unitType": "Civilian Water",
         "movement": 3,
-        "cost": 226,
-        "strength": 48,
-        "requiredTech": "Civil Service",
-        ["Can move after attacking","Can see over obstacles"],
-        "attackSound": "missile"
-        },{
-        "name": "Unit28",
-        "unitType": "Gunpowder",
-        "movement": 3,
-        "cost": 350,
-        "strength": 80,
-        "requiredTech": "Rifling",
-        ["Can see over obstacles","[+23]% Strength <vs [Scout,Land] units>"],
-        "attackSound": "gdrAttack"
-        },{
-        "name": "Unit29",
-        "unitType": "Aircraft Carrier",
-        "movement": 3,
-        "cost": 117,
-        "strength": 69,
-        "requiredTech": "Architecture",
-        ["Never appears as a Barbarian unit","Can see over obstacles"],
+        "cost": 159,
+        "strength": 57,
+        "requiredTech": "Chivalry",
+        "uniques": ["[+69]% Strength <vs [Units120] units>","No defensive terrain bonus"],
         "attackSound": "artillery"
         },{
-        "name": "Unit30",
-        "unitType": "Aircraft Carrier",
+        "name": "Unit28",
+        "unitType": "Bomber",
         "movement": 3,
-        "cost": 530,
-        "strength": 124,
-        "requiredTech": "Computers",
-        ["Never appears as a Barbarian unit","[+49]% Strength <vs [Units29] units>"],
-        "attackSound": "shot"
+        "cost": 224,
+        "strength": 84,
+        "requiredTech": "Fertilizer",
+        "uniques": ["[+3] Sight","Must set up to ranged attack"],
+        "attackSound": "shipguns"
+        },{
+        "name": "Unit29",
+        "unitType": "Helicopter",
+        "movement": 3,
+        "cost": 224,
+        "strength": 50,
+        "requiredTech": "Machinery",
+        "uniques": ["[+3] Sight","[76]% Strength <vs cities> <when attacking>"],
+        "attackSound": "shipCannonVolley"
+        },{
+        "name": "Unit30",
+        "unitType": "Fighter",
+        "movement": 3,
+        "cost": 535,
+        "strength": 155,
+        "requiredTech": "Mobile Tactics",
+        "uniques": ["[10]% Strength <vs cities> <when attacking>","[+3] Sight"],
+        "attackSound": "metalhit"
         },{
         "name": "Unit31",
         "unitType": "Ranged Gunpowder",
         "movement": 3,
         "range": 3,
-        "cost": 341,
-        "strength": 105,
-        "rangedStrength": 108,
-        "requiredTech": "Electronics",
-        ["Never appears as a Barbarian unit","No defensive terrain bonus"],
-        "attackSound": "metalhit"
+        "cost": 134,
+        "strength": 95,
+        "rangedStrength": 91,
+        "requiredTech": "Refrigeration",
+        "uniques": ["[+56]% Strength <vs [Units57] units>","[+31]% Strength <vs [Sword] units>"],
+        "attackSound": "machinegun"
         },{
         "name": "Unit32",
-        "unitType": "Siege",
+        "unitType": "Helicopter",
         "movement": 3,
-        "cost": 44,
-        "strength": 37,
-        "requiredTech": "Theology",
-        ["[78]% Strength <vs cities> <when attacking>","[+46]% Strength <vs [Siege,Land] units>"],
-        "attackSound": "crossbow"
+        "cost": 135,
+        "strength": 51,
+        "requiredTech": "Chivalry",
+        "uniques": ["[+75]% Strength <vs [Units86] units>","Never appears as a Barbarian unit"],
+        "attackSound": "cannon"
         },{
         "name": "Unit33",
-        "unitType": "Gunpowder",
+        "unitType": "Ranged Gunpowder",
         "movement": 3,
-        "cost": 54,
-        "strength": 36,
-        "requiredTech": "Iron Working",
-        ["Never appears as a Barbarian unit","[21]% Strength <vs cities> <when attacking>"],
+        "range": 3,
+        "cost": 202,
+        "strength": 111,
+        "rangedStrength": 102,
+        "requiredTech": "Atomic Theory",
+        "uniques": ["No defensive terrain bonus","Never appears as a Barbarian unit"],
         "attackSound": "bombing"
         },{
         "name": "Unit34",
-        "unitType": "Atomic Bomber",
+        "unitType": "Sword",
         "movement": 3,
-        "cost": 67,
-        "strength": 39,
-        "requiredTech": "Iron Working",
-        ["Can move after attacking","No defensive terrain bonus"],
-        "attackSound": "missile"
+        "cost": 113,
+        "strength": 50,
+        "requiredTech": "Metal Casting",
+        "uniques": ["[+3] Sight","No defensive terrain bonus"],
+        "attackSound": "torpedo"
         },{
         "name": "Unit35",
-        "unitType": "Civilian Water",
+        "unitType": "Ranged Gunpowder",
         "movement": 3,
-        "cost": 566,
-        "strength": 154,
-        "requiredTech": "Particle Physics",
-        ["Can see over obstacles","Never appears as a Barbarian unit"],
+        "range": 3,
+        "cost": 157,
+        "strength": 38,
+        "rangedStrength": 33,
+        "requiredTech": "Theology",
+        "uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
         "attackSound": "jetgun"
         },{
         "name": "Unit36",
-        "unitType": "Gunpowder",
+        "unitType": "Submarine",
         "movement": 3,
-        "cost": 399,
-        "strength": 84,
-        "requiredTech": "Industrialization",
-        ["Can see over obstacles","Can move after attacking"],
-        "attackSound": "artillery"
+        "cost": 435,
+        "strength": 96,
+        "requiredTech": "Steam Power",
+        "uniques": ["Can move after attacking","Must set up to ranged attack"],
+        "attackSound": "jetgun"
         },{
         "name": "Unit37",
-        "unitType": "Gunpowder",
-        "movement": 3,
-        "cost": 327,
-        "strength": 105,
-        "requiredTech": "Radio",
-        ["No defensive terrain bonus","No defensive terrain bonus"],
-        "attackSound": "shot"
-        },{
-        "name": "Unit38",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 187,
-        "strength": 47,
-        "requiredTech": "Education",
-        ["Can see over obstacles","No defensive terrain bonus"],
-        "attackSound": "torpedo"
-        },{
-        "name": "Unit39",
-        "unitType": "Archery",
-        "movement": 3,
-        "range": 3,
-        "cost": 249,
-        "strength": 137,
-        "rangedStrength": 165,
-        "requiredTech": "Nuclear Fusion",
-        ["Must set up to ranged attack","Never appears as a Barbarian unit"],
-        "attackSound": "shipCannonVolley"
-        },{
-        "name": "Unit40",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 275,
-        "strength": 78,
-        "requiredTech": "Rifling",
-        ["Can see over obstacles","[15]% Strength <vs cities> <when attacking>"],
-        "attackSound": "torpedo"
-        },{
-        "name": "Unit41",
-        "unitType": "Atomic Bomber",
-        "movement": 3,
-        "cost": 148,
-        "strength": 65,
-        "requiredTech": "Gunpowder",
-        ["Can see over obstacles","Never appears as a Barbarian unit"],
-        "attackSound": "torpedo"
-        },{
-        "name": "Unit42",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 47,
-        "strength": 13,
-        "requiredTech": "Archery",
-        ["Must set up to ranged attack","No defensive terrain bonus"],
-        "attackSound": "tankshot"
-        },{
-        "name": "Unit43",
-        "unitType": "Scout",
-        "movement": 3,
-        "cost": 44,
-        "strength": 17,
-        "requiredTech": "Calendar",
-        ["No defensive terrain bonus","Never appears as a Barbarian unit"],
-        "attackSound": "gdrAttack"
-        },{
-        "name": "Unit44",
-        "unitType": "Ranged Water",
-        "movement": 3,
-        "range": 3,
-        "cost": 65,
-        "strength": 16,
-        "rangedStrength": 18,
-        "requiredTech": "Calendar",
-        ["No defensive terrain bonus","No defensive terrain bonus"],
-        "attackSound": "missile"
-        },{
-        "name": "Unit45",
-        "unitType": "Civilian Water",
-        "movement": 3,
-        "cost": 55,
-        "strength": 22,
-        "requiredTech": "Bronze Working",
-        ["[+16]% Strength <vs [Melee Water,Water] units>","[-23]% Strength <vs cities> <when attacking>"],
-        "attackSound": "shipCannonVolley"
-        },{
-        "name": "Unit46",
-        "unitType": "Siege",
-        "movement": 3,
-        "cost": 39,
-        "strength": 28,
-        "requiredTech": "Horseback Riding",
-        ["Can move after attacking","No defensive terrain bonus"],
-        "attackSound": "shot"
-        },{
-        "name": "Unit47",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 516,
-        "strength": 119,
-        "requiredTech": "Pharmaceuticals",
-        ["Must set up to ranged attack","[+37]% Strength <vs [Submarine,Water] units>"],
-        "attackSound": "machinegun"
-        },{
-        "name": "Unit48",
-        "unitType": "Melee Water",
-        "movement": 3,
-        "cost": 76,
-        "strength": 21,
-        "requiredTech": "Bronze Working",
-        ["No defensive terrain bonus","[+27]% Strength <vs [Atomic Bomber,Air] units>"],
-        "attackSound": "elephant"
-        },{
-        "name": "Unit49",
         "unitType": "Mounted",
         "movement": 3,
-        "cost": 588,
-        "strength": 118,
-        "requiredTech": "Combined Arms",
-        ["[+20]% Strength <vs [Aircraft Carrier,Water] units>","[+23]% Strength <vs [Armored,Land] units>"],
+        "cost": 254,
+        "strength": 51,
+        "requiredTech": "Chivalry",
+        "uniques": ["No defensive terrain bonus","Never appears as a Barbarian unit"],
+        "attackSound": "horse"
+        },{
+        "name": "Unit38",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 178,
+        "strength": 38,
+        "requiredTech": "Currency",
+        "uniques": ["No defensive terrain bonus","Can move after attacking"],
+        "attackSound": "crossbow"
+        },{
+        "name": "Unit39",
+        "unitType": "Atomic Bomber",
+        "movement": 3,
+        "cost": 230,
+        "strength": 145,
+        "requiredTech": "Advanced Ballistics",
+        "uniques": ["[18]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit40",
+        "unitType": "Scout",
+        "movement": 3,
+        "cost": 236,
+        "strength": 78,
+        "requiredTech": "Architecture",
+        "uniques": ["Must set up to ranged attack","[+32]% Strength <vs [Missile] units>"],
+        "attackSound": "gdrAttack"
+        },{
+        "name": "Unit41",
+        "unitType": "Civilian Water",
+        "movement": 3,
+        "cost": 287,
+        "strength": 140,
+        "requiredTech": "Lasers",
+        "uniques": ["[+15]% Strength <vs [Units70] units>","[+12]% Strength <vs [Units77] units>"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit42",
+        "unitType": "Mounted",
+        "movement": 3,
+        "cost": 283,
+        "strength": 111,
+        "requiredTech": "Dynamite",
+        "uniques": ["Can move after attacking","[+3] Sight"],
+        "attackSound": "crossbow"
+        },{
+        "name": "Unit43",
+        "unitType": "Atomic Bomber",
+        "movement": 3,
+        "cost": 422,
+        "strength": 134,
+        "requiredTech": "Robotics",
+        "uniques": ["No defensive terrain bonus","[+26]% Strength <vs [Units57] units>"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit44",
+        "unitType": "Armored",
+        "movement": 3,
+        "cost": 251,
+        "strength": 132,
+        "requiredTech": "Telecommunications",
+        "uniques": ["No defensive terrain bonus","[98]% Strength <vs cities> <when attacking>"],
         "attackSound": "machinegun"
+        },{
+        "name": "Unit45",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 44,
+        "strength": 10,
+        "requiredTech": "Animal Husbandry",
+        "uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus"],
+        "attackSound": "tankshot"
+        },{
+        "name": "Unit46",
+        "unitType": "Fighter",
+        "movement": 3,
+        "cost": 260,
+        "strength": 82,
+        "requiredTech": "Metallurgy",
+        "uniques": ["Can see over obstacles","[30]% Strength <vs cities> <when attacking>"],
+        "attackSound": "crossbow"
+        },{
+        "name": "Unit47",
+        "unitType": "Mounted",
+        "movement": 3,
+        "cost": 143,
+        "strength": 94,
+        "requiredTech": "Fertilizer",
+        "uniques": ["No defensive terrain bonus","Can see over obstacles"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit48",
+        "unitType": "Fighter",
+        "movement": 3,
+        "cost": 127,
+        "strength": 36,
+        "requiredTech": "Iron Working",
+        "uniques": ["[+27]% Strength <vs [Melee Water] units>","No defensive terrain bonus"],
+        "attackSound": "torpedo"
+        },{
+        "name": "Unit49",
+        "unitType": "Scout",
+        "movement": 3,
+        "cost": 418,
+        "strength": 89,
+        "requiredTech": "Military Science",
+        "uniques": ["Never appears as a Barbarian unit","Can move after attacking"],
+        "attackSound": "nonmetalhit"
         },{
         "name": "Unit50",
         "unitType": "Fighter",
         "movement": 3,
-        "cost": 253,
-        "strength": 83,
-        "requiredTech": "Archaeology",
-        ["Can see over obstacles","[+77]% Strength <vs [Units126] units>"],
-        "attackSound": "crossbow"
+        "cost": 400,
+        "strength": 97,
+        "requiredTech": "Rifling",
+        "uniques": ["Never appears as a Barbarian unit","[+3] Sight"],
+        "attackSound": "torpedo"
         },{
         "name": "Unit51",
-        "unitType": "Missile",
+        "unitType": "Fighter",
         "movement": 3,
-        "cost": 131,
-        "strength": 66,
-        "requiredTech": "Navigation",
-        ["Never appears as a Barbarian unit","Must set up to ranged attack"],
-        "attackSound": "shipguns"
+        "cost": 156,
+        "strength": 109,
+        "requiredTech": "Radar",
+        "uniques": ["Can move after attacking","Can move after attacking"],
+        "attackSound": "machinegun"
         },{
         "name": "Unit52",
-        "unitType": "Armored",
+        "unitType": "Helicopter",
         "movement": 3,
-        "cost": 17,
-        "strength": 8,
-        "requiredTech": "Mining",
-        ["Must set up to ranged attack","Can see over obstacles"],
-        "attackSound": "shipCannonVolley"
+        "cost": 359,
+        "strength": 109,
+        "requiredTech": "Radar",
+        "uniques": ["Can move after attacking","[+28]% Strength <vs [Mounted] units>"],
+        "attackSound": "gdrAttack"
         },{
         "name": "Unit53",
         "unitType": "Submarine",
         "movement": 3,
-        "cost": 74,
-        "strength": 23,
-        "requiredTech": "Optics",
-        ["[-21]% Strength <vs cities> <when attacking>","[+3] Sight"],
-        "attackSound": "machinegun"
+        "cost": 493,
+        "strength": 157,
+        "requiredTech": "Globalization",
+        "uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+        "attackSound": "jetgun"
         },{
         "name": "Unit54",
-        "unitType": "Mounted",
-        "movement": 3,
-        "cost": 124,
-        "strength": 112,
-        "requiredTech": "Pharmaceuticals",
-        ["No defensive terrain bonus","[+27]% Strength <vs [Ranged Water,Water] units>"],
-        "attackSound": "shipguns"
-        },{
-        "name": "Unit55",
         "unitType": "Armored",
         "movement": 3,
-        "cost": 106,
-        "strength": 74,
-        "requiredTech": "Navigation",
-        ["Can see over obstacles","[+3] Sight"],
-        "attackSound": "jetgun"
+        "cost": 442,
+        "strength": 94,
+        "requiredTech": "Fertilizer",
+        "uniques": ["No defensive terrain bonus","[+21]% Strength <vs [Gunpowder] units>"],
+        "attackSound": "tankshot"
         },{
-        "name": "Unit56",
-        "unitType": "Siege",
+        "name": "Unit55",
+        "unitType": "Bomber",
         "movement": 3,
-        "cost": 10,
-        "strength": 9,
-        "requiredTech": "Mining",
-        ["[+13]% Strength <vs [Helicopter,Land] units>","Can see over obstacles"],
-        "attackSound": "shot"
-        },{
-        "name": "Unit57",
-        "unitType": "Civilian Water",
-        "movement": 3,
-        "cost": 6,
-        "strength": 4,
-        "requiredTech": "Pottery",
-        ["[+3] Sight","Can see over obstacles"],
-        "attackSound": "torpedo"
-        },{
-        "name": "Unit58",
-        "unitType": "Helicopter",
-        "movement": 3,
-        "cost": 15,
-        "strength": 4,
-        "requiredTech": "Pottery",
-        ["Can see over obstacles","Never appears as a Barbarian unit"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit59",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 545,
-        "strength": 134,
-        "requiredTech": "Particle Physics",
-        ["[-14]% Strength <vs cities> <when attacking>","[+56]% Strength <vs [Units46] units>"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit60",
-        "unitType": "Siege",
-        "movement": 3,
-        "cost": 404,
-        "strength": 106,
-        "requiredTech": "Biology",
-        ["No defensive terrain bonus","[82]% Strength <vs cities> <when attacking>"],
-        "attackSound": "shot"
-        },{
-        "name": "Unit61",
-        "unitType": "Ranged Water",
-        "movement": 3,
-        "range": 3,
-        "cost": 77,
-        "strength": 20,
-        "rangedStrength": 18,
-        "requiredTech": "Masonry",
-        ["[78]% Strength <vs cities> <when attacking>","Can move after attacking"],
-        "attackSound": "artillery"
-        },{
-        "name": "Unit62",
-        "unitType": "Atomic Bomber",
-        "movement": 3,
-        "cost": 528,
-        "strength": 144,
-        "requiredTech": "Nuclear Fission",
-        ["Must set up to ranged attack","No defensive terrain bonus"],
+        "cost": 90,
+        "strength": 68,
+        "requiredTech": "Printing Press",
+        "uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
         "attackSound": "arrow"
         },{
-        "name": "Unit63",
-        "unitType": "Civilian Water",
+        "name": "Unit56",
+        "unitType": "Melee Water",
         "movement": 3,
-        "cost": 396,
-        "strength": 133,
-        "requiredTech": "Satellites",
-        ["No defensive terrain bonus","No defensive terrain bonus"],
-        "attackSound": "bombing"
-        },{
-        "name": "Unit64",
-        "unitType": "Submarine",
-        "movement": 3,
-        "cost": 397,
-        "strength": 132,
-        "requiredTech": "Nuclear Fission",
-        ["Can see over obstacles","Never appears as a Barbarian unit"],
+        "cost": 287,
+        "strength": 146,
+        "requiredTech": "Nuclear Fusion",
+        "uniques": ["[69]% Strength <vs cities> <when attacking>","[+39]% Strength <vs [Ranged Water] units>"],
         "attackSound": "jetgun"
         },{
-        "name": "Unit65",
-        "unitType": "Aircraft Carrier",
+        "name": "Unit57",
+        "unitType": "Helicopter",
         "movement": 3,
-        "cost": 173,
-        "strength": 75,
-        "requiredTech": "Navigation",
-        ["No defensive terrain bonus","[+65]% Strength <vs [Units83] units>"],
-        "attackSound": "shipguns"
+        "cost": 98,
+        "strength": 21,
+        "requiredTech": "Bronze Working",
+        "uniques": ["[-38]% Strength <vs cities> <when attacking>","[30]% Strength <vs cities> <when attacking>"],
+        "attackSound": "missile"
         },{
-        "name": "Unit66",
+        "name": "Unit58",
+        "unitType": "Sword",
+        "movement": 3,
+        "cost": 241,
+        "strength": 85,
+        "requiredTech": "Scientific Theory",
+        "uniques": ["No defensive terrain bonus","Can move after attacking"],
+        "attackSound": "shot"
+        },{
+        "name": "Unit59",
+        "unitType": "Atomic Bomber",
+        "movement": 3,
+        "cost": 232,
+        "strength": 148,
+        "requiredTech": "Nanotechnology",
+        "uniques": ["Can move after attacking","[+72]% Strength <vs [Units142] units>"],
+        "attackSound": "missile"
+        },{
+        "name": "Unit60",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "cost": 143,
+        "strength": 142,
+        "requiredTech": "Satellites",
+        "uniques": ["[+18]% Strength <vs [Units63] units>","No defensive terrain bonus"],
+        "attackSound": "crossbow"
+        },{
+        "name": "Unit61",
+        "unitType": "Archery",
+        "movement": 3,
+        "range": 3,
+        "cost": 76,
+        "strength": 18,
+        "rangedStrength": 15,
+        "requiredTech": "The Wheel",
+        "uniques": ["[+64]% Strength <vs [Units23] units>","No defensive terrain bonus"],
+        "attackSound": "shipCannonVolley"
+        },{
+        "name": "Unit62",
+        "unitType": "Missile",
+        "movement": 3,
+        "cost": 539,
+        "strength": 151,
+        "requiredTech": "Lasers",
+        "uniques": ["[-28]% Strength <vs cities> <when attacking>","Can move after attacking"],
+        "attackSound": "horse"
+        },{
+        "name": "Unit63",
         "unitType": "Ranged Water",
         "movement": 3,
         "range": 3,
-        "cost": 27,
-        "strength": 15,
-        "rangedStrength": 14,
-        "requiredTech": "Trapping",
-        ["[-8]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-        "attackSound": "artillery"
+        "cost": 240,
+        "strength": 137,
+        "rangedStrength": 137,
+        "requiredTech": "Globalization",
+        "uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus"],
+        "attackSound": "torpedo"
+        },{
+        "name": "Unit64",
+        "unitType": "Ranged Water",
+        "movement": 3,
+        "range": 3,
+        "cost": 294,
+        "strength": 69,
+        "rangedStrength": 74,
+        "requiredTech": "Navigation",
+        "uniques": ["[48]% Strength <vs cities> <when attacking>","[10]% Strength <vs cities> <when attacking>"],
+        "attackSound": "arrow"
+        },{
+        "name": "Unit65",
+        "unitType": "Atomic Bomber",
+        "movement": 3,
+        "cost": 83,
+        "strength": 44,
+        "requiredTech": "Metal Casting",
+        "uniques": ["Can move after attacking","[+42]% Strength <vs [Units94] units>"],
+        "attackSound": "bombing"
+        },{
+        "name": "Unit66",
+        "unitType": "Armored",
+        "movement": 3,
+        "cost": 365,
+        "strength": 115,
+        "requiredTech": "Radio",
+        "uniques": ["Can move after attacking","[+22]% Strength <vs [Units82] units>"],
+        "attackSound": "cannon"
         },{
         "name": "Unit67",
         "unitType": "Atomic Bomber",
         "movement": 3,
-        "cost": 182,
-        "strength": 56,
-        "requiredTech": "Astronomy",
-        ["Must set up to ranged attack","No defensive terrain bonus"],
-        "attackSound": "metalhit"
-        },{
-        "name": "Unit68",
-        "unitType": "Fighter",
-        "movement": 3,
-        "cost": 627,
-        "strength": 130,
-        "requiredTech": "Telecommunications",
-        ["[+14]% Strength <vs [Units68] units>","[+37]% Strength <vs [Fighter,Air] units>"],
-        "attackSound": "artillery"
-        },{
-        "name": "Unit69",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 131,
-        "strength": 49,
-        "requiredTech": "Guilds",
-        ["[+3] Sight","No defensive terrain bonus"],
-        "attackSound": "tankshot"
-        },{
-        "name": "Unit70",
-        "unitType": "Mounted",
-        "movement": 3,
-        "cost": 355,
-        "strength": 97,
-        "requiredTech": "Railroads",
-        ["Can move after attacking","[-3]% Strength <vs cities> <when attacking>"],
-        "attackSound": "horse"
-        },{
-        "name": "Unit71",
-        "unitType": "Archery",
-        "movement": 3,
-        "range": 3,
-        "cost": 142,
-        "strength": 90,
-        "rangedStrength": 74,
-        "requiredTech": "Electricity",
-        ["[3]% Strength <vs cities> <when attacking>","[+33]% Strength <vs [Archery,Land] units>"],
-        "attackSound": "metalhit"
-        },{
-        "name": "Unit72",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 299,
-        "strength": 149,
-        "requiredTech": "Advanced Ballistics",
-        ["Must set up to ranged attack","[-2]% Strength <vs cities> <when attacking>"],
-        "attackSound": "machinegun"
-        },{
-        "name": "Unit73",
-        "unitType": "Melee Water",
-        "movement": 3,
-        "cost": 182,
-        "strength": 44,
-        "requiredTech": "Compass",
-        ["Never appears as a Barbarian unit","[+15]% Strength <vs [Aircraft Carrier,Water] units>"],
-        "attackSound": "bombing"
-        },{
-        "name": "Unit74",
-        "unitType": "Melee Water",
-        "movement": 3,
-        "cost": 70,
-        "strength": 20,
-        "requiredTech": "The Wheel",
-        ["No defensive terrain bonus","No defensive terrain bonus"],
-        "attackSound": "bombing"
-        },{
-        "name": "Unit75",
-        "unitType": "Gunpowder",
-        "movement": 3,
-        "cost": 194,
-        "strength": 79,
-        "requiredTech": "Military Science",
-        ["[+40]% Strength <vs [Units81] units>","Can see over obstacles"],
-        "attackSound": "tankshot"
-        },{
-        "name": "Unit76",
-        "unitType": "Bomber",
-        "movement": 3,
-        "cost": 417,
-        "strength": 138,
-        "requiredTech": "Telecommunications",
-        ["[+29]% Strength <vs [Units22] units>","[-13]% Strength <vs cities> <when attacking>"],
-        "attackSound": "artillery"
-        },{
-        "name": "Unit77",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 144,
-        "strength": 67,
-        "requiredTech": "Architecture",
-        ["No defensive terrain bonus","[+3] Sight"],
-        "attackSound": "cannon"
-        },{
-        "name": "Unit78",
-        "unitType": "Bomber",
-        "movement": 3,
-        "cost": 33,
-        "strength": 26,
-        "requiredTech": "Construction",
-        ["Can see over obstacles","[-2]% Strength <vs cities> <when attacking>"],
-        "attackSound": "bombing"
-        },{
-        "name": "Unit79",
-        "unitType": "Archery",
-        "movement": 3,
-        "range": 3,
-        "cost": 89,
-        "strength": 27,
-        "rangedStrength": 29,
-        "requiredTech": "Mathematics",
-        ["[+3] Sight","No defensive terrain bonus"],
-        "attackSound": "throw"
-        },{
-        "name": "Unit80",
-        "unitType": "Ranged Gunpowder",
-        "movement": 3,
-        "range": 3,
-        "cost": 224,
-        "strength": 52,
-        "rangedStrength": 60,
-        "requiredTech": "Physics",
-        ["[48]% Strength <vs cities> <when attacking>","[+3] Sight"],
+        "cost": 96,
+        "strength": 93,
+        "requiredTech": "Scientific Theory",
+        "uniques": ["[+41]% Strength <vs [Aircraft Carrier] units>","[+3] Sight"],
         "attackSound": "nonmetalhit"
         },{
-        "name": "Unit81",
-        "unitType": "Helicopter",
+        "name": "Unit68",
+        "unitType": "Aircraft Carrier",
         "movement": 3,
-        "cost": 138,
-        "strength": 136,
-        "requiredTech": "Nanotechnology",
-        ["[+63]% Strength <vs [Units99] units>","No defensive terrain bonus"],
-        "attackSound": "missile"
-        },{
-        "name": "Unit82",
-        "unitType": "Civilian",
-        "movement": 3,
-        "cost": 223,
-        "strength": 45,
-        "requiredTech": "Metal Casting",
-        ["[+3] Sight","[+18]% Strength <vs [Units91] units>"],
+        "cost": 232,
+        "strength": 47,
+        "requiredTech": "Compass",
+        "uniques": ["Can see over obstacles","Never appears as a Barbarian unit"],
         "attackSound": "torpedo"
         },{
-        "name": "Unit83",
+        "name": "Unit69",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 131,
+        "strength": 28,
+        "requiredTech": "Philosophy",
+        "uniques": ["[79]% Strength <vs cities> <when attacking>","Can move after attacking"],
+        "attackSound": "horse"
+        },{
+        "name": "Unit70",
+        "unitType": "Melee Water",
+        "movement": 3,
+        "cost": 185,
+        "strength": 43,
+        "requiredTech": "Guilds",
+        "uniques": ["[+3] Sight","No defensive terrain bonus"],
+        "attackSound": "metalhit"
+        },{
+        "name": "Unit71",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 523,
+        "strength": 112,
+        "requiredTech": "Radio",
+        "uniques": ["Never appears as a Barbarian unit","[+18]% Strength <vs [Helicopter] units>"],
+        "attackSound": "machinegun"
+        },{
+        "name": "Unit72",
         "unitType": "Scout",
         "movement": 3,
-        "cost": 21,
-        "strength": 9,
-        "requiredTech": "Mining",
-        ["[+25]% Strength <vs [Units74] units>","Can see over obstacles"],
-        "attackSound": "gdrAttack"
+        "cost": 224,
+        "strength": 50,
+        "requiredTech": "Education",
+        "uniques": ["No defensive terrain bonus","No defensive terrain bonus"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit73",
+        "unitType": "Civilian Water",
+        "movement": 3,
+        "cost": 7,
+        "strength": 6,
+        "requiredTech": "Writing",
+        "uniques": ["[+73]% Strength <vs [Units128] units>","Never appears as a Barbarian unit"],
+        "attackSound": "nonmetalhit"
+        },{
+        "name": "Unit74",
+        "unitType": "Bomber",
+        "movement": 3,
+        "cost": 8,
+        "strength": 4,
+        "requiredTech": "Pottery",
+        "uniques": ["Can move after attacking","No defensive terrain bonus"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit75",
+        "unitType": "Melee Water",
+        "movement": 3,
+        "cost": 64,
+        "strength": 15,
+        "requiredTech": "Trapping",
+        "uniques": ["No defensive terrain bonus","[+45]% Strength <vs [Units141] units>"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit76",
+        "unitType": "Melee Water",
+        "movement": 3,
+        "cost": 459,
+        "strength": 135,
+        "requiredTech": "Satellites",
+        "uniques": ["[+52]% Strength <vs [Units147] units>","[21]% Strength <vs cities> <when attacking>"],
+        "attackSound": "bombing"
+        },{
+        "name": "Unit77",
+        "unitType": "Ranged Water",
+        "movement": 3,
+        "range": 3,
+        "cost": 259,
+        "strength": 54,
+        "rangedStrength": 60,
+        "requiredTech": "Chivalry",
+        "uniques": ["Can move after attacking","[+43]% Strength <vs [Units74] units>"],
+        "attackSound": "shipCannonVolley"
+        },{
+        "name": "Unit78",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 372,
+        "strength": 125,
+        "requiredTech": "Atomic Theory",
+        "uniques": ["No defensive terrain bonus","Never appears as a Barbarian unit"],
+        "attackSound": "horse"
+        },{
+        "name": "Unit79",
+        "unitType": "Melee Water",
+        "movement": 3,
+        "cost": 253,
+        "strength": 104,
+        "requiredTech": "Railroads",
+        "uniques": ["[+3] Sight","Can see over obstacles"],
+        "attackSound": "torpedo"
+        },{
+        "name": "Unit80",
+        "unitType": "Civilian",
+        "movement": 3,
+        "cost": 534,
+        "strength": 123,
+        "requiredTech": "Ecology",
+        "uniques": ["No defensive terrain bonus","No defensive terrain bonus"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit81",
+        "unitType": "Missile",
+        "movement": 3,
+        "cost": 243,
+        "strength": 62,
+        "requiredTech": "Acoustics",
+        "uniques": ["Must set up to ranged attack","Never appears as a Barbarian unit"],
+        "attackSound": "jetgun"
+        },{
+        "name": "Unit82",
+        "unitType": "Archery",
+        "movement": 3,
+        "range": 3,
+        "cost": 545,
+        "strength": 117,
+        "rangedStrength": 104,
+        "requiredTech": "Ballistics",
+        "uniques": ["[+3] Sight","Never appears as a Barbarian unit"],
+        "attackSound": "jetgun"
+        },{
+        "name": "Unit83",
+        "unitType": "Helicopter",
+        "movement": 3,
+        "cost": 504,
+        "strength": 126,
+        "requiredTech": "Radar",
+        "uniques": ["[+3] Sight","Never appears as a Barbarian unit"],
+        "attackSound": "machinegun"
         },{
         "name": "Unit84",
+        "unitType": "Missile",
+        "movement": 3,
+        "cost": 296,
+        "strength": 97,
+        "requiredTech": "Refrigeration",
+        "uniques": ["[34]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
+        "attackSound": "gdrAttack"
+        },{
+        "name": "Unit85",
+        "unitType": "Mounted",
+        "movement": 3,
+        "cost": 5,
+        "strength": 2,
+        "requiredTech": "Sailing",
+        "uniques": ["No defensive terrain bonus","[+27]% Strength <vs [Scout] units>"],
+        "attackSound": "gdrAttack"
+        },{
+        "name": "Unit86",
+        "unitType": "Aircraft Carrier",
+        "movement": 3,
+        "cost": 171,
+        "strength": 48,
+        "requiredTech": "Guilds",
+        "uniques": ["Never appears as a Barbarian unit","[+3] Sight"],
+        "attackSound": "shot"
+        },{
+        "name": "Unit87",
+        "unitType": "Archery",
+        "movement": 3,
+        "range": 3,
+        "cost": 401,
+        "strength": 86,
+        "rangedStrength": 77,
+        "requiredTech": "Industrialization",
+        "uniques": ["Never appears as a Barbarian unit","Can see over obstacles"],
+        "attackSound": "metalhit"
+        },{
+        "name": "Unit88",
+        "unitType": "Submarine",
+        "movement": 3,
+        "cost": 17,
+        "strength": 4,
+        "requiredTech": "Pottery",
+        "uniques": ["Must set up to ranged attack","Can move after attacking"],
+        "attackSound": "shipguns"
+        },{
+        "name": "Unit89",
+        "unitType": "Scout",
+        "movement": 3,
+        "cost": 36,
+        "strength": 15,
+        "requiredTech": "Calendar",
+        "uniques": ["[-29]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit90",
+        "unitType": "Aircraft Carrier",
+        "movement": 3,
+        "cost": 389,
+        "strength": 99,
+        "requiredTech": "Refrigeration",
+        "uniques": ["[+35]% Strength <vs [Fighter] units>","[51]% Strength <vs cities> <when attacking>"],
+        "attackSound": "crossbow"
+        },{
+        "name": "Unit91",
+        "unitType": "Melee Water",
+        "movement": 3,
+        "cost": 176,
+        "strength": 79,
+        "requiredTech": "Architecture",
+        "uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus"],
+        "attackSound": "horse"
+        },{
+        "name": "Unit92",
+        "unitType": "Archery",
+        "movement": 3,
+        "range": 3,
+        "cost": 247,
+        "strength": 109,
+        "rangedStrength": 87,
+        "requiredTech": "Electronics",
+        "uniques": ["[60]% Strength <vs cities> <when attacking>","[+74]% Strength <vs [Units113] units>"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit93",
+        "unitType": "Helicopter",
+        "movement": 3,
+        "cost": 87,
+        "strength": 64,
+        "requiredTech": "Steel",
+        "uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+        "attackSound": "horse"
+        },{
+        "name": "Unit94",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "cost": 99,
+        "strength": 62,
+        "requiredTech": "Physics",
+        "uniques": ["[+72]% Strength <vs [Units138] units>","[+3] Sight"],
+        "attackSound": "nonmetalhit"
+        },{
+        "name": "Unit95",
+        "unitType": "Sword",
+        "movement": 3,
+        "cost": 82,
+        "strength": 52,
+        "requiredTech": "Physics",
+        "uniques": ["[+47]% Strength <vs [Submarine] units>","No defensive terrain bonus"],
+        "attackSound": "arrow"
+        },{
+        "name": "Unit96",
+        "unitType": "Armored",
+        "movement": 3,
+        "cost": 48,
+        "strength": 13,
+        "requiredTech": "Archery",
+        "uniques": ["Never appears as a Barbarian unit","No defensive terrain bonus"],
+        "attackSound": "tankshot"
+        },{
+        "name": "Unit97",
+        "unitType": "Ranged Water",
+        "movement": 3,
+        "range": 3,
+        "cost": 447,
+        "strength": 125,
+        "rangedStrength": 119,
+        "requiredTech": "Atomic Theory",
+        "uniques": ["Can see over obstacles","Can see over obstacles"],
+        "attackSound": "bombing"
+        },{
+        "name": "Unit98",
+        "unitType": "Civilian Water",
+        "movement": 3,
+        "cost": 178,
+        "strength": 42,
+        "requiredTech": "Iron Working",
+        "uniques": ["[+3] Sight","[+46]% Strength <vs [Units34] units>"],
+        "attackSound": "torpedo"
+        },{
+        "name": "Unit99",
+        "unitType": "Bomber",
+        "movement": 3,
+        "cost": 114,
+        "strength": 91,
+        "requiredTech": "Fertilizer",
+        "uniques": ["No defensive terrain bonus","[+3] Sight"],
+        "attackSound": "shot"
+        },{
+        "name": "Unit100",
+        "unitType": "Archery",
+        "movement": 3,
+        "range": 3,
+        "cost": 580,
+        "strength": 134,
+        "rangedStrength": 151,
+        "requiredTech": "Satellites",
+        "uniques": ["Can move after attacking","Can move after attacking"],
+        "attackSound": "bombing"
+        },{
+        "name": "Unit101",
+        "unitType": "Helicopter",
+        "movement": 3,
+        "cost": 45,
+        "strength": 11,
+        "requiredTech": "Animal Husbandry",
+        "uniques": ["[+17]% Strength <vs [Mounted] units>","[+34]% Strength <vs [Gunpowder] units>"],
+        "attackSound": "tankshot"
+        },{
+        "name": "Unit102",
         "unitType": "Siege",
         "movement": 3,
         "cost": 4,
         "strength": 2,
         "requiredTech": "Sailing",
-        ["Never appears as a Barbarian unit","[+42]% Strength <vs [Units82] units>"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit85",
-        "unitType": "Aircraft Carrier",
-        "movement": 3,
-        "cost": 396,
-        "strength": 86,
-        "requiredTech": "Electricity",
-        ["[72]% Strength <vs cities> <when attacking>","Can see over obstacles"],
-        "attackSound": "arrow"
-        },{
-        "name": "Unit86",
-        "unitType": "Civilian",
-        "movement": 3,
-        "cost": 93,
-        "strength": 26,
-        "requiredTech": "Mathematics",
-        ["[+3] Sight","[+3] Sight"],
-        "attackSound": "nonmetalhit"
-        },{
-        "name": "Unit87",
-        "unitType": "Aircraft Carrier",
-        "movement": 3,
-        "cost": 69,
-        "strength": 22,
-        "requiredTech": "Bronze Working",
-        ["[+17]% Strength <vs [Units146] units>","Can see over obstacles"],
+        "uniques": ["Never appears as a Barbarian unit","[+43]% Strength <vs [Mounted] units>"],
         "attackSound": "horse"
         },{
-        "name": "Unit88",
-        "unitType": "Ranged Water",
-        "movement": 3,
-        "range": 3,
-        "cost": 91,
-        "strength": 28,
-        "rangedStrength": 32,
-        "requiredTech": "Construction",
-        ["[+3] Sight","Never appears as a Barbarian unit"],
-        "attackSound": "shot"
-        },{
-        "name": "Unit89",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 383,
-        "strength": 138,
-        "requiredTech": "Nuclear Fusion",
-        ["No defensive terrain bonus","[+20]% Strength <vs [Units12] units>"],
-        "attackSound": "arrow"
-        },{
-        "name": "Unit90",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 39,
-        "strength": 12,
-        "requiredTech": "Archery",
-        ["[-43]% Strength <vs cities> <when attacking>","Can move after attacking"],
-        "attackSound": "nonmetalhit"
-        },{
-        "name": "Unit91",
-        "unitType": "Aircraft Carrier",
-        "movement": 3,
-        "cost": 244,
-        "strength": 103,
-        "requiredTech": "Electricity",
-        ["Can move after attacking","Never appears as a Barbarian unit"],
-        "attackSound": "gdrAttack"
-        },{
-        "name": "Unit92",
-        "unitType": "Bomber",
-        "movement": 3,
-        "cost": 306,
-        "strength": 128,
-        "requiredTech": "Pharmaceuticals",
-        ["Can move after attacking","Can see over obstacles"],
-        "attackSound": "crossbow"
-        },{
-        "name": "Unit93",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 101,
-        "strength": 41,
-        "requiredTech": "Iron Working",
-        ["Never appears as a Barbarian unit","Must set up to ranged attack"],
-        "attackSound": "torpedo"
-        },{
-        "name": "Unit94",
-        "unitType": "Submarine",
-        "movement": 3,
-        "cost": 32,
-        "strength": 21,
-        "requiredTech": "Optics",
-        ["Can move after attacking","[+3] Sight"],
-        "attackSound": "shot"
-        },{
-        "name": "Unit95",
-        "unitType": "Aircraft Carrier",
-        "movement": 3,
-        "cost": 792,
-        "strength": 167,
-        "requiredTech": "Nuclear Fusion",
-        ["[-37]% Strength <vs cities> <when attacking>","[+15]% Strength <vs [Aircraft Carrier,Water] units>"],
-        "attackSound": "arrow"
-        },{
-        "name": "Unit96",
-        "unitType": "Ranged Gunpowder",
-        "movement": 3,
-        "range": 3,
-        "cost": 254,
-        "strength": 109,
-        "rangedStrength": 93,
-        "requiredTech": "Combustion",
-        ["Never appears as a Barbarian unit","[+3] Sight"],
-        "attackSound": "elephant"
-        },{
-        "name": "Unit97",
-        "unitType": "Aircraft Carrier",
-        "movement": 3,
-        "cost": 352,
-        "strength": 124,
-        "requiredTech": "Combustion",
-        ["[+26]% Strength <vs [Missile,Air] units>","Must set up to ranged attack"],
-        "attackSound": "shot"
-        },{
-        "name": "Unit98",
-        "unitType": "Gunpowder",
-        "movement": 3,
-        "cost": 211,
-        "strength": 76,
-        "requiredTech": "Gunpowder",
-        ["[+38]% Strength <vs [Scout,Land] units>","[19]% Strength <vs cities> <when attacking>"],
-        "attackSound": "cannon"
-        },{
-        "name": "Unit99",
+        "name": "Unit103",
         "unitType": "Scout",
         "movement": 3,
-        "cost": 296,
-        "strength": 83,
-        "requiredTech": "Economics",
-        ["[-29]% Strength <vs cities> <when attacking>","[+3] Sight"],
-        "attackSound": "machinegun"
-        },{
-        "name": "Unit100",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 66,
-        "strength": 24,
-        "requiredTech": "Horseback Riding",
-        ["Never appears as a Barbarian unit","[-10]% Strength <vs cities> <when attacking>"],
-        "attackSound": "torpedo"
-        },{
-        "name": "Unit101",
-        "unitType": "Fighter",
-        "movement": 3,
-        "cost": 110,
-        "strength": 62,
-        "requiredTech": "Steel",
-        ["[+3] Sight","Never appears as a Barbarian unit"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit102",
-        "unitType": "Archery",
-        "movement": 3,
-        "range": 3,
-        "cost": 277,
-        "strength": 102,
-        "rangedStrength": 91,
-        "requiredTech": "Ballistics",
-        ["No defensive terrain bonus","[+57]% Strength <vs [Units141] units>"],
-        "attackSound": "artillery"
-        },{
-        "name": "Unit103",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 343,
-        "strength": 129,
-        "requiredTech": "Pharmaceuticals",
-        ["[71]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
-        "attackSound": "metalhit"
+        "cost": 40,
+        "strength": 19,
+        "requiredTech": "Masonry",
+        "uniques": ["[49]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
+        "attackSound": "horse"
         },{
         "name": "Unit104",
         "unitType": "Atomic Bomber",
         "movement": 3,
-        "cost": 161,
+        "cost": 64,
         "strength": 57,
-        "requiredTech": "Acoustics",
-        ["[55]% Strength <vs cities> <when attacking>","[-12]% Strength <vs cities> <when attacking>"],
-        "attackSound": "bombing"
+        "requiredTech": "Chivalry",
+        "uniques": ["Never appears as a Barbarian unit","Must set up to ranged attack"],
+        "attackSound": "cannon"
         },{
         "name": "Unit105",
+        "unitType": "Civilian",
+        "movement": 3,
+        "cost": 44,
+        "strength": 12,
+        "requiredTech": "Archery",
+        "uniques": ["[+3] Sight","No defensive terrain bonus"],
+        "attackSound": "shot"
+        },{
+        "name": "Unit106",
+        "unitType": "Armored",
+        "movement": 3,
+        "cost": 45,
+        "strength": 15,
+        "requiredTech": "Trapping",
+        "uniques": ["Must set up to ranged attack","Must set up to ranged attack"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit107",
+        "unitType": "Bomber",
+        "movement": 3,
+        "cost": 671,
+        "strength": 143,
+        "requiredTech": "Mobile Tactics",
+        "uniques": ["[67]% Strength <vs cities> <when attacking>","Must set up to ranged attack"],
+        "attackSound": "missile"
+        },{
+        "name": "Unit108",
+        "unitType": "Scout",
+        "movement": 3,
+        "cost": 30,
+        "strength": 27,
+        "requiredTech": "Mathematics",
+        "uniques": ["[+20]% Strength <vs [Archery] units>","Must set up to ranged attack"],
+        "attackSound": "shipguns"
+        },{
+        "name": "Unit109",
+        "unitType": "Atomic Bomber",
+        "movement": 3,
+        "cost": 276,
+        "strength": 111,
+        "requiredTech": "Combined Arms",
+        "uniques": ["No defensive terrain bonus","Can see over obstacles"],
+        "attackSound": "missile"
+        },{
+        "name": "Unit110",
         "unitType": "Archery",
         "movement": 3,
         "range": 3,
-        "cost": 642,
-        "strength": 162,
-        "rangedStrength": 124,
-        "requiredTech": "Lasers",
-        ["[+59]% Strength <vs [Units4] units>","Can move after attacking"],
-        "attackSound": "throw"
-        },{
-        "name": "Unit106",
-        "unitType": "Fighter",
-        "movement": 3,
-        "cost": 155,
-        "strength": 70,
-        "requiredTech": "Acoustics",
-        ["Never appears as a Barbarian unit","Can see over obstacles"],
-        "attackSound": "elephant"
-        },{
-        "name": "Unit107",
-        "unitType": "Gunpowder",
-        "movement": 3,
-        "cost": 745,
-        "strength": 171,
-        "requiredTech": "Nuclear Fusion",
-        ["No defensive terrain bonus","Can see over obstacles"],
-        "attackSound": "throw"
-        },{
-        "name": "Unit108",
-        "unitType": "Submarine",
-        "movement": 3,
-        "cost": 221,
-        "strength": 77,
-        "requiredTech": "Gunpowder",
-        ["No defensive terrain bonus","[+50]% Strength <vs [Scout,Land] units>"],
-        "attackSound": "metalhit"
-        },{
-        "name": "Unit109",
-        "unitType": "Civilian Water",
-        "movement": 3,
-        "cost": 251,
-        "strength": 76,
-        "requiredTech": "Archaeology",
-        ["[+3] Sight","Can see over obstacles"],
-        "attackSound": "jetgun"
-        },{
-        "name": "Unit110",
-        "unitType": "Submarine",
-        "movement": 3,
-        "cost": 521,
-        "strength": 162,
-        "requiredTech": "Nuclear Fusion",
-        ["Can see over obstacles","Never appears as a Barbarian unit"],
-        "attackSound": "metalhit"
-        },{
-        "name": "Unit111",
-        "unitType": "Ranged Water",
-        "movement": 3,
-        "range": 3,
-        "cost": 173,
-        "strength": 50,
-        "rangedStrength": 39,
-        "requiredTech": "Metal Casting",
-        ["Can see over obstacles","Can see over obstacles"],
-        "attackSound": "missile"
-        },{
-        "name": "Unit112",
-        "unitType": "Ranged Gunpowder",
-        "movement": 3,
-        "range": 3,
-        "cost": 524,
-        "strength": 159,
-        "rangedStrength": 191,
-        "requiredTech": "Nanotechnology",
-        ["[+75]% Strength <vs [Units41] units>","Never appears as a Barbarian unit"],
-        "attackSound": "missile"
-        },{
-        "name": "Unit113",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 166,
-        "strength": 165,
-        "requiredTech": "Nanotechnology",
-        ["Can see over obstacles","Can see over obstacles"],
-        "attackSound": "bombing"
-        },{
-        "name": "Unit114",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 168,
-        "strength": 112,
-        "requiredTech": "Replaceable Parts",
-        ["Can move after attacking","Must set up to ranged attack"],
-        "attackSound": "tankshot"
-        },{
-        "name": "Unit115",
-        "unitType": "Fighter",
-        "movement": 3,
-        "cost": 333,
-        "strength": 89,
-        "requiredTech": "Scientific Theory",
-        ["Never appears as a Barbarian unit","[+3] Sight"],
+        "cost": 198,
+        "strength": 148,
+        "rangedStrength": 178,
+        "requiredTech": "Particle Physics",
+        "uniques": ["[+3] Sight","Never appears as a Barbarian unit"],
         "attackSound": "artillery"
         },{
-        "name": "Unit116",
+        "name": "Unit111",
         "unitType": "Fighter",
         "movement": 3,
-        "cost": 642,
-        "strength": 137,
-        "requiredTech": "Nuclear Fusion",
-        ["Can move after attacking","[+3] Sight"],
-        "attackSound": "arrow"
+        "cost": 116,
+        "strength": 79,
+        "requiredTech": "Archaeology",
+        "uniques": ["Never appears as a Barbarian unit","Can see over obstacles"],
+        "attackSound": "cannon"
         },{
-        "name": "Unit117",
-        "unitType": "Aircraft Carrier",
+        "name": "Unit112",
+        "unitType": "Sword",
         "movement": 3,
-        "cost": 206,
-        "strength": 153,
-        "requiredTech": "Globalization",
-        ["Can move after attacking","Can move after attacking"],
+        "cost": 88,
+        "strength": 20,
+        "requiredTech": "The Wheel",
+        "uniques": ["[+20]% Strength <vs [Scout] units>","Never appears as a Barbarian unit"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit113",
+        "unitType": "Bomber",
+        "movement": 3,
+        "cost": 310,
+        "strength": 79,
+        "requiredTech": "Archaeology",
+        "uniques": ["No defensive terrain bonus","No defensive terrain bonus"],
+        "attackSound": "missile"
+        },{
+        "name": "Unit114",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "cost": 7,
+        "strength": 2,
+        "requiredTech": "Sailing",
+        "uniques": ["Can move after attacking","[+74]% Strength <vs [Units53] units>"],
         "attackSound": "machinegun"
         },{
-        "name": "Unit118",
-        "unitType": "Mounted",
+        "name": "Unit115",
+        "unitType": "Melee Water",
         "movement": 3,
-        "cost": 531,
-        "strength": 117,
-        "requiredTech": "Radio",
-        ["[+3] Sight","Can see over obstacles"],
-        "attackSound": "elephant"
+        "cost": 31,
+        "strength": 15,
+        "requiredTech": "Calendar",
+        "uniques": ["No defensive terrain bonus","[+66]% Strength <vs [Units93] units>"],
+        "attackSound": "cannon"
         },{
-        "name": "Unit119",
+        "name": "Unit116",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 689,
+        "strength": 154,
+        "requiredTech": "Globalization",
+        "uniques": ["Can see over obstacles","Can move after attacking"],
+        "attackSound": "shipCannonVolley"
+        },{
+        "name": "Unit117",
+        "unitType": "Sword",
+        "movement": 3,
+        "cost": 15,
+        "strength": 13,
+        "requiredTech": "Archery",
+        "uniques": ["Can see over obstacles","No defensive terrain bonus"],
+        "attackSound": "jetgun"
+        },{
+        "name": "Unit118",
         "unitType": "Armored",
         "movement": 3,
-        "cost": 89,
-        "strength": 71,
-        "requiredTech": "Chemistry",
-        ["[+23]% Strength <vs [Armored,Land] units>","[+76]% Strength <vs [Units85] units>"],
-        "attackSound": "shot"
+        "cost": 68,
+        "strength": 22,
+        "requiredTech": "Masonry",
+        "uniques": ["[+21]% Strength <vs [Units108] units>","Can see over obstacles"],
+        "attackSound": "tankshot"
+        },{
+        "name": "Unit119",
+        "unitType": "Mounted",
+        "movement": 3,
+        "cost": 473,
+        "strength": 110,
+        "requiredTech": "Combustion",
+        "uniques": ["Can see over obstacles","Must set up to ranged attack"],
+        "attackSound": "shipguns"
         },{
         "name": "Unit120",
         "unitType": "Siege",
         "movement": 3,
-        "cost": 52,
-        "strength": 43,
-        "requiredTech": "Guilds",
-        ["[+43]% Strength <vs [Scout,Land] units>","[+3] Sight"],
-        "attackSound": "nonmetalhit"
+        "cost": 188,
+        "strength": 39,
+        "requiredTech": "Theology",
+        "uniques": ["[+76]% Strength <vs [Units86] units>","Can move after attacking"],
+        "attackSound": "jetgun"
         },{
         "name": "Unit121",
-        "unitType": "Sword",
-        "movement": 3,
-        "cost": 113,
-        "strength": 24,
-        "requiredTech": "Bronze Working",
-        ["[+33]% Strength <vs [Aircraft Carrier,Water] units>","[+48]% Strength <vs [Units108] units>"],
-        "attackSound": "crossbow"
-        },{
-        "name": "Unit122",
         "unitType": "Aircraft Carrier",
         "movement": 3,
-        "cost": 26,
-        "strength": 13,
-        "requiredTech": "Trapping",
-        ["[+3] Sight","Can see over obstacles"],
-        "attackSound": "artillery"
+        "cost": 13,
+        "strength": 9,
+        "requiredTech": "Mining",
+        "uniques": ["[+26]% Strength <vs [Units145] units>","[-50]% Strength <vs cities> <when attacking>"],
+        "attackSound": "cannon"
+        },{
+        "name": "Unit122",
+        "unitType": "Ranged Gunpowder",
+        "movement": 3,
+        "range": 3,
+        "cost": 150,
+        "strength": 58,
+        "rangedStrength": 62,
+        "requiredTech": "Physics",
+        "uniques": ["[+3] Sight","[-32]% Strength <vs cities> <when attacking>"],
+        "attackSound": "jetgun"
         },{
         "name": "Unit123",
-        "unitType": "Mounted",
+        "unitType": "Armored",
         "movement": 3,
-        "cost": 269,
-        "strength": 73,
-        "requiredTech": "Economics",
-        ["Can move after attacking","No defensive terrain bonus"],
-        "attackSound": "metalhit"
+        "cost": 230,
+        "strength": 57,
+        "requiredTech": "Steel",
+        "uniques": ["[-6]% Strength <vs cities> <when attacking>","[-7]% Strength <vs cities> <when attacking>"],
+        "attackSound": "machinegun"
         },{
         "name": "Unit124",
         "unitType": "Mounted",
         "movement": 3,
-        "cost": 297,
-        "strength": 91,
-        "requiredTech": "Dynamite",
-        ["Can see over obstacles","No defensive terrain bonus"],
-        "attackSound": "throw"
+        "cost": 176,
+        "strength": 99,
+        "requiredTech": "Electricity",
+        "uniques": ["No defensive terrain bonus","[+57]% Strength <vs [Units144] units>"],
+        "attackSound": "crossbow"
         },{
         "name": "Unit125",
-        "unitType": "Sword",
+        "unitType": "Civilian Water",
         "movement": 3,
-        "cost": 472,
-        "strength": 105,
-        "requiredTech": "Combustion",
-        ["Must set up to ranged attack","No defensive terrain bonus"],
-        "attackSound": "shipguns"
+        "cost": 123,
+        "strength": 36,
+        "requiredTech": "Iron Working",
+        "uniques": ["[+40]% Strength <vs [Siege] units>","[+47]% Strength <vs [Armored] units>"],
+        "attackSound": "bombing"
         },{
         "name": "Unit126",
-        "unitType": "Ranged Gunpowder",
+        "unitType": "Siege",
         "movement": 3,
-        "range": 3,
-        "cost": 9,
-        "strength": 2,
-        "rangedStrength": 2,
-        "requiredTech": "Sailing",
-        ["No defensive terrain bonus","[+3] Sight"],
-        "attackSound": "shot"
+        "cost": 113,
+        "strength": 60,
+        "requiredTech": "Banking",
+        "uniques": ["[35]% Strength <vs cities> <when attacking>","[+35]% Strength <vs [Bomber] units>"],
+        "attackSound": "metalhit"
         },{
         "name": "Unit127",
-        "unitType": "Atomic Bomber",
+        "unitType": "Melee Water",
         "movement": 3,
-        "cost": 142,
-        "strength": 42,
-        "requiredTech": "Guilds",
-        ["Must set up to ranged attack","[+62]% Strength <vs [Units41] units>"],
-        "attackSound": "gdrAttack"
-        },{
-        "name": "Unit128",
-        "unitType": "Submarine",
-        "movement": 3,
-        "cost": 361,
-        "strength": 144,
-        "requiredTech": "Particle Physics",
-        ["[7]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+        "cost": 57,
+        "strength": 12,
+        "requiredTech": "Trapping",
+        "uniques": ["[+3] Sight","[49]% Strength <vs cities> <when attacking>"],
         "attackSound": "arrow"
         },{
-        "name": "Unit129",
-        "unitType": "Ranged Gunpowder",
+        "name": "Unit128",
+        "unitType": "Bomber",
         "movement": 3,
-        "range": 3,
-        "cost": 657,
-        "strength": 133,
-        "rangedStrength": 137,
-        "requiredTech": "Computers",
-        ["No defensive terrain bonus","No defensive terrain bonus"],
+        "cost": 28,
+        "strength": 10,
+        "requiredTech": "Animal Husbandry",
+        "uniques": ["[+20]% Strength <vs [Units45] units>","Can see over obstacles"],
         "attackSound": "shipguns"
         },{
-        "name": "Unit130",
-        "unitType": "Atomic Bomber",
+        "name": "Unit129",
+        "unitType": "Ranged Water",
         "movement": 3,
-        "cost": 41,
-        "strength": 16,
-        "requiredTech": "The Wheel",
-        ["[-38]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-        "attackSound": "shipCannonVolley"
+        "range": 3,
+        "cost": 303,
+        "strength": 144,
+        "rangedStrength": 162,
+        "requiredTech": "Telecommunications",
+        "uniques": ["[+14]% Strength <vs [Units88] units>","[+34]% Strength <vs [Units42] units>"],
+        "attackSound": "torpedo"
+        },{
+        "name": "Unit130",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 253,
+        "strength": 68,
+        "requiredTech": "Navigation",
+        "uniques": ["[+43]% Strength <vs [Civilian] units>","Can move after attacking"],
+        "attackSound": "throw"
         },{
         "name": "Unit131",
         "unitType": "Fighter",
         "movement": 3,
-        "cost": 253,
-        "strength": 88,
-        "requiredTech": "Biology",
-        ["[+3] Sight","Can see over obstacles"],
-        "attackSound": "shipCannonVolley"
+        "cost": 145,
+        "strength": 81,
+        "requiredTech": "Economics",
+        "uniques": ["No defensive terrain bonus","No defensive terrain bonus"],
+        "attackSound": "elephant"
         },{
         "name": "Unit132",
-        "unitType": "Siege",
-        "movement": 3,
-        "cost": 683,
-        "strength": 141,
-        "requiredTech": "Robotics",
-        ["Can move after attacking","[38]% Strength <vs cities> <when attacking>"],
-        "attackSound": "tankshot"
-        },{
-        "name": "Unit133",
-        "unitType": "Ranged Gunpowder",
-        "movement": 3,
-        "range": 3,
-        "cost": 5,
-        "strength": 2,
-        "rangedStrength": 2,
-        "requiredTech": "Sailing",
-        ["No defensive terrain bonus","[+3] Sight"],
-        "attackSound": "shipguns"
-        },{
-        "name": "Unit134",
-        "unitType": "Aircraft Carrier",
-        "movement": 3,
-        "cost": 393,
-        "strength": 123,
-        "requiredTech": "Telecommunications",
-        ["[+43]% Strength <vs [Ranged Gunpowder,Land] units>","Never appears as a Barbarian unit"],
-        "attackSound": "cannon"
-        },{
-        "name": "Unit135",
-        "unitType": "Siege",
-        "movement": 3,
-        "cost": 147,
-        "strength": 31,
-        "requiredTech": "Philosophy",
-        ["[+63]% Strength <vs [Units113] units>","Must set up to ranged attack"],
-        "attackSound": "shipCannonVolley"
-        },{
-        "name": "Unit136",
-        "unitType": "Civilian",
-        "movement": 3,
-        "cost": 440,
-        "strength": 89,
-        "requiredTech": "Scientific Theory",
-        ["Can see over obstacles","Can move after attacking"],
-        "attackSound": "cannon"
-        },{
-        "name": "Unit137",
-        "unitType": "Missile",
-        "movement": 3,
-        "cost": 13,
-        "strength": 11,
-        "requiredTech": "Animal Husbandry",
-        ["Never appears as a Barbarian unit","Never appears as a Barbarian unit"],
-        "attackSound": "machinegun"
-        },{
-        "name": "Unit138",
         "unitType": "Bomber",
         "movement": 3,
-        "cost": 190,
-        "strength": 93,
-        "requiredTech": "Biology",
-        ["[+44]% Strength <vs [Units24] units>","[+3] Sight"],
-        "attackSound": "cannon"
+        "cost": 124,
+        "strength": 27,
+        "requiredTech": "Construction",
+        "uniques": ["Must set up to ranged attack","[+45]% Strength <vs [Atomic Bomber] units>"],
+        "attackSound": "crossbow"
         },{
-        "name": "Unit139",
-        "unitType": "Aircraft Carrier",
+        "name": "Unit133",
+        "unitType": "Siege",
         "movement": 3,
-        "cost": 309,
-        "strength": 134,
-        "requiredTech": "Satellites",
-        ["[-46]% Strength <vs cities> <when attacking>","Can move after attacking"],
-        "attackSound": "bombing"
+        "cost": 386,
+        "strength": 120,
+        "requiredTech": "Combustion",
+        "uniques": ["[+57]% Strength <vs [Units116] units>","[8]% Strength <vs cities> <when attacking>"],
+        "attackSound": "throw"
         },{
-        "name": "Unit140",
-        "unitType": "Aircraft Carrier",
+        "name": "Unit134",
+        "unitType": "Civilian",
         "movement": 3,
-        "cost": 411,
-        "strength": 159,
-        "requiredTech": "Nanotechnology",
-        ["Can see over obstacles","[+16]% Strength <vs [Units33] units>"],
-        "attackSound": "arrow"
+        "cost": 113,
+        "strength": 33,
+        "requiredTech": "Currency",
+        "uniques": ["[85]% Strength <vs cities> <when attacking>","[+3] Sight"],
+        "attackSound": "shipguns"
         },{
-        "name": "Unit141",
+        "name": "Unit135",
+        "unitType": "Submarine",
+        "movement": 3,
+        "cost": 40,
+        "strength": 8,
+        
+        "uniques": ["[+18]% Strength <vs [Ranged Water] units>","Must set up to ranged attack"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit136",
+        "unitType": "Bomber",
+        "movement": 3,
+        "cost": 426,
+        "strength": 118,
+        "requiredTech": "Railroads",
+        "uniques": ["No defensive terrain bonus","Can move after attacking"],
+        "attackSound": "throw"
+        },{
+        "name": "Unit137",
         "unitType": "Archery",
         "movement": 3,
         "range": 3,
-        "cost": 166,
-        "strength": 47,
-        "rangedStrength": 50,
-        "requiredTech": "Metal Casting",
-        ["No defensive terrain bonus","No defensive terrain bonus"],
-        "attackSound": "cannon"
+        "cost": 276,
+        "strength": 88,
+        "rangedStrength": 83,
+        "requiredTech": "Steam Power",
+        "uniques": ["[+3] Sight","[+28]% Strength <vs [Melee Water] units>"],
+        "attackSound": "machinegun"
         },{
-        "name": "Unit142",
-        "unitType": "Atomic Bomber",
-        "movement": 3,
-        "cost": 382,
-        "strength": 84,
-        "requiredTech": "Rifling",
-        ["[+43]% Strength <vs [Units4] units>","Must set up to ranged attack"],
-        "attackSound": "crossbow"
-        },{
-        "name": "Unit143",
-        "unitType": "Melee Water",
-        "movement": 3,
-        "cost": 196,
-        "strength": 111,
-        "requiredTech": "Plastics",
-        ["[+48]% Strength <vs [Scout,Land] units>","[+3] Sight"],
-        "attackSound": "horse"
-        },{
-        "name": "Unit144",
-        "unitType": "Bomber",
-        "movement": 3,
-        "cost": 580,
-        "strength": 121,
-        "requiredTech": "Electronics",
-        ["Can move after attacking","No defensive terrain bonus"],
-        "attackSound": "missile"
-        },{
-        "name": "Unit145",
-        "unitType": "Siege",
-        "movement": 3,
-        "cost": 389,
-        "strength": 79,
-        "requiredTech": "Scientific Theory",
-        ["[+3] Sight","Never appears as a Barbarian unit"],
-        "attackSound": "artillery"
-        },{
-        "name": "Unit146",
-        "unitType": "Mounted",
-        "movement": 3,
-        "cost": 180,
-        "strength": 51,
-        "requiredTech": "Education",
-        ["Can see over obstacles","[+13]% Strength <vs [Units25] units>"],
-        "attackSound": "artillery"
-        },{
-        "name": "Unit147",
-        "unitType": "Ranged Gunpowder",
-        "movement": 3,
-        "range": 3,
-        "cost": 11,
-        "strength": 4,
-        "rangedStrength": 4,
-        "requiredTech": "Pottery",
-        ["Can move after attacking","[+25]% Strength <vs [Gunpowder,Land] units>"],
-        "attackSound": "crossbow"
-        },{
-        "name": "Unit148",
+        "name": "Unit138",
         "unitType": "Civilian Water",
         "movement": 3,
-        "cost": 504,
-        "strength": 146,
-        "requiredTech": "Nanotechnology",
-        ["[+39]% Strength <vs [Helicopter,Land] units>","Can move after attacking"],
+        "cost": 141,
+        "strength": 41,
+        "requiredTech": "Theology",
+        "uniques": ["[+18]% Strength <vs [Civilian Water] units>","Can move after attacking"],
+        "attackSound": "metalhit"
+        },{
+        "name": "Unit139",
+        "unitType": "Mounted",
+        "movement": 3,
+        "cost": 136,
+        "strength": 43,
+        "requiredTech": "Iron Working",
+        "uniques": ["[5]% Strength <vs cities> <when attacking>","Can move after attacking"],
+        "attackSound": "machinegun"
+        },{
+        "name": "Unit140",
+        "unitType": "Bomber",
+        "movement": 3,
+        "cost": 548,
+        "strength": 150,
+        "requiredTech": "Lasers",
+        "uniques": ["[+3] Sight","No defensive terrain bonus"],
+        "attackSound": "artillery"
+        },{
+        "name": "Unit141",
+        "unitType": "Aircraft Carrier",
+        "movement": 3,
+        "cost": 550,
+        "strength": 116,
+        "requiredTech": "Nuclear Fission",
+        "uniques": ["Can move after attacking","[+3] Sight"],
+        "attackSound": "torpedo"
+        },{
+        "name": "Unit142",
+        "unitType": "Siege",
+        "movement": 3,
+        "cost": 60,
+        "strength": 31,
+        "requiredTech": "Drama and Poetry",
+        "uniques": ["[57]% Strength <vs cities> <when attacking>","Can move after attacking"],
+        "attackSound": "elephant"
+        },{
+        "name": "Unit143",
+        "unitType": "Scout",
+        "movement": 3,
+        "cost": 25,
+        "strength": 6,
+        "requiredTech": "Writing",
+        "uniques": ["No defensive terrain bonus","Can see over obstacles"],
+        "attackSound": "tankshot"
+        },{
+        "name": "Unit144",
+        "unitType": "Civilian Water",
+        "movement": 3,
+        "cost": 109,
+        "strength": 26,
+        "requiredTech": "Construction",
+        "uniques": ["[+10]% Strength <vs [Ranged Water] units>","Can move after attacking"],
+        "attackSound": "arrow"
+        },{
+        "name": "Unit145",
+        "unitType": "Armored",
+        "movement": 3,
+        "cost": 149,
+        "strength": 55,
+        "requiredTech": "Astronomy",
+        "uniques": ["Can move after attacking","[+3] Sight"],
         "attackSound": "bombing"
         },{
-        "name": "Unit149",
-        "unitType": "Atomic Bomber",
+        "name": "Unit146",
+        "unitType": "Siege",
         "movement": 3,
-        "cost": 340,
-        "strength": 84,
-        "requiredTech": "Military Science",
-        ["Never appears as a Barbarian unit","[+75]% Strength <vs [Units47] units>"],
-        "attackSound": "shipCannonVolley"
+        "cost": 63,
+        "strength": 15,
+        "requiredTech": "Calendar",
+        "uniques": ["[+3] Sight","[22]% Strength <vs cities> <when attacking>"],
+        "attackSound": "crossbow"
+        },{
+        "name": "Unit147",
+        "unitType": "Gunpowder",
+        "movement": 3,
+        "cost": 145,
+        "strength": 90,
+        "requiredTech": "Dynamite",
+        "uniques": ["Never appears as a Barbarian unit","[50]% Strength <vs cities> <when attacking>"],
+        "attackSound": "shipguns"
+        },{
+        "name": "Unit148",
+        "unitType": "Melee Water",
+        "movement": 3,
+        "cost": 194,
+        "strength": 133,
+        "requiredTech": "Mobile Tactics",
+        "uniques": ["No defensive terrain bonus","[+79]% Strength <vs [Units40] units>"],
+        "attackSound": "cannon"
+        },{
+        "name": "Unit149",
+        "unitType": "Scout",
+        "movement": 3,
+        "cost": 358,
+        "strength": 108,
+        "requiredTech": "Dynamite",
+        "uniques": ["Can move after attacking","Can move after attacking"],
+        "attackSound": "horse"
         },{
         "name": "Unit150",
-        "unitType": "Atomic Bomber",
+        "unitType": "Aircraft Carrier",
         "movement": 3,
-        "cost": 281,
-        "strength": 76,
-        "requiredTech": "Metallurgy",
-        ["[-19]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-        "attackSound": "elephant"
+        "cost": 410,
+        "strength": 94,
+        "requiredTech": "Military Science",
+        "uniques": ["[-46]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+        "attackSound": "bombing"
         }]
