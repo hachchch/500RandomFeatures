@@ -2,2409 +2,2387 @@
 [
         {
                 "name": "Building1",
-                "faith": 2,
-                "hurryCostModifier": 25,
-                "requiredTech": "Electricity",
-                "maintenance": 2
+                "food": 1,
+                "percentStatBonus": {"food": 3},
+"hurryCostModifier": 52,
+                "requiredTech": "Engineering",
+"uniques": ["[+1 Faith] from [Lakes] tiles [in all non-occupied cities]","Destroyed when the city is captured"],
+                "maintenance": 3
         },
         {
                 "name": "Building2",
-                "faith": 1,
-                "hurryCostModifier": 29,
-                "requiredTech": "Flight",
-                "maintenance": 2
+                "culture": 2,
+                "hurryCostModifier": 7,
+                "requiredTech": "Industrialization",
+"uniques": ["Only available <in cities with a [Building296]>"],
+                "maintenance": 1
         },
         {
                 "name": "Building3",
-                "faith": 1,
-                "hurryCostModifier": 22,
-                "requiredTech": "Electricity",
-"uniques": ["[+2 Happiness] from [Cattle] tiles [in all non-occupied cities]"],
+                "culture": 1,
+                "hurryCostModifier": 53,
+                "requiredTech": "Mining",
+"uniques": ["[4]% Food is carried over after population increases [in all coastal cities]","New [Military] units start with [26] Experience [in cities following our religion]"],
                 "maintenance": 2
         },
         {
                 "name": "Building4",
                 "happiness": 1,
-                "hurryCostModifier": 27,
-                "requiredTech": "Steam Power",
-"uniques": ["[+2 Production] from [Lakes] tiles [in City-State cities]"],
+                "percentStatBonus": {"happiness": 1},
+"hurryCostModifier": 24,
+                "requiredTech": "Archery",
                 "maintenance": 3
         },
         {
                 "name": "Building5",
-                "culture": 1,
-                "hurryCostModifier": 58,
-                "requiredTech": "Globalization",
-                "maintenance": 1
+                "production": 3,
+                "hurryCostModifier": 64,
+                "requiredTech": "Flight",
+"uniques": ["[+2 Production] from [Lakes] tiles [in capital]"],
+                "maintenance": 3
         },
         {
                 "name": "Building6",
-                "food": 1,
-                "hurryCostModifier": 10,
-                "requiredTech": "Rocketry",
-"uniques": ["[+2 Happiness] from [Lakes] tiles [in all cities with a garrison]"],
-                "maintenance": 2
+                "food": 2,
+                "hurryCostModifier": 45,
+                "requiredTech": "Machinery",
+                "maintenance": 3
         },
         {
                 "name": "Building7",
-                "gold": 1,
-                "hurryCostModifier": 51,
-                "requiredTech": "Mobile Tactics",
-                "maintenance": 2
+                "culture": 2,
+                "percentStatBonus": {"culture": 4},
+"hurryCostModifier": 49,
+                "requiredTech": "Ecology",
+"uniques": ["New [Military] units start with [4] Experience [in all cities in which the majority religion is a major religion]"],
+                "maintenance": 1
         },
         {
                 "name": "Building8",
-                "happiness": 2,
-                "hurryCostModifier": 17,
-                "requiredTech": "Iron Working",
-"uniques": ["[+1 Gold] from [Lakes] tiles [in all cities]"],
-                "maintenance": 3
+                "production": 2,
+                "percentStatBonus": {"production": 7},
+"hurryCostModifier": 5,
+                "requiredTech": "Drama and Poetry",
+"uniques": ["Only available <in cities with a [Building41]>"],
+                "maintenance": 2
         },
         {
                 "name": "Building9",
                 "happiness": 1,
-                "hurryCostModifier": 20,
-                "requiredTech": "Dynamite",
-"uniques": ["Only available <in cities with a [Building99]>","Only available <in cities with a [Building54]>"],
+                "hurryCostModifier": 61,
+                "requiredTech": "Mobile Tactics",
+"uniques": ["Requires at least [11] population"],
                 "maintenance": 2
         },
         {
                 "name": "Building10",
-                "gold": 1,
-                "hurryCostModifier": 56,
-                "requiredTech": "Plastics",
-"uniques": ["[+2 Culture] from [Lakes] tiles [in non-enemy foreign cities]","Must be next to [Coast]"],
+                "gold": 3,
+                "hurryCostModifier": 28,
+                "requiredTech": "Biology",
+"uniques": ["New [Military] units start with [4] Experience [in all cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building11",
-                "happiness": 1,
-                "hurryCostModifier": 4,
-                "requiredTech": "Electronics",
-"uniques": ["Destroyed when the city is captured"],
-                "maintenance": 3
+                "gold": 1,
+                "hurryCostModifier": 5,
+                "requiredTech": "Radar",
+                "maintenance": 2
         },
         {
                 "name": "Building12",
-                "science": 2,
-                "hurryCostModifier": 25,
-                "requiredTech": "Combined Arms",
-                "maintenance": 3
-        },
-        {
-                "name": "Building13",
-                "food": 1,
-                "percentStatBonus": {"food": 20},
-"hurryCostModifier": 45,
-                "requiredTech": "Theology",
-"uniques": ["[10]% Food is carried over after population increases [in capital]","[+1 Happiness] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building14",
-                "gold": 1,
-                "hurryCostModifier": 4,
-                "requiredTech": "Architecture",
-"uniques": ["[+2 Faith] from [Cattle] tiles [in all cities]","New [Military] units start with [20] Experience [in all cities in which the majority religion is a major religion]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building15",
-                "production": 1,
-                "hurryCostModifier": 63,
-                "requiredTech": "Mining",
-                "maintenance": 1
-        },
-        {
-                "name": "Building16",
-                "culture": 1,
-                "hurryCostModifier": 37,
-                "requiredTech": "Archaeology",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building17",
-                "food": 2,
-                "percentStatBonus": {"food": 7},
-"hurryCostModifier": 9,
-                "requiredTech": "Physics",
-"uniques": ["Destroyed when the city is captured","[5]% Food is carried over after population increases [in all cities in which the majority religion is an enhanced religion]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building18",
-                "culture": 2,
-                "percentStatBonus": {"culture": 26},
-"hurryCostModifier": 62,
-                "requiredTech": "Nuclear Fission",
-"uniques": ["Limited to [9] per Civilization"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building19",
-                "faith": 1,
-                "hurryCostModifier": 47,
-                "requiredTech": "Telecommunications",
-"uniques": ["Only available <in cities with a [Building209]>","Limited to [7] per Civilization"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building20",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 4},
-"hurryCostModifier": 36,
-                "requiredTech": "Chemistry",
-"uniques": ["[+2 Gold] from [Lakes] tiles [in holy cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building21",
-                "happiness": 1,
-                "hurryCostModifier": 50,
-                "requiredTech": "Engineering",
-"uniques": ["Destroyed when the city is captured"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building22",
-                "science": 1,
-                "percentStatBonus": {"science": 6},
-"hurryCostModifier": 64,
-                "requiredTech": "Ballistics",
-"uniques": ["Limited to [11] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building23",
-                "food": 1,
-                "hurryCostModifier": 26,
-                "requiredTech": "Architecture",
-"uniques": ["Destroyed when the city is captured","Requires at least [18] population"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building24",
-                "culture": 1,
-                "hurryCostModifier": 33,
-                "requiredTech": "Architecture",
-                "maintenance": 3
-        },
-        {
-                "name": "Building25",
-                "food": 4,
-                "hurryCostModifier": 46,
-                "requiredTech": "Machinery",
-"uniques": ["Limited to [5] per Civilization","[6]% Food is carried over after population increases [in all non-occupied cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building26",
-                "food": 2,
-                "percentStatBonus": {"food": 8},
-"hurryCostModifier": 48,
-                "requiredTech": "Optics",
-"uniques": ["[+2 Food] from [Lakes] tiles [in your cities]","[+2 Science] from [Lakes] tiles [in this city]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building27",
-                "gold": 2,
-                "hurryCostModifier": 15,
-                "requiredTech": "Architecture",
-"uniques": ["New [Military] units start with [15] Experience [in all cities with a garrison]","Must be next to [Coast]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building28",
-                "production": 1,
-                "hurryCostModifier": 63,
-                "requiredTech": "Sailing",
-"uniques": ["[6]% Food is carried over after population increases [in cities following this religion]","[+1 Happiness] from [Cattle] tiles [in all non-occupied cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building29",
-                "gold": 1,
-                "hurryCostModifier": 60,
-                "requiredTech": "Architecture",
-"uniques": ["[+2 Gold] from [Lakes] tiles [in your cities]","[+2 Gold] from [Lakes] tiles [in this city]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building30",
-                "faith": 3,
-                "hurryCostModifier": 65,
-                "requiredTech": "Refrigeration",
-                "maintenance": 1
-        },
-        {
-                "name": "Building31",
-                "culture": 2,
-                "hurryCostModifier": 27,
-                "requiredTech": "Masonry",
-"uniques": ["[+2 Production] from [Cattle] tiles [in capital]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building32",
-                "happiness": 1,
-                "hurryCostModifier": 62,
-                "requiredTech": "Dynamite",
-"uniques": ["[+1 Culture] from [Lakes] tiles [in foreign cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building33",
-                "gold": 1,
-                "hurryCostModifier": 59,
-                "requiredTech": "Mining",
-"uniques": ["New [Military] units start with [17] Experience [in cities following this religion]","Limited to [10] per Civilization"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building34",
-                "culture": 1,
-                "hurryCostModifier": 58,
-                "requiredTech": "Mathematics",
-"uniques": ["[+2 Culture] from [Lakes] tiles [in all coastal cities]","Limited to [3] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building35",
-                "gold": 2,
-                "hurryCostModifier": 29,
-                "requiredTech": "Pharmaceuticals",
-"uniques": ["[+2 Happiness] from [Lakes] tiles [in holy cities]","Limited to [11] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building36",
-                "gold": 1,
-                "hurryCostModifier": 39,
+                "gold": 3,
+                "hurryCostModifier": 57,
                 "requiredTech": "Education",
                 "maintenance": 3
         },
         {
-                "name": "Building37",
-                "culture": 1,
-                "percentStatBonus": {"culture": 14},
-"hurryCostModifier": 48,
-                "requiredTech": "Plastics",
-"uniques": ["Limited to [11] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building38",
-                "culture": 1,
-                "percentStatBonus": {"culture": 9},
-"hurryCostModifier": 68,
-                "requiredTech": "Atomic Theory",
-"uniques": ["[+1 Production] from [Lakes] tiles [in all non-occupied cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building39",
-                "culture": 1,
-                "hurryCostModifier": 16,
-                "requiredTech": "Rocketry",
-"uniques": ["Only available <in cities with a [Building123]>","[+1 Food] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building40",
-                "culture": 1,
-                "hurryCostModifier": 67,
-                "requiredTech": "Radar",
-"uniques": ["Requires at least [12] population"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building41",
-                "happiness": 1,
-                "hurryCostModifier": 62,
-                "requiredTech": "Compass",
-"uniques": ["Destroyed when the city is captured"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building42",
-                "happiness": 1,
-                "hurryCostModifier": 12,
-                "requiredTech": "Navigation",
-"uniques": ["[+2 Happiness] from [Lakes] tiles [in annexed cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building43",
+                "name": "Building13",
                 "gold": 2,
-                "percentStatBonus": {"gold": 13},
-"hurryCostModifier": 8,
-                "requiredTech": "Compass",
-"uniques": ["Only available <in cities with a [Building129]>"],
-                "maintenance": 3
+                "percentStatBonus": {"gold": 7},
+"hurryCostModifier": 1,
+                "requiredTech": "Banking",
+"uniques": ["Limited to [2] per Civilization","[+1 Science] from [Cattle] tiles [in puppeted cities]"],
+                "maintenance": 1
         },
         {
-                "name": "Building44",
-                "culture": 2,
-                "hurryCostModifier": 68,
-                "requiredTech": "Combined Arms",
-"uniques": ["Requires at least [6] population"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building45",
-                "food": 1,
-                "percentStatBonus": {"food": 1},
-"hurryCostModifier": 30,
-                "requiredTech": "Currency",
-                "maintenance": 3
-        },
-        {
-                "name": "Building46",
-                "food": 1,
-                "percentStatBonus": {"food": 18},
-"hurryCostModifier": 11,
+                "name": "Building14",
+                "culture": 1,
+                "hurryCostModifier": 62,
                 "requiredTech": "Particle Physics",
-"uniques": ["[+1 Science] from [Lakes] tiles [in non-enemy foreign cities]"],
+"uniques": ["[+1 Happiness] from [Cattle] tiles [in enemy cities]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building15",
+                "culture": 1,
+                "percentStatBonus": {"culture": 16},
+"hurryCostModifier": 67,
+                "requiredTech": "Gunpowder",
+"uniques": ["[8]% Food is carried over after population increases [in annexed cities]","Only available <in cities with a [Building170]>"],
                 "maintenance": 2
         },
         {
-                "name": "Building47",
+                "name": "Building16",
                 "happiness": 1,
-                "hurryCostModifier": 14,
-                "requiredTech": "Archaeology",
+                "hurryCostModifier": 22,
+                "requiredTech": "Computers",
+                "maintenance": 2
+        },
+        {
+                "name": "Building17",
+                "culture": 2,
+                "percentStatBonus": {"culture": 11},
+"hurryCostModifier": 15,
+                "requiredTech": "Biology",
+                "maintenance": 3
+        },
+        {
+                "name": "Building18",
+                "faith": 1,
+                "hurryCostModifier": 7,
+                "requiredTech": "Steel",
+                "maintenance": 1
+        },
+        {
+                "name": "Building19",
+                "food": 1,
+                "hurryCostModifier": 12,
+                "requiredTech": "Rocketry",
+"uniques": ["Limited to [4] per Civilization"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building20",
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 7},
+"hurryCostModifier": 38,
+                "requiredTech": "Archery",
+"uniques": ["Destroyed when the city is captured","[+2 Food] from [Cattle] tiles [in enemy cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building21",
+                "food": 2,
+                "hurryCostModifier": 19,
+                "requiredTech": "Optics",
+                "maintenance": 3
+        },
+        {
+                "name": "Building22",
+                "production": 1,
+                "hurryCostModifier": 67,
+                "requiredTech": "Gunpowder",
+"uniques": ["[+1 Food] from [Lakes] tiles [in puppeted cities]","Only available <in cities with a [Building165]>"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building23",
+                "faith": 1,
+                "hurryCostModifier": 66,
+                "requiredTech": "Engineering",
+"uniques": ["[+2 Production] from [Cattle] tiles [in all non-occupied cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building24",
+                "gold": 1,
+                "hurryCostModifier": 26,
+                "requiredTech": "Refrigeration",
+"uniques": ["Only available <in cities with a [Building242]>","Limited to [8] per Civilization"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building25",
+                "happiness": 1,
+                "hurryCostModifier": 48,
+                "requiredTech": "Economics",
+"uniques": ["Destroyed when the city is captured","New [Military] units start with [29] Experience [in capital]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building26",
+                "food": 3,
+                "hurryCostModifier": 42,
+                "requiredTech": "Economics",
+"uniques": ["New [Military] units start with [12] Experience [in this city]","[+2 Production] from [Cattle] tiles [in all coastal cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building27",
+                "culture": 1,
+                "hurryCostModifier": 64,
+                "requiredTech": "Steam Power",
+"uniques": ["Limited to [9] per Civilization"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building28",
+                "gold": 1,
+                "hurryCostModifier": 59,
+                "requiredTech": "Atomic Theory",
+                "maintenance": 1
+        },
+        {
+                "name": "Building29",
+                "culture": 1,
+                "hurryCostModifier": 5,
+                "requiredTech": "Currency",
+"uniques": ["[+1 Culture] from [Lakes] tiles [in all cities with a garrison]","Limited to [3] per Civilization"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building30",
+                "faith": 1,
+                "hurryCostModifier": 8,
+                "requiredTech": "Flight",
+                "maintenance": 1
+        },
+        {
+                "name": "Building31",
+                "food": 2,
+                "percentStatBonus": {"food": 6},
+"hurryCostModifier": 67,
+                "requiredTech": "Scientific Theory",
 "uniques": ["Must be next to [Coast]"],
                 "maintenance": 2
         },
         {
-                "name": "Building48",
+                "name": "Building32",
+                "faith": 2,
+                "hurryCostModifier": 24,
+                "requiredTech": "Scientific Theory",
+"uniques": ["Must be next to [Coast]","Requires at least [15] population"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building33",
+                "gold": 1,
+                "hurryCostModifier": 71,
+                "requiredTech": "Particle Physics",
+                "maintenance": 2
+        },
+        {
+                "name": "Building34",
+                "gold": 1,
+                "hurryCostModifier": 47,
+                "requiredTech": "Nuclear Fusion",
+                "maintenance": 3
+        },
+        {
+                "name": "Building35",
+                "happiness": 1,
+                "hurryCostModifier": 59,
+                "requiredTech": "Plastics",
+"uniques": ["[+2 Happiness] from [Cattle] tiles [in all cities with a world wonder]"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building36",
+                "production": 1,
+                "percentStatBonus": {"production": 1},
+"hurryCostModifier": 7,
+                "requiredTech": "Biology",
+"uniques": ["[+1 Food] from [Lakes] tiles [in your cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building37",
                 "faith": 1,
-                "hurryCostModifier": 19,
-                "requiredTech": "Nanotechnology",
+                "hurryCostModifier": 54,
+                "requiredTech": "Machinery",
+"uniques": ["[+1 Faith] from [Lakes] tiles [in holy cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building38",
+                "science": 4,
+                "hurryCostModifier": 16,
+                "requiredTech": "Radio",
+"uniques": ["[+1 Food] from [Lakes] tiles [in your cities]","[8]% Food is carried over after population increases [in non-enemy foreign cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building39",
+                "food": 2,
+                "hurryCostModifier": 43,
+                "requiredTech": "Telecommunications",
+"uniques": ["[+1 Gold] from [Cattle] tiles [in all cities connected to capital]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building40",
+                "culture": 1,
+                "percentStatBonus": {"culture": 1},
+"hurryCostModifier": 35,
+                "requiredTech": "Economics",
 "uniques": ["Destroyed when the city is captured"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building41",
+                "culture": 2,
+                "hurryCostModifier": 15,
+                "requiredTech": "Chivalry",
+"uniques": ["Destroyed when the city is captured"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building42",
+                "gold": 3,
+                "hurryCostModifier": 5,
+                "requiredTech": "Nuclear Fusion",
+"uniques": ["Requires at least [6] population"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building43",
+                "gold": 1,
+                "hurryCostModifier": 18,
+                "requiredTech": "Horseback Riding",
+"uniques": ["Limited to [8] per Civilization","[+2 Science] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building44",
+                "faith": 1,
+                "hurryCostModifier": 23,
+                "requiredTech": "Satellites",
+"uniques": ["Requires at least [17] population"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building45",
+                "production": 1,
+                "percentStatBonus": {"production": 1},
+"hurryCostModifier": 59,
+                "requiredTech": "Industrialization",
+"uniques": ["Must be next to [Coast]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building46",
+                "gold": 1,
+                "hurryCostModifier": 10,
+                "requiredTech": "Rocketry",
+"uniques": ["[+1 Gold] from [Cattle] tiles [in this city]"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building47",
+                "science": 3,
+                "percentStatBonus": {"science": 2},
+"hurryCostModifier": 15,
+                "requiredTech": "Optics",
+"uniques": ["[+1 Gold] from [Cattle] tiles [in cities being razed]","Must be next to [Coast]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building48",
+                "food": 2,
+                "hurryCostModifier": 15,
+                "requiredTech": "Economics",
+"uniques": ["Requires at least [15] population","Must be next to [Coast]"],
                 "maintenance": 1
         },
         {
                 "name": "Building49",
-                "gold": 3,
-                "hurryCostModifier": 15,
-                "requiredTech": "Trapping",
-"uniques": ["Only available <in cities with a [Building50]>"],
-                "maintenance": 3
+                "gold": 2,
+                "hurryCostModifier": 47,
+                "requiredTech": "Globalization",
+"uniques": ["[+2 Gold] from [Lakes] tiles [in this city]"],
+                "maintenance": 2
         },
         {
                 "name": "Building50",
-                "faith": 1,
-                "percentStatBonus": {"faith": 14},
-"hurryCostModifier": 40,
-                "requiredTech": "Steam Power",
-                "maintenance": 1
+                "food": 1,
+                "hurryCostModifier": 44,
+                "requiredTech": "Nanotechnology",
+"uniques": ["Limited to [5] per Civilization"],
+                "maintenance": 2
         },
         {
                 "name": "Building51",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 1},
-"hurryCostModifier": 68,
-                "requiredTech": "Refrigeration",
-"uniques": ["[+2 Happiness] from [Lakes] tiles [in foreign cities]"],
+                "faith": 1,
+                "hurryCostModifier": 60,
+                "requiredTech": "Printing Press",
                 "maintenance": 2
         },
         {
                 "name": "Building52",
-                "culture": 3,
-                "hurryCostModifier": 22,
-                "requiredTech": "Mining",
-                "maintenance": 2
+                "faith": 1,
+                "hurryCostModifier": 53,
+                "requiredTech": "Particle Physics",
+"uniques": ["Only available <in cities with a [Building10]>","Must be next to [Coast]"],
+                "maintenance": 3
         },
         {
                 "name": "Building53",
                 "faith": 1,
-                "hurryCostModifier": 53,
-                "requiredTech": "Currency",
-"uniques": ["[10]% Food is carried over after population increases [in all cities]","Must be next to [Coast]"],
-                "maintenance": 3
+                "hurryCostModifier": 66,
+                "requiredTech": "Ecology",
+                "maintenance": 2
         },
         {
                 "name": "Building54",
                 "faith": 1,
-                "hurryCostModifier": 60,
-                "requiredTech": "Mathematics",
-"uniques": ["Requires at least [16] population","[+1 Faith] from [Cattle] tiles [in all non-occupied cities]"],
-                "maintenance": 1
+                "hurryCostModifier": 40,
+                "requiredTech": "Machinery",
+                "maintenance": 3
         },
         {
                 "name": "Building55",
-                "faith": 1,
-                "hurryCostModifier": 51,
-                "requiredTech": "Construction",
-"uniques": ["[+1 Happiness] from [Cattle] tiles [in all cities with a garrison]","Must be next to [Coast]"],
-                "maintenance": 1
+                "gold": 2,
+                "hurryCostModifier": 34,
+                "requiredTech": "Military Science",
+"uniques": ["[+2 Faith] from [Lakes] tiles [in your cities]","Must be next to [Coast]"],
+                "maintenance": 2
         },
         {
                 "name": "Building56",
-                "gold": 1,
-                "hurryCostModifier": 39,
-                "requiredTech": "Chivalry",
-"uniques": ["[+1 Gold] from [Lakes] tiles [in puppeted cities]"],
+                "culture": 2,
+                "hurryCostModifier": 58,
+                "requiredTech": "Ecology",
+"uniques": ["[+1 Culture] from [Cattle] tiles [in annexed cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building57",
                 "happiness": 1,
-                "hurryCostModifier": 9,
-                "requiredTech": "Steel",
-"uniques": ["Only available <in cities with a [Building128]>"],
-                "maintenance": 2
+                "hurryCostModifier": 36,
+                "requiredTech": "Physics",
+"uniques": ["Limited to [9] per Civilization","[+2 Happiness] from [Lakes] tiles [in your cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building58",
-                "gold": 2,
-                "hurryCostModifier": 55,
-                "requiredTech": "Civil Service",
-"uniques": ["Limited to [8] per Civilization"],
+                "culture": 1,
+                "hurryCostModifier": 27,
+                "requiredTech": "Compass",
+"uniques": ["[+1 Happiness] from [Cattle] tiles [in capital]"],
                 "maintenance": 2
         },
         {
                 "name": "Building59",
-                "production": 1,
-                "hurryCostModifier": 31,
-                "requiredTech": "Radar",
-"uniques": ["Must be next to [Coast]","Limited to [9] per Civilization"],
-                "maintenance": 2
+                "food": 3,
+                "hurryCostModifier": 36,
+                "requiredTech": "Telecommunications",
+"uniques": ["[+2 Happiness] from [Lakes] tiles [in City-State cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building60",
-                "gold": 1,
-                "hurryCostModifier": 23,
-                "requiredTech": "Bronze Working",
-"uniques": ["[+2 Culture] from [Lakes] tiles [in all cities with a garrison]","[2]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]"],
-                "maintenance": 2
+                "faith": 3,
+                "hurryCostModifier": 25,
+                "requiredTech": "Radio",
+"uniques": ["Limited to [9] per Civilization","New [Military] units start with [3] Experience [in puppeted cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building61",
-                "gold": 1,
-                "hurryCostModifier": 44,
-                "requiredTech": "The Wheel",
-"uniques": ["New [Military] units start with [26] Experience [in puppeted cities]","[+1 Gold] from [Lakes] tiles [in all cities in which the majority religion is an enhanced religion]"],
-                "maintenance": 3
+                "science": 2,
+                "hurryCostModifier": 22,
+                "requiredTech": "Nanotechnology",
+                "maintenance": 2
         },
         {
                 "name": "Building62",
-                "science": 1,
-                "hurryCostModifier": 3,
-                "requiredTech": "Navigation",
-"uniques": ["[+2 Production] from [Lakes] tiles [in cities being razed]"],
-                "maintenance": 2
+                "faith": 1,
+                "hurryCostModifier": 17,
+                "requiredTech": "Optics",
+"uniques": ["Must be next to [Coast]"],
+                "maintenance": 1
         },
         {
                 "name": "Building63",
-                "faith": 1,
-                "hurryCostModifier": 48,
-                "requiredTech": "Rifling",
-"uniques": ["[+1 Culture] from [Cattle] tiles [in all cities connected to capital]"],
-                "maintenance": 2
+                "science": 1,
+                "hurryCostModifier": 6,
+                "requiredTech": "Globalization",
+"uniques": ["[+1 Production] from [Cattle] tiles [in all cities with a garrison]","[+2 Happiness] from [Lakes] tiles [in City-State cities]"],
+                "maintenance": 3
         },
         {
                 "name": "Building64",
-                "gold": 3,
-                "hurryCostModifier": 34,
-                "requiredTech": "Metal Casting",
-"uniques": ["[+2 Science] from [Lakes] tiles [in non-enemy foreign cities]"],
+                "food": 1,
+                "percentStatBonus": {"food": 1},
+"hurryCostModifier": 28,
+                "requiredTech": "Radio",
+"uniques": ["New [Military] units start with [7] Experience [in all cities with a garrison]"],
                 "maintenance": 2
         },
         {
                 "name": "Building65",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 4},
-"hurryCostModifier": 16,
-                "requiredTech": "Banking",
-                "maintenance": 1
+                "gold": 1,
+                "hurryCostModifier": 44,
+                "requiredTech": "Dynamite",
+"uniques": ["Requires at least [2] population"],
+                "maintenance": 2
         },
         {
                 "name": "Building66",
-                "culture": 1,
-                "percentStatBonus": {"culture": 1},
-"hurryCostModifier": 33,
+                "gold": 1,
+                "hurryCostModifier": 54,
                 "requiredTech": "Calendar",
-"uniques": ["Only available <in cities with a [Building156]>"],
+"uniques": ["[+1 Gold] from [Cattle] tiles [in all coastal cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building67",
-                "food": 1,
-                "hurryCostModifier": 31,
-                "requiredTech": "Stealth",
-"uniques": ["New [Military] units start with [20] Experience [in your cities]"],
-                "maintenance": 1
+                "culture": 1,
+                "hurryCostModifier": 36,
+                "cost": 6,
+                "maintenance": 2
         },
         {
                 "name": "Building68",
-                "gold": 2,
-                "hurryCostModifier": 69,
-                "requiredTech": "Animal Husbandry",
-"uniques": ["Requires at least [10] population","[+2 Culture] from [Lakes] tiles [in foreign cities]"],
-                "maintenance": 3
+                "faith": 1,
+                "hurryCostModifier": 41,
+                "requiredTech": "Scientific Theory",
+"uniques": ["Requires at least [5] population"],
+                "maintenance": 1
         },
         {
                 "name": "Building69",
-                "culture": 1,
-                "hurryCostModifier": 37,
-                "requiredTech": "Navigation",
-                "maintenance": 3
+                "happiness": 2,
+                "percentStatBonus": {"happiness": 12},
+"hurryCostModifier": 12,
+                "requiredTech": "Telecommunications",
+"uniques": ["Requires at least [3] population"],
+                "maintenance": 2
         },
         {
                 "name": "Building70",
-                "happiness": 1,
-                "hurryCostModifier": 6,
-                "requiredTech": "Animal Husbandry",
-"uniques": ["Must be next to [Coast]"],
+                "production": 2,
+                "percentStatBonus": {"production": 2},
+"hurryCostModifier": 57,
+                "requiredTech": "Lasers",
+"uniques": ["Limited to [3] per Civilization","Requires at least [5] population"],
                 "maintenance": 1
         },
         {
                 "name": "Building71",
-                "culture": 2,
-                "hurryCostModifier": 41,
-                "requiredTech": "Machinery",
-"uniques": ["[+2 Faith] from [Cattle] tiles [in all cities connected to capital]"],
+                "happiness": 1,
+                "hurryCostModifier": 30,
+                "requiredTech": "Flight",
+"uniques": ["[+2 Faith] from [Lakes] tiles [in holy cities]","Limited to [6] per Civilization"],
                 "maintenance": 3
         },
         {
                 "name": "Building72",
-                "gold": 1,
-                "hurryCostModifier": 14,
-                "requiredTech": "Calendar",
+                "science": 1,
+                "hurryCostModifier": 33,
+                "requiredTech": "Steel",
                 "maintenance": 3
         },
         {
                 "name": "Building73",
-                "food": 1,
-                "hurryCostModifier": 3,
-                "requiredTech": "Electricity",
-"uniques": ["[+1 Production] from [Lakes] tiles [in foreign cities]"],
+                "science": 3,
+                "percentStatBonus": {"science": 29},
+"hurryCostModifier": 17,
+                "requiredTech": "Drama and Poetry",
+"uniques": ["New [Military] units start with [26] Experience [in all cities in which the majority religion is a major religion]"],
                 "maintenance": 2
         },
         {
                 "name": "Building74",
-                "production": 2,
-                "percentStatBonus": {"production": 2},
-"hurryCostModifier": 66,
-                "requiredTech": "Computers",
-"uniques": ["[+1 Faith] from [Lakes] tiles [in all cities with a garrison]","Only available <in cities with a [Building89]>"],
+                "culture": 1,
+                "hurryCostModifier": 67,
+                "requiredTech": "Biology",
+"uniques": ["Only available <in cities with a [Building152]>","[1]% Food is carried over after population increases [in all coastal cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building75",
-                "faith": 1,
-                "hurryCostModifier": 13,
-                "requiredTech": "Ballistics",
-"uniques": ["[+2 Culture] from [Cattle] tiles [in all cities connected to capital]"],
-                "maintenance": 3
+                "food": 3,
+                "percentStatBonus": {"food": 4},
+"hurryCostModifier": 21,
+                "requiredTech": "Machinery",
+"uniques": ["Limited to [11] per Civilization"],
+                "maintenance": 2
         },
         {
                 "name": "Building76",
-                "faith": 2,
-                "hurryCostModifier": 66,
-                "requiredTech": "Refrigeration",
-"uniques": ["Limited to [3] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building77",
                 "culture": 1,
-                "hurryCostModifier": 59,
-                "requiredTech": "Physics",
-"uniques": ["Only available <in cities with a [Building81]>","Only available <in cities with a [Building260]>"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building78",
-                "science": 1,
-                "hurryCostModifier": 11,
-                "requiredTech": "Computers",
-"uniques": ["Limited to [3] per Civilization","[+2 Faith] from [Lakes] tiles [in all cities]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building79",
-                "science": 1,
-                "percentStatBonus": {"science": 15},
-"hurryCostModifier": 15,
-                "requiredTech": "Military Science",
-"uniques": ["[11]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]","[+1 Gold] from [Lakes] tiles [in enemy cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building80",
-                "faith": 1,
-                "hurryCostModifier": 14,
-                "requiredTech": "Lasers",
-"uniques": ["New [Military] units start with [22] Experience [in all cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building81",
-                "food": 1,
-                "percentStatBonus": {"food": 3},
-"hurryCostModifier": 19,
-                "requiredTech": "Military Science",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building82",
-                "gold": 1,
-                "hurryCostModifier": 31,
-                "requiredTech": "Flight",
-"uniques": ["[3]% Food is carried over after population increases [in all cities]","Only available <in cities with a [Building168]>"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building83",
-                "gold": 1,
-                "hurryCostModifier": 31,
-                "requiredTech": "Stealth",
-"uniques": ["[+2 Gold] from [Lakes] tiles [in non-enemy foreign cities]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building84",
-                "food": 1,
-                "hurryCostModifier": 3,
-                "requiredTech": "Stealth",
-"uniques": ["[5]% Food is carried over after population increases [in all cities with a garrison]","New [Military] units start with [22] Experience [in enemy cities]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building85",
-                "faith": 1,
-                "hurryCostModifier": 19,
-                "requiredTech": "Physics",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building86",
-                "culture": 1,
-                "percentStatBonus": {"culture": 2},
-"hurryCostModifier": 30,
-                "requiredTech": "Railroads",
-"uniques": ["[+2 Faith] from [Cattle] tiles [in holy cities]","Requires at least [4] population"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building87",
-                "faith": 1,
-                "hurryCostModifier": 5,
-                "requiredTech": "Advanced Ballistics",
-"uniques": ["[+2 Gold] from [Lakes] tiles [in all cities with a world wonder]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building88",
-                "faith": 2,
-                "percentStatBonus": {"faith": 2},
-"hurryCostModifier": 7,
-                "requiredTech": "Drama and Poetry",
-                "maintenance": 1
-        },
-        {
-                "name": "Building89",
-                "happiness": 1,
-                "hurryCostModifier": 41,
-                "requiredTech": "Computers",
-"uniques": ["Limited to [2] per Civilization","Limited to [10] per Civilization"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building90",
-                "happiness": 1,
-                "hurryCostModifier": 19,
-                "requiredTech": "Military Science",
-"uniques": ["[+1 Happiness] from [Cattle] tiles [in annexed cities]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building91",
-                "gold": 2,
-                "hurryCostModifier": 67,
-                "requiredTech": "Horseback Riding",
-"uniques": ["Only available <in cities with a [Building152]>"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building92",
-                "culture": 1,
-                "hurryCostModifier": 15,
-                "requiredTech": "Electricity",
-                "maintenance": 1
-        },
-        {
-                "name": "Building93",
-                "culture": 1,
-                "hurryCostModifier": 55,
-                "requiredTech": "Chivalry",
-"uniques": ["Requires at least [13] population"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building94",
-                "production": 2,
-                "percentStatBonus": {"production": 7},
-"hurryCostModifier": 21,
-                "requiredTech": "Combustion",
-                "maintenance": 2
-        },
-        {
-                "name": "Building95",
-                "food": 1,
-                "hurryCostModifier": 66,
-                "requiredTech": "Drama and Poetry",
-"uniques": ["[+2 Gold] from [Lakes] tiles [in all cities connected to capital]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building96",
-                "faith": 1,
-                "hurryCostModifier": 59,
-                "requiredTech": "Acoustics",
-"uniques": ["Requires at least [5] population"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building97",
-                "faith": 1,
-                "hurryCostModifier": 10,
-                "requiredTech": "Sailing",
-                "maintenance": 2
-        },
-        {
-                "name": "Building98",
-                "faith": 1,
-                "percentStatBonus": {"faith": 21},
-"hurryCostModifier": 54,
-                "requiredTech": "Particle Physics",
-"uniques": ["Only available <in cities with a [Building9]>"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building99",
-                "happiness": 1,
-                "hurryCostModifier": 19,
-                "requiredTech": "Masonry",
-"uniques": ["[+1 Happiness] from [Cattle] tiles [in cities following this religion]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building100",
-                "culture": 1,
-                "percentStatBonus": {"culture": 15},
-"hurryCostModifier": 38,
-                "requiredTech": "Combined Arms",
-                "maintenance": 3
-        },
-        {
-                "name": "Building101",
-                "culture": 1,
-                "hurryCostModifier": 6,
-                "requiredTech": "Fertilizer",
-"uniques": ["[+2 Faith] from [Cattle] tiles [in foreign cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building102",
-                "faith": 1,
-                "percentStatBonus": {"faith": 1},
-"hurryCostModifier": 47,
-                "requiredTech": "Currency",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building103",
-                "culture": 2,
-                "hurryCostModifier": 34,
-                "requiredTech": "Architecture",
-                "maintenance": 1
-        },
-        {
-                "name": "Building104",
-                "faith": 1,
-                "hurryCostModifier": 27,
-                "requiredTech": "Rocketry",
-"uniques": ["New [Military] units start with [14] Experience [in City-State cities]","Requires at least [3] population"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building105",
-                "gold": 1,
-                "hurryCostModifier": 69,
-                "requiredTech": "Engineering",
-"uniques": ["Limited to [2] per Civilization"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building106",
-                "happiness": 1,
-                "hurryCostModifier": 56,
-                "requiredTech": "Economics",
-"uniques": ["Destroyed when the city is captured","[+2 Food] from [Cattle] tiles [in all cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building107",
-                "happiness": 1,
-                "hurryCostModifier": 60,
-                "requiredTech": "Machinery",
-"uniques": ["[+2 Culture] from [Cattle] tiles [in all coastal cities]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building108",
-                "happiness": 2,
-                "hurryCostModifier": 22,
-                "requiredTech": "Currency",
-                "maintenance": 1
-        },
-        {
-                "name": "Building109",
-                "science": 1,
-                "percentStatBonus": {"science": 3},
-"hurryCostModifier": 11,
-                "requiredTech": "Philosophy",
-"uniques": ["Limited to [9] per Civilization","Only available <in cities with a [Building132]>"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building110",
-                "food": 2,
-                "hurryCostModifier": 59,
-                "requiredTech": "Pharmaceuticals",
-                "maintenance": 3
-        },
-        {
-                "name": "Building111",
-                "culture": 1,
-                "percentStatBonus": {"culture": 7},
-"hurryCostModifier": 44,
-                "requiredTech": "Flight",
-                "maintenance": 2
-        },
-        {
-                "name": "Building112",
-                "food": 2,
-                "hurryCostModifier": 54,
-                "requiredTech": "Military Science",
-"uniques": ["Limited to [7] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building113",
-                "faith": 1,
-                "percentStatBonus": {"faith": 18},
-"hurryCostModifier": 10,
-                "requiredTech": "Horseback Riding",
-"uniques": ["Limited to [3] per Civilization","[+1 Production] from [Cattle] tiles [in City-State cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building114",
-                "faith": 2,
-                "percentStatBonus": {"faith": 3},
-"hurryCostModifier": 29,
-                "requiredTech": "Construction",
-"uniques": ["New [Military] units start with [17] Experience [in puppeted cities]","Must be next to [Coast]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building115",
-                "culture": 2,
-                "hurryCostModifier": 8,
-                "requiredTech": "Advanced Ballistics",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building116",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 4},
-"hurryCostModifier": 4,
-                "requiredTech": "Animal Husbandry",
-                "maintenance": 1
-        },
-        {
-                "name": "Building117",
-                "science": 1,
-                "hurryCostModifier": 31,
-                "requiredTech": "Scientific Theory",
-"uniques": ["Destroyed when the city is captured","Must be next to [Coast]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building118",
-                "science": 1,
-                "hurryCostModifier": 65,
-                "requiredTech": "Gunpowder",
-"uniques": ["New [Military] units start with [6] Experience [in annexed cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building119",
-                "food": 3,
-                "hurryCostModifier": 26,
-                "requiredTech": "Engineering",
-                "maintenance": 2
-        },
-        {
-                "name": "Building120",
-                "faith": 1,
-                "hurryCostModifier": 46,
-                "requiredTech": "The Wheel",
-"uniques": ["[7]% Food is carried over after population increases [in all cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building121",
-                "production": 2,
-                "hurryCostModifier": 8,
-                "requiredTech": "Theology",
-"uniques": ["Destroyed when the city is captured","Limited to [10] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building122",
-                "food": 1,
-                "hurryCostModifier": 21,
-                "requiredTech": "Civil Service",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building123",
-                "gold": 1,
-                "hurryCostModifier": 66,
-                "requiredTech": "Industrialization",
-"uniques": ["[4]% Food is carried over after population increases [in holy cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building124",
-                "faith": 1,
-                "hurryCostModifier": 59,
-                "requiredTech": "Robotics",
-"uniques": ["[+1 Production] from [Lakes] tiles [in enemy cities]","[+2 Faith] from [Cattle] tiles [in all cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building125",
-                "culture": 1,
-                "hurryCostModifier": 29,
-                "requiredTech": "Rifling",
-"uniques": ["Only available <in cities with a [Building247]>","Must be next to [Coast]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building126",
-                "food": 2,
-                "percentStatBonus": {"food": 2},
-"hurryCostModifier": 43,
-                "requiredTech": "Compass",
-"uniques": ["[+1 Culture] from [Lakes] tiles [in this city]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building127",
-                "happiness": 1,
-                "hurryCostModifier": 15,
+                "hurryCostModifier": 37,
                 "requiredTech": "Nuclear Fusion",
                 "maintenance": 2
         },
         {
-                "name": "Building128",
-                "food": 2,
-                "hurryCostModifier": 61,
-                "requiredTech": "Lasers",
-"uniques": ["[+1 Science] from [Cattle] tiles [in all cities in which the majority religion is an enhanced religion]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building129",
-                "faith": 1,
-                "hurryCostModifier": 41,
-                "requiredTech": "Fertilizer",
-"uniques": ["[+1 Culture] from [Lakes] tiles [in cities being razed]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building130",
-                "culture": 1,
-                "hurryCostModifier": 29,
-                "requiredTech": "Replaceable Parts",
-"uniques": ["Limited to [6] per Civilization","[+2 Faith] from [Cattle] tiles [in puppeted cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building131",
-                "happiness": 1,
-                "hurryCostModifier": 15,
-                "requiredTech": "Atomic Theory",
-                "maintenance": 1
-        },
-        {
-                "name": "Building132",
-                "food": 1,
-                "hurryCostModifier": 1,
-                "requiredTech": "Mathematics",
-                "maintenance": 1
-        },
-        {
-                "name": "Building133",
-                "faith": 1,
-                "percentStatBonus": {"faith": 2},
-"hurryCostModifier": 1,
-                "requiredTech": "Plastics",
-"uniques": ["[5]% Food is carried over after population increases [in cities following our religion]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building134",
-                "faith": 2,
-                "hurryCostModifier": 57,
-                "requiredTech": "Drama and Poetry",
-"uniques": ["Only available <in cities with a [Building203]>","Limited to [11] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building135",
-                "production": 1,
-                "hurryCostModifier": 43,
-                "requiredTech": "Telecommunications",
-"uniques": ["[+1 Science] from [Cattle] tiles [in all coastal cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building136",
-                "faith": 2,
-                "percentStatBonus": {"faith": 12},
-"hurryCostModifier": 40,
-                "requiredTech": "Pharmaceuticals",
-"uniques": ["New [Military] units start with [13] Experience [in all cities in which the majority religion is a major religion]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building137",
+                "name": "Building77",
                 "science": 1,
-                "hurryCostModifier": 17,
-                "requiredTech": "Nanotechnology",
+                "hurryCostModifier": 48,
+                "requiredTech": "Pottery",
+"uniques": ["[+2 Production] from [Lakes] tiles [in cities following our religion]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building78",
+                "food": 1,
+                "hurryCostModifier": 45,
+                "requiredTech": "Animal Husbandry",
+"uniques": ["Only available <in cities with a [Building40]>"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building79",
+                "culture": 1,
+                "hurryCostModifier": 33,
+                "requiredTech": "Architecture",
+"uniques": ["[+1 Faith] from [Cattle] tiles [in enemy cities]","New [Military] units start with [22] Experience [in holy cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building80",
+                "happiness": 1,
+                "hurryCostModifier": 37,
+                "requiredTech": "Physics",
+                "maintenance": 2
+        },
+        {
+                "name": "Building81",
+                "food": 2,
+                "hurryCostModifier": 26,
+                "requiredTech": "Drama and Poetry",
+"uniques": ["[+1 Production] from [Lakes] tiles [in all cities]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building82",
+                "gold": 1,
+                "hurryCostModifier": 11,
+                "requiredTech": "Mathematics",
+"uniques": ["[+2 Happiness] from [Cattle] tiles [in all cities with a world wonder]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building83",
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 6},
+"hurryCostModifier": 12,
+                "requiredTech": "Civil Service",
+"uniques": ["[9]% Food is carried over after population increases [in cities following this religion]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building84",
+                "faith": 1,
+                "hurryCostModifier": 24,
+                "requiredTech": "Iron Working",
+"uniques": ["Destroyed when the city is captured"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building85",
+                "food": 2,
+                "hurryCostModifier": 49,
+                "requiredTech": "Horseback Riding",
+                "maintenance": 2
+        },
+        {
+                "name": "Building86",
+                "food": 1,
+                "hurryCostModifier": 7,
+                "requiredTech": "Flight",
+"uniques": ["Destroyed when the city is captured","Requires at least [14] population"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building87",
+                "food": 1,
+                "hurryCostModifier": 21,
+                "requiredTech": "Chivalry",
+                "maintenance": 1
+        },
+        {
+                "name": "Building88",
+                "culture": 2,
+                "hurryCostModifier": 62,
+                "requiredTech": "Sailing",
+"uniques": ["Only available <in cities with a [Building97]>"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building89",
+                "faith": 1,
+                "hurryCostModifier": 6,
+                "requiredTech": "Refrigeration",
+"uniques": ["[+1 Culture] from [Cattle] tiles [in holy cities]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building90",
+                "food": 2,
+                "hurryCostModifier": 35,
+                "requiredTech": "Fertilizer",
+"uniques": ["[+2 Science] from [Lakes] tiles [in City-State cities]","Limited to [11] per Civilization"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building91",
+                "happiness": 1,
+                "hurryCostModifier": 2,
+                "requiredTech": "Refrigeration",
+"uniques": ["Requires at least [13] population","Must be next to [Coast]"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building92",
+                "food": 1,
+                "hurryCostModifier": 66,
+                "requiredTech": "Particle Physics",
+"uniques": ["[3]% Food is carried over after population increases [in annexed cities]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building93",
+                "science": 1,
+                "hurryCostModifier": 36,
+                "requiredTech": "Military Science",
+                "maintenance": 3
+        },
+        {
+                "name": "Building94",
+                "culture": 1,
+                "hurryCostModifier": 10,
+                "requiredTech": "Chemistry",
+"uniques": ["Only available <in cities with a [Building98]>"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building95",
+                "production": 2,
+                "hurryCostModifier": 31,
+                "requiredTech": "Refrigeration",
+"uniques": ["Limited to [7] per Civilization"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building96",
+                "gold": 1,
+                "percentStatBonus": {"gold": 1},
+"hurryCostModifier": 14,
+                "requiredTech": "Rifling",
+"uniques": ["[+2 Gold] from [Cattle] tiles [in puppeted cities]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building97",
+                "happiness": 1,
+                "hurryCostModifier": 50,
+                "requiredTech": "Ecology",
+"uniques": ["[7]% Food is carried over after population increases [in this city]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building98",
+                "gold": 1,
+                "hurryCostModifier": 68,
+                "requiredTech": "Advanced Ballistics",
+"uniques": ["Limited to [7] per Civilization","Must be next to [Coast]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building99",
+                "production": 1,
+                "hurryCostModifier": 6,
+                "requiredTech": "Guilds",
+"uniques": ["Requires at least [21] population","Requires at least [11] population"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building100",
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 3},
+"hurryCostModifier": 8,
+                "requiredTech": "Nuclear Fission",
+"uniques": ["[+2 Production] from [Cattle] tiles [in City-State cities]","[+1 Production] from [Cattle] tiles [in all coastal cities]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building101",
+                "happiness": 1,
+                "hurryCostModifier": 41,
+                "requiredTech": "Acoustics",
+"uniques": ["[+1 Gold] from [Lakes] tiles [in holy cities]","[+1 Food] from [Lakes] tiles [in all non-occupied cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building102",
+                "food": 3,
+                "hurryCostModifier": 36,
+                "requiredTech": "Economics",
+                "maintenance": 2
+        },
+        {
+                "name": "Building103",
+                "happiness": 1,
+                "hurryCostModifier": 27,
+                "requiredTech": "Rifling",
+                "maintenance": 1
+        },
+        {
+                "name": "Building104",
+                "happiness": 1,
+                "hurryCostModifier": 60,
+                "requiredTech": "Iron Working",
+"uniques": ["[+1 Gold] from [Cattle] tiles [in holy cities]","New [Military] units start with [22] Experience [in cities following our religion]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building105",
+                "culture": 1,
+                "hurryCostModifier": 30,
+                "requiredTech": "The Wheel",
+"uniques": ["New [Military] units start with [19] Experience [in all cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building106",
+                "gold": 1,
+                "hurryCostModifier": 31,
+                "requiredTech": "Horseback Riding",
 "uniques": ["Destroyed when the city is captured"],
                 "maintenance": 2
         },
         {
-                "name": "Building138",
+                "name": "Building107",
+                "science": 1,
+                "hurryCostModifier": 3,
+                "requiredTech": "Military Science",
+"uniques": ["Limited to [4] per Civilization","Only available <in cities with a [Building14]>"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building108",
+                "gold": 2,
+                "hurryCostModifier": 1,
+                "requiredTech": "Trapping",
+"uniques": ["New [Military] units start with [29] Experience [in all non-occupied cities]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building109",
+                "faith": 1,
+                "hurryCostModifier": 13,
+                "requiredTech": "Scientific Theory",
+"uniques": ["Only available <in cities with a [Building214]>"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building110",
+                "food": 2,
+                "hurryCostModifier": 23,
+                "requiredTech": "Education",
+"uniques": ["[+2 Culture] from [Lakes] tiles [in foreign cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building111",
+                "gold": 2,
+                "percentStatBonus": {"gold": 15},
+"hurryCostModifier": 38,
+                "requiredTech": "Mobile Tactics",
+                "maintenance": 3
+        },
+        {
+                "name": "Building112",
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 4},
+"hurryCostModifier": 45,
+                "requiredTech": "Physics",
+"uniques": ["[4]% Food is carried over after population increases [in cities following our religion]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building113",
+                "gold": 2,
+                "hurryCostModifier": 68,
+                "requiredTech": "Iron Working",
+"uniques": ["[+1 Culture] from [Lakes] tiles [in enemy cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building114",
                 "culture": 1,
-                "hurryCostModifier": 36,
-                "requiredTech": "Ballistics",
+                "hurryCostModifier": 6,
+                "requiredTech": "Chivalry",
+"uniques": ["Limited to [7] per Civilization","[+2 Culture] from [Lakes] tiles [in foreign cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building115",
+                "faith": 1,
+                "hurryCostModifier": 5,
+                "requiredTech": "Telecommunications",
+                "maintenance": 3
+        },
+        {
+                "name": "Building116",
+                "culture": 2,
+                "percentStatBonus": {"culture": 1},
+"hurryCostModifier": 24,
+                "requiredTech": "Education",
+"uniques": ["[+1 Culture] from [Lakes] tiles [in all cities with a world wonder]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building117",
+                "science": 2,
+                "hurryCostModifier": 30,
+                "requiredTech": "Replaceable Parts",
+                "maintenance": 3
+        },
+        {
+                "name": "Building118",
+                "science": 1,
+                "percentStatBonus": {"science": 5},
+"hurryCostModifier": 43,
+                "requiredTech": "Lasers",
+"uniques": ["Limited to [11] per Civilization"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building119",
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 12},
+"hurryCostModifier": 8,
+                "requiredTech": "Calendar",
+                "maintenance": 2
+        },
+        {
+                "name": "Building120",
+                "culture": 1,
+                "hurryCostModifier": 30,
+                "requiredTech": "Rifling",
+"uniques": ["[+2 Happiness] from [Lakes] tiles [in foreign cities]","New [Military] units start with [29] Experience [in cities following our religion]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building121",
+                "happiness": 2,
+                "hurryCostModifier": 64,
+                "requiredTech": "Philosophy",
+"uniques": ["Requires at least [2] population"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building122",
+                "gold": 1,
+                "hurryCostModifier": 69,
+                "requiredTech": "Drama and Poetry",
+"uniques": ["Limited to [2] per Civilization","[+2 Happiness] from [Lakes] tiles [in foreign cities]"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building123",
+                "food": 1,
+                "hurryCostModifier": 58,
+                "requiredTech": "Lasers",
+"uniques": ["[+2 Gold] from [Lakes] tiles [in cities being razed]","[+1 Happiness] from [Lakes] tiles [in all cities in which the majority religion is an enhanced religion]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building124",
+                "faith": 1,
+                "percentStatBonus": {"faith": 16},
+"hurryCostModifier": 65,
+                "requiredTech": "Writing",
+"uniques": ["[+1 Faith] from [Lakes] tiles [in annexed cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building125",
+                "production": 3,
+                "hurryCostModifier": 24,
+                "requiredTech": "Engineering",
+"uniques": ["Destroyed when the city is captured"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building126",
+                "food": 1,
+                "hurryCostModifier": 7,
+                "requiredTech": "Military Science",
+                "maintenance": 2
+        },
+        {
+                "name": "Building127",
+                "science": 2,
+                "hurryCostModifier": 63,
+                "requiredTech": "Printing Press",
+"uniques": ["[+1 Production] from [Lakes] tiles [in cities following our religion]","[+2 Food] from [Lakes] tiles [in cities being razed]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building128",
+                "happiness": 1,
+                "hurryCostModifier": 63,
+                "requiredTech": "Mobile Tactics",
+"uniques": ["[+2 Gold] from [Lakes] tiles [in all non-occupied cities]","New [Military] units start with [5] Experience [in capital]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building129",
+                "gold": 1,
+                "hurryCostModifier": 40,
+                "requiredTech": "Compass",
+"uniques": ["Requires at least [1] population"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building130",
+                "food": 1,
+                "hurryCostModifier": 31,
+                "requiredTech": "Stealth",
+"uniques": ["New [Military] units start with [28] Experience [in all cities in which the majority religion is a major religion]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building131",
+                "happiness": 2,
+                "hurryCostModifier": 55,
+                "requiredTech": "Combustion",
+"uniques": ["Must be next to [Coast]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building132",
+                "production": 1,
+                "hurryCostModifier": 47,
+                "requiredTech": "Calendar",
+                "maintenance": 1
+        },
+        {
+                "name": "Building133",
+                "science": 1,
+                "hurryCostModifier": 5,
+                "requiredTech": "Animal Husbandry",
+                "maintenance": 1
+        },
+        {
+                "name": "Building134",
+                "gold": 2,
+                "percentStatBonus": {"gold": 2},
+"hurryCostModifier": 41,
+                "requiredTech": "Radar",
+                "maintenance": 2
+        },
+        {
+                "name": "Building135",
+                "faith": 2,
+                "percentStatBonus": {"faith": 6},
+"hurryCostModifier": 18,
+                "requiredTech": "Currency",
 "uniques": ["Must be next to [Coast]"],
                 "maintenance": 1
         },
         {
+                "name": "Building136",
+                "happiness": 1,
+                "hurryCostModifier": 20,
+                "requiredTech": "The Wheel",
+"uniques": ["[+2 Gold] from [Lakes] tiles [in all cities in which the majority religion is an enhanced religion]","New [Military] units start with [29] Experience [in all coastal cities]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building137",
+                "faith": 2,
+                "hurryCostModifier": 8,
+                "requiredTech": "Banking",
+                "maintenance": 1
+        },
+        {
+                "name": "Building138",
+                "food": 1,
+                "hurryCostModifier": 6,
+                "requiredTech": "Sailing",
+"uniques": ["[+1 Food] from [Lakes] tiles [in enemy cities]"],
+                "maintenance": 3
+        },
+        {
                 "name": "Building139",
-                "culture": 1,
-                "hurryCostModifier": 25,
-                "requiredTech": "Pharmaceuticals",
-"uniques": ["[+1 Food] from [Lakes] tiles [in City-State cities]","[+2 Culture] from [Lakes] tiles [in all non-occupied cities]"],
+                "gold": 1,
+                "hurryCostModifier": 67,
+                "requiredTech": "Theology",
+"uniques": ["[6]% Food is carried over after population increases [in your cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building140",
-                "faith": 3,
-                "hurryCostModifier": 22,
-                "requiredTech": "Radar",
-"uniques": ["Requires at least [7] population"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building141",
-                "food": 1,
-                "hurryCostModifier": 38,
-                "requiredTech": "Education",
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 3},
+"hurryCostModifier": 30,
+                "requiredTech": "Physics",
+"uniques": ["Requires at least [12] population"],
                 "maintenance": 3
         },
         {
+                "name": "Building141",
+                "happiness": 2,
+                "percentStatBonus": {"happiness": 21},
+"hurryCostModifier": 66,
+                "requiredTech": "Theology",
+"uniques": ["[+2 Gold] from [Lakes] tiles [in cities following our religion]"],
+                "maintenance": 1
+        },
+        {
                 "name": "Building142",
-                "culture": 1,
-                "percentStatBonus": {"culture": 7},
-"hurryCostModifier": 63,
-                "requiredTech": "Calendar",
-"uniques": ["[+1 Culture] from [Lakes] tiles [in cities following this religion]"],
+                "food": 2,
+                "hurryCostModifier": 37,
+                "requiredTech": "Advanced Ballistics",
+"uniques": ["New [Military] units start with [29] Experience [in cities being razed]","Only available <in cities with a [Building115]>"],
                 "maintenance": 2
         },
         {
                 "name": "Building143",
-                "production": 2,
-                "hurryCostModifier": 28,
-                "requiredTech": "Nuclear Fission",
-"uniques": ["Only available <in cities with a [Building56]>"],
-                "maintenance": 2
+                "faith": 1,
+                "hurryCostModifier": 65,
+                "requiredTech": "Navigation",
+"uniques": ["Limited to [3] per Civilization"],
+                "maintenance": 1
         },
         {
                 "name": "Building144",
                 "gold": 2,
-                "hurryCostModifier": 19,
-                "requiredTech": "Satellites",
-"uniques": ["[+2 Happiness] from [Lakes] tiles [in all cities in which the majority religion is an enhanced religion]"],
-                "maintenance": 2
+                "hurryCostModifier": 55,
+                "requiredTech": "Industrialization",
+"uniques": ["Only available <in cities with a [Building84]>"],
+                "maintenance": 1
         },
         {
                 "name": "Building145",
-                "faith": 2,
-                "percentStatBonus": {"faith": 6},
-"hurryCostModifier": 52,
-                "requiredTech": "Theology",
-"uniques": ["[+1 Production] from [Cattle] tiles [in puppeted cities]"],
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 1},
+"hurryCostModifier": 49,
+                "requiredTech": "Metal Casting",
                 "maintenance": 3
         },
         {
                 "name": "Building146",
-                "food": 2,
-                "hurryCostModifier": 65,
-                "requiredTech": "Combustion",
-"uniques": ["[+1 Gold] from [Lakes] tiles [in all cities in which the majority religion is an enhanced religion]"],
-                "maintenance": 2
+                "food": 1,
+                "hurryCostModifier": 21,
+                "requiredTech": "Biology",
+"uniques": ["[+1 Production] from [Cattle] tiles [in City-State cities]","Must be next to [Coast]"],
+                "maintenance": 1
         },
         {
                 "name": "Building147",
-                "happiness": 1,
-                "hurryCostModifier": 45,
-                "requiredTech": "Globalization",
-"uniques": ["Requires at least [14] population"],
-                "maintenance": 2
+                "production": 1,
+                "hurryCostModifier": 19,
+                "requiredTech": "Fertilizer",
+"uniques": ["[+1 Culture] from [Cattle] tiles [in foreign cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building148",
-                "faith": 2,
-                "percentStatBonus": {"faith": 2},
-"hurryCostModifier": 20,
-                "requiredTech": "Rocketry",
-"uniques": ["Limited to [7] per Civilization"],
-                "maintenance": 2
+                "gold": 1,
+                "hurryCostModifier": 47,
+                "cost": 9,
+"uniques": ["Requires at least [12] population"],
+                "maintenance": 3
         },
         {
                 "name": "Building149",
-                "culture": 1,
-                "hurryCostModifier": 28,
-                "requiredTech": "Electronics",
+                "faith": 1,
+                "hurryCostModifier": 45,
+                "requiredTech": "Physics",
                 "maintenance": 2
         },
         {
                 "name": "Building150",
-                "culture": 1,
-                "hurryCostModifier": 66,
-                "requiredTech": "Sailing",
+                "science": 3,
+                "hurryCostModifier": 41,
+                "requiredTech": "Scientific Theory",
 "uniques": ["Must be next to [Coast]"],
                 "maintenance": 3
         },
         {
                 "name": "Building151",
-                "happiness": 2,
-                "percentStatBonus": {"happiness": 10},
-"hurryCostModifier": 25,
-                "requiredTech": "Globalization",
-"uniques": ["Only available <in cities with a [Building65]>"],
+                "science": 3,
+                "hurryCostModifier": 17,
+                "requiredTech": "Navigation",
                 "maintenance": 2
         },
         {
                 "name": "Building152",
-                "food": 1,
-                "percentStatBonus": {"food": 3},
-"hurryCostModifier": 45,
-                "requiredTech": "Dynamite",
-"uniques": ["[5]% Food is carried over after population increases [in your cities]"],
+                "culture": 1,
+                "hurryCostModifier": 30,
+                "requiredTech": "Compass",
+"uniques": ["Only available <in cities with a [Building213]>"],
                 "maintenance": 1
         },
         {
                 "name": "Building153",
-                "food": 1,
-                "hurryCostModifier": 36,
-                "requiredTech": "Gunpowder",
-"uniques": ["New [Military] units start with [2] Experience [in all cities with a world wonder]"],
-                "maintenance": 2
+                "gold": 1,
+                "percentStatBonus": {"gold": 26},
+"hurryCostModifier": 28,
+                "requiredTech": "Pottery",
+                "maintenance": 1
         },
         {
                 "name": "Building154",
-                "gold": 2,
-                "hurryCostModifier": 16,
-                "requiredTech": "Horseback Riding",
-"uniques": ["Requires at least [14] population","New [Military] units start with [22] Experience [in enemy cities]"],
+                "happiness": 1,
+                "hurryCostModifier": 1,
+                "requiredTech": "Combined Arms",
+"uniques": ["Requires at least [11] population"],
                 "maintenance": 1
         },
         {
                 "name": "Building155",
-                "happiness": 1,
-                "hurryCostModifier": 25,
-                "requiredTech": "Electricity",
-"uniques": ["[7]% Food is carried over after population increases [in holy cities]","Must be next to [Coast]"],
-                "maintenance": 1
+                "food": 1,
+                "hurryCostModifier": 21,
+                "requiredTech": "Astronomy",
+"uniques": ["New [Military] units start with [28] Experience [in all cities connected to capital]"],
+                "maintenance": 2
         },
         {
                 "name": "Building156",
-                "happiness": 2,
-                "hurryCostModifier": 60,
-                "requiredTech": "Plastics",
-                "maintenance": 2
+                "happiness": 1,
+                "hurryCostModifier": 4,
+                "requiredTech": "Radio",
+"uniques": ["Limited to [6] per Civilization","Only available <in cities with a [Building221]>"],
+                "maintenance": 1
         },
         {
                 "name": "Building157",
-                "culture": 1,
-                "hurryCostModifier": 33,
-                "requiredTech": "Stealth",
-"uniques": ["Requires at least [20] population"],
-                "maintenance": 2
+                "happiness": 1,
+                "hurryCostModifier": 11,
+                "requiredTech": "Construction",
+"uniques": ["[+2 Happiness] from [Cattle] tiles [in your cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building158",
-                "culture": 1,
-                "hurryCostModifier": 10,
-                "requiredTech": "Engineering",
-                "maintenance": 2
+                "happiness": 1,
+                "hurryCostModifier": 49,
+                "requiredTech": "Future Tech",
+"uniques": ["New [Military] units start with [10] Experience [in all cities connected to capital]"],
+                "maintenance": 1
         },
         {
                 "name": "Building159",
-                "happiness": 1,
-                "hurryCostModifier": 3,
-                "requiredTech": "Calendar",
-"uniques": ["Limited to [5] per Civilization"],
+                "science": 2,
+                "hurryCostModifier": 22,
+                "requiredTech": "Writing",
+"uniques": ["[+1 Gold] from [Cattle] tiles [in capital]","Requires at least [2] population"],
                 "maintenance": 2
         },
         {
                 "name": "Building160",
-                "faith": 1,
-                "hurryCostModifier": 27,
-                "requiredTech": "Economics",
-"uniques": ["[+1 Faith] from [Lakes] tiles [in all non-occupied cities]"],
+                "gold": 2,
+                "hurryCostModifier": 57,
+                "requiredTech": "Steel",
+"uniques": ["[+1 Culture] from [Cattle] tiles [in non-enemy foreign cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building161",
-                "gold": 1,
-                "hurryCostModifier": 23,
-                "requiredTech": "Chivalry",
-"uniques": ["[+2 Faith] from [Lakes] tiles [in puppeted cities]"],
-                "maintenance": 2
+                "production": 2,
+                "hurryCostModifier": 56,
+                "requiredTech": "Computers",
+"uniques": ["Requires at least [19] population","Requires at least [17] population"],
+                "maintenance": 1
         },
         {
                 "name": "Building162",
-                "faith": 2,
-                "hurryCostModifier": 20,
-                "requiredTech": "Atomic Theory",
-"uniques": ["[+1 Science] from [Lakes] tiles [in non-enemy foreign cities]"],
+                "culture": 1,
+                "hurryCostModifier": 16,
+                "requiredTech": "Acoustics",
                 "maintenance": 2
         },
         {
                 "name": "Building163",
-                "gold": 1,
-                "hurryCostModifier": 54,
-                "requiredTech": "Gunpowder",
-"uniques": ["Limited to [4] per Civilization"],
-                "maintenance": 2
+                "culture": 2,
+                "hurryCostModifier": 39,
+                "requiredTech": "Archery",
+                "maintenance": 3
         },
         {
                 "name": "Building164",
                 "gold": 2,
-                "hurryCostModifier": 14,
-                "requiredTech": "Masonry",
-"uniques": ["[+2 Culture] from [Lakes] tiles [in puppeted cities]","Must be next to [Coast]"],
-                "maintenance": 3
+                "percentStatBonus": {"gold": 8},
+"hurryCostModifier": 58,
+                "requiredTech": "Machinery",
+"uniques": ["[+2 Gold] from [Cattle] tiles [in all non-occupied cities]"],
+                "maintenance": 2
         },
         {
                 "name": "Building165",
-                "gold": 3,
-                "percentStatBonus": {"gold": 6},
-"hurryCostModifier": 33,
-                "requiredTech": "Computers",
-                "maintenance": 3
+                "gold": 2,
+                "hurryCostModifier": 20,
+                "requiredTech": "Electronics",
+                "maintenance": 1
         },
         {
                 "name": "Building166",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 25},
-"hurryCostModifier": 31,
-                "requiredTech": "Metal Casting",
-"uniques": ["[+2 Faith] from [Lakes] tiles [in capital]"],
+                "food": 1,
+                "hurryCostModifier": 50,
+                "requiredTech": "Animal Husbandry",
+"uniques": ["[+1 Production] from [Cattle] tiles [in holy cities]","Only available <in cities with a [Building242]>"],
                 "maintenance": 1
         },
         {
                 "name": "Building167",
-                "faith": 1,
-                "percentStatBonus": {"faith": 14},
-"hurryCostModifier": 60,
-                "requiredTech": "Machinery",
-"uniques": ["[+2 Food] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
-                "maintenance": 3
+                "gold": 1,
+                "percentStatBonus": {"gold": 1},
+"hurryCostModifier": 70,
+                "requiredTech": "Dynamite",
+                "maintenance": 1
         },
         {
                 "name": "Building168",
-                "culture": 3,
-                "hurryCostModifier": 3,
-                "requiredTech": "Pottery",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 3
+                "culture": 1,
+                "hurryCostModifier": 6,
+                "requiredTech": "Refrigeration",
+                "maintenance": 1
         },
         {
                 "name": "Building169",
-                "faith": 1,
-                "hurryCostModifier": 60,
-                "requiredTech": "Masonry",
-"uniques": ["Destroyed when the city is captured"],
-                "maintenance": 3
+                "culture": 2,
+                "hurryCostModifier": 43,
+                "requiredTech": "Robotics",
+                "maintenance": 1
         },
         {
                 "name": "Building170",
-                "gold": 1,
-                "hurryCostModifier": 35,
-                "requiredTech": "Chemistry",
+                "science": 2,
+                "hurryCostModifier": 69,
+                "requiredTech": "Chivalry",
+"uniques": ["New [Military] units start with [12] Experience [in cities following this religion]","Only available <in cities with a [Building245]>"],
                 "maintenance": 2
         },
         {
                 "name": "Building171",
-                "culture": 1,
-                "percentStatBonus": {"culture": 1},
-"hurryCostModifier": 28,
-                "requiredTech": "Mathematics",
-"uniques": ["[+2 Food] from [Cattle] tiles [in cities following this religion]"],
+                "food": 2,
+                "percentStatBonus": {"food": 4},
+"hurryCostModifier": 43,
+                "requiredTech": "Particle Physics",
                 "maintenance": 3
         },
         {
                 "name": "Building172",
-                "food": 1,
-                "hurryCostModifier": 45,
-                "requiredTech": "Advanced Ballistics",
-"uniques": ["[+2 Faith] from [Lakes] tiles [in holy cities]"],
-                "maintenance": 2
+                "gold": 2,
+                "hurryCostModifier": 64,
+                "requiredTech": "Gunpowder",
+"uniques": ["Only available <in cities with a [Building236]>"],
+                "maintenance": 1
         },
         {
                 "name": "Building173",
-                "faith": 1,
-                "hurryCostModifier": 55,
-                "requiredTech": "Mining",
-"uniques": ["[+1 Faith] from [Lakes] tiles [in City-State cities]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building174",
-                "gold": 2,
-                "percentStatBonus": {"gold": 8},
-"hurryCostModifier": 50,
-                "requiredTech": "Satellites",
-"uniques": ["Requires at least [17] population","Requires at least [19] population"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building175",
-                "faith": 3,
-                "hurryCostModifier": 49,
-                "requiredTech": "Currency",
-"uniques": ["Must be next to [Coast]","Requires at least [20] population"],
+                "culture": 2,
+                "hurryCostModifier": 11,
+                "requiredTech": "Mathematics",
                 "maintenance": 2
         },
         {
+                "name": "Building174",
+                "gold": 1,
+                "hurryCostModifier": 46,
+                "requiredTech": "Ecology",
+"uniques": ["Requires at least [14] population"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building175",
+                "happiness": 1,
+                "hurryCostModifier": 28,
+                "requiredTech": "Globalization",
+"uniques": ["Only available <in cities with a [Building174]>"],
+                "maintenance": 3
+        },
+        {
                 "name": "Building176",
-                "faith": 1,
-                "hurryCostModifier": 17,
-                "requiredTech": "Astronomy",
-"uniques": ["[+1 Production] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
+                "faith": 3,
+                "hurryCostModifier": 5,
+                "requiredTech": "Trapping",
                 "maintenance": 2
         },
         {
                 "name": "Building177",
-                "food": 1,
-                "percentStatBonus": {"food": 4},
-"hurryCostModifier": 68,
-                "requiredTech": "Trapping",
-"uniques": ["Must be next to [Coast]"],
+                "science": 1,
+                "hurryCostModifier": 10,
+                "requiredTech": "Rifling",
+"uniques": ["Only available <in cities with a [Building16]>"],
                 "maintenance": 2
         },
         {
                 "name": "Building178",
-                "faith": 1,
-                "hurryCostModifier": 1,
-                "requiredTech": "Scientific Theory",
-"uniques": ["[+2 Happiness] from [Cattle] tiles [in City-State cities]"],
-                "maintenance": 3
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 6},
+"hurryCostModifier": 48,
+                "requiredTech": "Animal Husbandry",
+"uniques": ["[+2 Gold] from [Cattle] tiles [in all coastal cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building179",
-                "happiness": 1,
-                "hurryCostModifier": 23,
-                "requiredTech": "Iron Working",
-"uniques": ["[6]% Food is carried over after population increases [in enemy cities]"],
+                "food": 2,
+                "hurryCostModifier": 53,
+                "requiredTech": "Mobile Tactics",
+"uniques": ["[+2 Happiness] from [Lakes] tiles [in enemy cities]"],
                 "maintenance": 1
         },
         {
                 "name": "Building180",
-                "faith": 1,
-                "hurryCostModifier": 53,
-                "requiredTech": "Education",
-"uniques": ["[7]% Food is carried over after population increases [in all non-occupied cities]"],
-                "maintenance": 1
+                "food": 1,
+                "hurryCostModifier": 13,
+                "requiredTech": "Particle Physics",
+"uniques": ["Must be next to [Coast]","New [Military] units start with [24] Experience [in all cities connected to capital]"],
+                "maintenance": 2
         },
         {
                 "name": "Building181",
-                "faith": 1,
-                "hurryCostModifier": 40,
-                "cost": 11,
-"uniques": ["Destroyed when the city is captured"],
-                "maintenance": 1
+                "food": 3,
+                "percentStatBonus": {"food": 2},
+"hurryCostModifier": 1,
+                "requiredTech": "Pottery",
+"uniques": ["Only available <in cities with a [Building73]>"],
+                "maintenance": 3
         },
         {
                 "name": "Building182",
-                "production": 1,
-                "hurryCostModifier": 28,
-                "requiredTech": "Animal Husbandry",
+                "faith": 1,
+                "hurryCostModifier": 70,
+                "requiredTech": "Refrigeration",
+"uniques": ["[+1 Happiness] from [Lakes] tiles [in all cities]","Must be next to [Coast]"],
                 "maintenance": 2
         },
         {
                 "name": "Building183",
-                "culture": 1,
-                "percentStatBonus": {"culture": 5},
-"hurryCostModifier": 26,
-                "requiredTech": "Military Science",
-"uniques": ["[+2 Production] from [Lakes] tiles [in all cities with a garrison]"],
+                "food": 1,
+                "hurryCostModifier": 14,
+                "requiredTech": "Industrialization",
                 "maintenance": 2
         },
         {
                 "name": "Building184",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 13},
-"hurryCostModifier": 62,
-                "requiredTech": "Bronze Working",
-"uniques": ["[+1 Culture] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building185",
-                "happiness": 1,
-                "hurryCostModifier": 42,
-                "requiredTech": "Satellites",
-"uniques": ["Must be next to [Coast]","[+2 Production] from [Lakes] tiles [in capital]"],
+                "food": 2,
+                "hurryCostModifier": 27,
+                "requiredTech": "Pharmaceuticals",
+"uniques": ["Requires at least [13] population"],
                 "maintenance": 3
         },
         {
+                "name": "Building185",
+                "production": 1,
+                "hurryCostModifier": 50,
+                "requiredTech": "Sailing",
+"uniques": ["Limited to [4] per Civilization"],
+                "maintenance": 2
+        },
+        {
                 "name": "Building186",
-                "gold": 1,
-                "hurryCostModifier": 40,
-                "requiredTech": "Plastics",
-"uniques": ["Only available <in cities with a [Building257]>","[+1 Culture] from [Lakes] tiles [in cities being razed]"],
+                "food": 3,
+                "hurryCostModifier": 41,
+                "requiredTech": "Steel",
+"uniques": ["[+1 Gold] from [Cattle] tiles [in all cities in which the majority religion is an enhanced religion]","Destroyed when the city is captured"],
                 "maintenance": 3
         },
         {
                 "name": "Building187",
-                "culture": 2,
-                "percentStatBonus": {"culture": 1},
-"hurryCostModifier": 66,
-                "requiredTech": "Philosophy",
-"uniques": ["[+1 Gold] from [Lakes] tiles [in capital]"],
+                "faith": 1,
+                "hurryCostModifier": 49,
+                "requiredTech": "Currency",
+"uniques": ["Destroyed when the city is captured","Only available <in cities with a [Building204]>"],
                 "maintenance": 1
         },
         {
                 "name": "Building188",
-                "gold": 1,
-                "hurryCostModifier": 60,
-                "requiredTech": "Theology",
-"uniques": ["[+2 Culture] from [Cattle] tiles [in foreign cities]"],
+                "food": 1,
+                "hurryCostModifier": 56,
+                "requiredTech": "Military Science",
+"uniques": ["[+1 Culture] from [Cattle] tiles [in all cities with a garrison]"],
                 "maintenance": 2
         },
         {
                 "name": "Building189",
-                "production": 1,
-                "hurryCostModifier": 17,
-                "requiredTech": "Iron Working",
-"uniques": ["[+2 Production] from [Lakes] tiles [in cities following this religion]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building190",
-                "faith": 2,
-                "percentStatBonus": {"faith": 10},
-"hurryCostModifier": 52,
-                "requiredTech": "Navigation",
-"uniques": ["Only available <in cities with a [Building188]>"],
+                "gold": 2,
+                "hurryCostModifier": 60,
+                "requiredTech": "Fertilizer",
                 "maintenance": 1
         },
         {
-                "name": "Building191",
-                "food": 1,
-                "hurryCostModifier": 62,
-                "requiredTech": "Nuclear Fusion",
-"uniques": ["[+1 Culture] from [Cattle] tiles [in cities following this religion]"],
+                "name": "Building190",
+                "gold": 2,
+                "percentStatBonus": {"gold": 3},
+"hurryCostModifier": 17,
+                "requiredTech": "Fertilizer",
                 "maintenance": 2
+        },
+        {
+                "name": "Building191",
+                "happiness": 1,
+                "hurryCostModifier": 28,
+                "requiredTech": "Acoustics",
+"uniques": ["Must be next to [Coast]"],
+                "maintenance": 1
         },
         {
                 "name": "Building192",
                 "gold": 1,
-                "hurryCostModifier": 27,
-                "requiredTech": "Iron Working",
-"uniques": ["Destroyed when the city is captured","New [Military] units start with [17] Experience [in this city]"],
+                "hurryCostModifier": 62,
+                "requiredTech": "Biology",
+"uniques": ["Requires at least [16] population"],
                 "maintenance": 2
         },
         {
                 "name": "Building193",
-                "science": 1,
-                "hurryCostModifier": 39,
+                "food": 4,
+                "hurryCostModifier": 70,
                 "requiredTech": "Plastics",
-"uniques": ["Must be next to [Coast]"],
                 "maintenance": 3
         },
         {
                 "name": "Building194",
-                "science": 1,
-                "percentStatBonus": {"science": 3},
-"hurryCostModifier": 65,
-                "requiredTech": "Writing",
-"uniques": ["[+1 Happiness] from [Lakes] tiles [in holy cities]"],
-                "maintenance": 2
+                "food": 3,
+                "hurryCostModifier": 21,
+                "requiredTech": "Mathematics",
+"uniques": ["[3]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]","Only available <in cities with a [Building18]>"],
+                "maintenance": 3
         },
         {
                 "name": "Building195",
-                "gold": 1,
-                "hurryCostModifier": 38,
-                "requiredTech": "Banking",
-"uniques": ["Requires at least [3] population"],
+                "faith": 2,
+                "hurryCostModifier": 68,
+                "requiredTech": "Satellites",
+"uniques": ["[+1 Gold] from [Lakes] tiles [in holy cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building196",
-                "faith": 1,
-                "hurryCostModifier": 53,
-                "requiredTech": "Ballistics",
-"uniques": ["[+1 Production] from [Lakes] tiles [in all cities with a garrison]"],
+                "gold": 1,
+                "hurryCostModifier": 69,
+                "requiredTech": "Acoustics",
+"uniques": ["[+1 Production] from [Lakes] tiles [in cities following our religion]"],
                 "maintenance": 2
         },
         {
                 "name": "Building197",
-                "food": 1,
-                "hurryCostModifier": 70,
-                "requiredTech": "Dynamite",
-                "maintenance": 2
+                "gold": 1,
+                "percentStatBonus": {"gold": 1},
+"hurryCostModifier": 57,
+                "requiredTech": "Printing Press",
+                "maintenance": 1
         },
         {
                 "name": "Building198",
                 "production": 1,
-                "hurryCostModifier": 66,
-                "requiredTech": "Currency",
-                "maintenance": 3
+                "percentStatBonus": {"production": 1},
+"hurryCostModifier": 70,
+                "requiredTech": "Acoustics",
+"uniques": ["Must be next to [Coast]"],
+                "maintenance": 2
         },
         {
                 "name": "Building199",
-                "science": 1,
-                "hurryCostModifier": 30,
-                "requiredTech": "Radar",
-"uniques": ["Must be next to [Coast]","[+2 Production] from [Lakes] tiles [in foreign cities]"],
-                "maintenance": 3
+                "food": 1,
+                "hurryCostModifier": 39,
+                "requiredTech": "Future Tech",
+"uniques": ["New [Military] units start with [23] Experience [in cities following this religion]","Only available <in cities with a [Building31]>"],
+                "maintenance": 2
         },
         {
                 "name": "Building200",
-                "culture": 2,
-                "percentStatBonus": {"culture": 4},
-"hurryCostModifier": 55,
-                "requiredTech": "Scientific Theory",
-                "maintenance": 3
+                "happiness": 2,
+                "hurryCostModifier": 14,
+                "requiredTech": "Gunpowder",
+"uniques": ["[+2 Culture] from [Lakes] tiles [in foreign cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building201",
-                "food": 1,
-                "hurryCostModifier": 57,
-                "requiredTech": "Satellites",
+                "gold": 1,
+                "percentStatBonus": {"gold": 6},
+"hurryCostModifier": 13,
+                "requiredTech": "Metallurgy",
                 "maintenance": 2
         },
         {
                 "name": "Building202",
-                "happiness": 2,
-                "hurryCostModifier": 6,
-                "requiredTech": "Currency",
-"uniques": ["New [Military] units start with [1] Experience [in puppeted cities]","Only available <in cities with a [Building244]>"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building203",
-                "food": 1,
-                "hurryCostModifier": 11,
-                "requiredTech": "Animal Husbandry",
-"uniques": ["[+1 Happiness] from [Lakes] tiles [in cities being razed]","[+2 Faith] from [Cattle] tiles [in foreign cities]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building204",
-                "faith": 1,
-                "hurryCostModifier": 14,
-                "requiredTech": "Steam Power",
+                "science": 1,
+                "hurryCostModifier": 5,
+                "requiredTech": "Archaeology",
+"uniques": ["Must be next to [Coast]","[+1 Gold] from [Cattle] tiles [in capital]"],
                 "maintenance": 2
         },
         {
+                "name": "Building203",
+                "production": 1,
+                "percentStatBonus": {"production": 3},
+"hurryCostModifier": 27,
+                "requiredTech": "Lasers",
+"uniques": ["[+1 Production] from [Cattle] tiles [in cities following this religion]"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building204",
+                "culture": 1,
+                "hurryCostModifier": 7,
+                "requiredTech": "Guilds",
+"uniques": ["Limited to [10] per Civilization"],
+                "maintenance": 1
+        },
+        {
                 "name": "Building205",
-                "science": 1,
-                "hurryCostModifier": 12,
-                "requiredTech": "Architecture",
-"uniques": ["[+2 Happiness] from [Cattle] tiles [in non-enemy foreign cities]","New [Military] units start with [6] Experience [in capital]"],
+                "happiness": 1,
+                "hurryCostModifier": 64,
+                "requiredTech": "Chivalry",
+"uniques": ["[+1 Happiness] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
                 "maintenance": 1
         },
         {
                 "name": "Building206",
                 "culture": 2,
-                "percentStatBonus": {"culture": 5},
-"hurryCostModifier": 63,
-                "requiredTech": "Drama and Poetry",
-                "maintenance": 3
-        },
-        {
-                "name": "Building207",
-                "gold": 1,
-                "percentStatBonus": {"gold": 1},
-"hurryCostModifier": 19,
-                "requiredTech": "Navigation",
-"uniques": ["Must be next to [Coast]","[+1 Happiness] from [Lakes] tiles [in all cities with a garrison]"],
+                "hurryCostModifier": 48,
+                "requiredTech": "Ecology",
+"uniques": ["Must be next to [Coast]"],
                 "maintenance": 2
         },
         {
-                "name": "Building208",
+                "name": "Building207",
                 "happiness": 1,
-                "hurryCostModifier": 58,
-                "requiredTech": "Mathematics",
-"uniques": ["Limited to [2] per Civilization","Requires at least [8] population"],
+                "hurryCostModifier": 22,
+                "requiredTech": "Flight",
+"uniques": ["[+1 Production] from [Cattle] tiles [in all cities in which the majority religion is an enhanced religion]"],
+                "maintenance": 3
+        },
+        {
+                "name": "Building208",
+                "happiness": 2,
+                "hurryCostModifier": 8,
+                "requiredTech": "Civil Service",
+"uniques": ["[+1 Science] from [Lakes] tiles [in enemy cities]"],
                 "maintenance": 1
         },
         {
                 "name": "Building209",
-                "gold": 1,
-                "hurryCostModifier": 27,
-                "requiredTech": "Robotics",
+                "science": 1,
+                "hurryCostModifier": 25,
+                "requiredTech": "Computers",
+"uniques": ["Limited to [10] per Civilization"],
                 "maintenance": 1
         },
         {
                 "name": "Building210",
-                "gold": 2,
-                "hurryCostModifier": 43,
-                "requiredTech": "Stealth",
-                "maintenance": 2
+                "food": 1,
+                "percentStatBonus": {"food": 12},
+"hurryCostModifier": 15,
+                "requiredTech": "Astronomy",
+"uniques": ["Must be next to [Coast]","Only available <in cities with a [Building200]>"],
+                "maintenance": 3
         },
         {
                 "name": "Building211",
-                "faith": 1,
-                "hurryCostModifier": 20,
-                "requiredTech": "Military Science",
-"uniques": ["[+2 Faith] from [Lakes] tiles [in foreign cities]","Must be next to [Coast]"],
+                "faith": 2,
+                "hurryCostModifier": 54,
+                "requiredTech": "Philosophy",
                 "maintenance": 2
         },
         {
                 "name": "Building212",
-                "production": 1,
-                "hurryCostModifier": 66,
-                "requiredTech": "Combined Arms",
-"uniques": ["Requires at least [9] population"],
+                "gold": 1,
+                "hurryCostModifier": 46,
+                "requiredTech": "Mining",
+"uniques": ["[+1 Production] from [Lakes] tiles [in all coastal cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building213",
-                "happiness": 1,
-                "hurryCostModifier": 30,
-                "requiredTech": "Advanced Ballistics",
-"uniques": ["Only available <in cities with a [Building251]>","Limited to [2] per Civilization"],
-                "maintenance": 2
+                "gold": 1,
+                "hurryCostModifier": 13,
+                "requiredTech": "Civil Service",
+"uniques": ["Destroyed when the city is captured","Limited to [3] per Civilization"],
+                "maintenance": 3
         },
         {
                 "name": "Building214",
-                "food": 2,
-                "hurryCostModifier": 12,
-                "requiredTech": "Fertilizer",
-"uniques": ["Requires at least [6] population"],
+                "faith": 3,
+                "hurryCostModifier": 24,
+                "requiredTech": "Stealth",
+"uniques": ["Only available <in cities with a [Building292]>"],
                 "maintenance": 3
         },
         {
                 "name": "Building215",
-                "food": 1,
-                "percentStatBonus": {"food": 6},
-"hurryCostModifier": 22,
-                "requiredTech": "Plastics",
+                "science": 2,
+                "hurryCostModifier": 10,
+                "requiredTech": "Civil Service",
+"uniques": ["Limited to [7] per Civilization"],
                 "maintenance": 3
         },
         {
                 "name": "Building216",
-                "gold": 1,
-                "hurryCostModifier": 26,
-                "requiredTech": "Optics",
-"uniques": ["[+2 Culture] from [Cattle] tiles [in holy cities]"],
-                "maintenance": 1
+                "culture": 1,
+                "hurryCostModifier": 5,
+                "requiredTech": "Mining",
+"uniques": ["New [Military] units start with [21] Experience [in puppeted cities]"],
+                "maintenance": 2
         },
         {
                 "name": "Building217",
-                "gold": 3,
-                "hurryCostModifier": 23,
-                "requiredTech": "Combustion",
-"uniques": ["[+1 Gold] from [Cattle] tiles [in all cities with a world wonder]","Limited to [4] per Civilization"],
+                "culture": 1,
+                "hurryCostModifier": 25,
+                "requiredTech": "Steel",
+"uniques": ["[+2 Happiness] from [Lakes] tiles [in cities following this religion]"],
                 "maintenance": 1
         },
         {
                 "name": "Building218",
-                "production": 1,
-                "hurryCostModifier": 30,
-                "requiredTech": "Astronomy",
-                "maintenance": 3
+                "food": 3,
+                "hurryCostModifier": 6,
+                "requiredTech": "Future Tech",
+"uniques": ["New [Military] units start with [23] Experience [in foreign cities]","Requires at least [1] population"],
+                "maintenance": 2
         },
         {
                 "name": "Building219",
-                "gold": 2,
-                "percentStatBonus": {"gold": 4},
-"hurryCostModifier": 38,
-                "requiredTech": "Radio",
-                "maintenance": 3
+                "faith": 1,
+                "hurryCostModifier": 51,
+                "requiredTech": "Lasers",
+"uniques": ["Limited to [5] per Civilization","New [Military] units start with [16] Experience [in City-State cities]"],
+                "maintenance": 2
         },
         {
                 "name": "Building220",
-                "faith": 2,
-                "hurryCostModifier": 26,
-                "requiredTech": "Sailing",
-                "maintenance": 2
+                "culture": 1,
+                "hurryCostModifier": 13,
+                "requiredTech": "Refrigeration",
+"uniques": ["Requires at least [3] population"],
+                "maintenance": 3
         },
         {
                 "name": "Building221",
-                "faith": 3,
-                "hurryCostModifier": 9,
-                "requiredTech": "Pharmaceuticals",
-                "maintenance": 1
+                "culture": 1,
+                "hurryCostModifier": 49,
+                "requiredTech": "Particle Physics",
+"uniques": ["Limited to [3] per Civilization"],
+                "maintenance": 3
         },
         {
                 "name": "Building222",
-                "science": 1,
-                "percentStatBonus": {"science": 2},
-"hurryCostModifier": 57,
-                "requiredTech": "Scientific Theory",
-                "maintenance": 3
-        },
-        {
-                "name": "Building223",
-                "culture": 1,
-                "hurryCostModifier": 59,
-                "requiredTech": "Metal Casting",
-"uniques": ["[+1 Culture] from [Lakes] tiles [in capital]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building224",
-                "happiness": 1,
-                "hurryCostModifier": 66,
-                "requiredTech": "Electricity",
-"uniques": ["[+2 Culture] from [Cattle] tiles [in cities following our religion]"],
+                "food": 1,
+                "hurryCostModifier": 8,
+                "requiredTech": "Robotics",
+"uniques": ["[+2 Culture] from [Cattle] tiles [in holy cities]"],
                 "maintenance": 2
         },
         {
+                "name": "Building223",
+                "faith": 3,
+                "hurryCostModifier": 2,
+                "requiredTech": "Radio",
+"uniques": ["Limited to [11] per Civilization","[+2 Faith] from [Lakes] tiles [in this city]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building224",
+                "culture": 1,
+                "hurryCostModifier": 48,
+                "requiredTech": "Astronomy",
+"uniques": ["[+1 Faith] from [Lakes] tiles [in puppeted cities]"],
+                "maintenance": 3
+        },
+        {
                 "name": "Building225",
-                "happiness": 1,
-                "hurryCostModifier": 35,
-                "requiredTech": "Engineering",
-"uniques": ["[+2 Gold] from [Cattle] tiles [in all cities]","[+1 Food] from [Lakes] tiles [in foreign cities]"],
+                "gold": 1,
+                "hurryCostModifier": 16,
+                "requiredTech": "Compass",
+"uniques": ["[2]% Food is carried over after population increases [in all cities with a garrison]"],
                 "maintenance": 2
         },
         {
                 "name": "Building226",
-                "food": 2,
-                "percentStatBonus": {"food": 14},
-"hurryCostModifier": 44,
-                "requiredTech": "Globalization",
-"uniques": ["Must be next to [Coast]","Must be next to [Coast]"],
-                "maintenance": 1
-        },
-        {
-                "name": "Building227",
-                "faith": 1,
-                "percentStatBonus": {"faith": 11},
-"hurryCostModifier": 68,
-                "requiredTech": "Masonry",
-"uniques": ["New [Military] units start with [4] Experience [in annexed cities]","New [Military] units start with [1] Experience [in puppeted cities]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building228",
-                "faith": 1,
-                "hurryCostModifier": 63,
-                "requiredTech": "Physics",
-                "maintenance": 1
-        },
-        {
-                "name": "Building229",
-                "culture": 3,
-                "hurryCostModifier": 13,
-                "requiredTech": "Mining",
-"uniques": ["[+2 Faith] from [Lakes] tiles [in your cities]","[+2 Faith] from [Lakes] tiles [in all cities]"],
+                "food": 1,
+                "percentStatBonus": {"food": 17},
+"hurryCostModifier": 50,
+                "requiredTech": "Banking",
+"uniques": ["Only available <in cities with a [Building265]>","New [Military] units start with [14] Experience [in all cities with a garrison]"],
                 "maintenance": 2
         },
         {
+                "name": "Building227",
+                "food": 2,
+                "hurryCostModifier": 44,
+                "requiredTech": "Lasers",
+"uniques": ["New [Military] units start with [28] Experience [in all cities in which the majority religion is an enhanced religion]","[+2 Culture] from [Cattle] tiles [in all cities connected to capital]"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building228",
+                "happiness": 2,
+                "hurryCostModifier": 52,
+                "requiredTech": "Civil Service",
+                "maintenance": 3
+        },
+        {
+                "name": "Building229",
+                "culture": 2,
+                "percentStatBonus": {"culture": 8},
+"hurryCostModifier": 60,
+                "requiredTech": "Education",
+"uniques": ["Requires at least [17] population","[+2 Science] from [Cattle] tiles [in this city]"],
+                "maintenance": 1
+        },
+        {
                 "name": "Building230",
-                "culture": 3,
-                "hurryCostModifier": 30,
-                "requiredTech": "Steel",
-"uniques": ["Destroyed when the city is captured","New [Military] units start with [8] Experience [in all cities connected to capital]"],
+                "culture": 1,
+                "percentStatBonus": {"culture": 1},
+"hurryCostModifier": 8,
+                "requiredTech": "Rifling",
+"uniques": ["[+1 Culture] from [Lakes] tiles [in all non-occupied cities]"],
                 "maintenance": 3
         },
         {
                 "name": "Building231",
-                "gold": 2,
-                "percentStatBonus": {"gold": 7},
-"hurryCostModifier": 58,
-                "requiredTech": "Chemistry",
-                "maintenance": 2
+                "happiness": 1,
+                "hurryCostModifier": 50,
+                "requiredTech": "Construction",
+"uniques": ["[+2 Culture] from [Cattle] tiles [in City-State cities]","[+2 Gold] from [Cattle] tiles [in all cities]"],
+                "maintenance": 3
         },
         {
                 "name": "Building232",
-                "culture": 1,
-                "hurryCostModifier": 69,
-                "requiredTech": "Sailing",
+                "food": 2,
+                "hurryCostModifier": 64,
+                "requiredTech": "Bronze Working",
 "uniques": ["Must be next to [Coast]"],
                 "maintenance": 1
         },
         {
                 "name": "Building233",
-                "science": 2,
-                "hurryCostModifier": 22,
-                "requiredTech": "Trapping",
-                "maintenance": 2
+                "science": 1,
+                "hurryCostModifier": 12,
+                "requiredTech": "Civil Service",
+                "maintenance": 3
         },
         {
                 "name": "Building234",
-                "science": 1,
-                "hurryCostModifier": 21,
-                "requiredTech": "Computers",
-"uniques": ["[+1 Production] from [Cattle] tiles [in foreign cities]","Limited to [10] per Civilization"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building235",
-                "production": 1,
-                "percentStatBonus": {"production": 14},
-"hurryCostModifier": 1,
-                "requiredTech": "Flight",
-"uniques": ["Destroyed when the city is captured","Must be next to [Coast]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building236",
-                "happiness": 1,
-                "hurryCostModifier": 6,
+                "food": 2,
+                "hurryCostModifier": 3,
                 "requiredTech": "Lasers",
 "uniques": ["Must be next to [Coast]"],
                 "maintenance": 3
         },
         {
-                "name": "Building237",
-                "faith": 2,
-                "hurryCostModifier": 68,
-                "requiredTech": "Steel",
-"uniques": ["Only available <in cities with a [Building277]>"],
+                "name": "Building235",
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 1},
+"hurryCostModifier": 18,
+                "requiredTech": "Computers",
                 "maintenance": 2
         },
         {
+                "name": "Building236",
+                "faith": 1,
+                "hurryCostModifier": 18,
+                "requiredTech": "Globalization",
+"uniques": ["Requires at least [15] population"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building237",
+                "faith": 1,
+                "hurryCostModifier": 41,
+                "requiredTech": "Industrialization",
+"uniques": ["[+1 Gold] from [Lakes] tiles [in cities following our religion]"],
+                "maintenance": 3
+        },
+        {
                 "name": "Building238",
-                "happiness": 1,
-                "hurryCostModifier": 19,
-                "requiredTech": "Metal Casting",
+                "culture": 1,
+                "hurryCostModifier": 68,
+                "requiredTech": "Philosophy",
+"uniques": ["[+2 Faith] from [Lakes] tiles [in capital]"],
                 "maintenance": 2
         },
         {
                 "name": "Building239",
-                "production": 2,
-                "hurryCostModifier": 47,
-                "requiredTech": "Fertilizer",
-"uniques": ["[+1 Production] from [Cattle] tiles [in all cities in which the majority religion is a major religion]"],
+                "gold": 2,
+                "hurryCostModifier": 45,
+                "requiredTech": "Compass",
+"uniques": ["[6]% Food is carried over after population increases [in all cities in which the majority religion is a major religion]"],
                 "maintenance": 2
         },
         {
                 "name": "Building240",
-                "food": 1,
-                "percentStatBonus": {"food": 11},
-"hurryCostModifier": 10,
-                "requiredTech": "Replaceable Parts",
-"uniques": ["Destroyed when the city is captured"],
-                "maintenance": 3
+                "faith": 2,
+                "percentStatBonus": {"faith": 18},
+"hurryCostModifier": 70,
+                "requiredTech": "Optics",
+"uniques": ["Only available <in cities with a [Building93]>","[+2 Gold] from [Lakes] tiles [in non-enemy foreign cities]"],
+                "maintenance": 2
         },
         {
                 "name": "Building241",
-                "production": 2,
-                "hurryCostModifier": 26,
-                "requiredTech": "Mining",
-"uniques": ["New [Military] units start with [27] Experience [in all coastal cities]","Requires at least [4] population"],
+                "culture": 1,
+                "hurryCostModifier": 10,
+                "requiredTech": "Refrigeration",
+"uniques": ["Only available <in cities with a [Building289]>"],
                 "maintenance": 1
         },
         {
                 "name": "Building242",
-                "science": 2,
-                "percentStatBonus": {"science": 14},
-"hurryCostModifier": 52,
-                "requiredTech": "Advanced Ballistics",
-"uniques": ["New [Military] units start with [20] Experience [in all cities connected to capital]"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building243",
-                "culture": 2,
-                "percentStatBonus": {"culture": 2},
-"hurryCostModifier": 43,
-                "requiredTech": "Robotics",
+                "happiness": 1,
+                "hurryCostModifier": 22,
+                "requiredTech": "Replaceable Parts",
+"uniques": ["Destroyed when the city is captured"],
                 "maintenance": 2
         },
         {
+                "name": "Building243",
+                "food": 1,
+                "hurryCostModifier": 17,
+                "requiredTech": "Electronics",
+"uniques": ["New [Military] units start with [13] Experience [in cities being razed]"],
+                "maintenance": 1
+        },
+        {
                 "name": "Building244",
-                "production": 1,
-                "hurryCostModifier": 65,
-                "requiredTech": "Acoustics",
+                "food": 3,
+                "percentStatBonus": {"food": 3},
+"hurryCostModifier": 3,
+                "requiredTech": "Satellites",
+"uniques": ["[+1 Production] from [Cattle] tiles [in all cities with a garrison]"],
                 "maintenance": 3
         },
         {
                 "name": "Building245",
-                "food": 4,
-                "hurryCostModifier": 5,
-                "requiredTech": "Chemistry",
-"uniques": ["[+1 Faith] from [Lakes] tiles [in all coastal cities]","Requires at least [17] population"],
-                "maintenance": 3
+                "culture": 1,
+                "hurryCostModifier": 61,
+                "requiredTech": "Education",
+"uniques": ["Limited to [3] per Civilization","[+1 Culture] from [Lakes] tiles [in this city]"],
+                "maintenance": 2
         },
         {
                 "name": "Building246",
-                "culture": 1,
-                "hurryCostModifier": 62,
-                "requiredTech": "Combustion",
-"uniques": ["[+2 Culture] from [Lakes] tiles [in cities following this religion]","Requires at least [9] population"],
-                "maintenance": 1
+                "happiness": 2,
+                "hurryCostModifier": 10,
+                "requiredTech": "Scientific Theory",
+"uniques": ["[+1 Science] from [Lakes] tiles [in all cities in which the majority religion is an enhanced religion]","[+1 Culture] from [Cattle] tiles [in cities following this religion]"],
+                "maintenance": 2
         },
         {
                 "name": "Building247",
-                "production": 2,
-                "hurryCostModifier": 71,
-                "requiredTech": "Navigation",
-"uniques": ["New [Military] units start with [9] Experience [in holy cities]"],
-                "maintenance": 1
+                "science": 1,
+                "hurryCostModifier": 38,
+                "requiredTech": "Archery",
+                "maintenance": 2
         },
         {
                 "name": "Building248",
-                "food": 2,
-                "hurryCostModifier": 30,
-                "requiredTech": "Stealth",
-"uniques": ["[+2 Food] from [Cattle] tiles [in holy cities]"],
-                "maintenance": 3
+                "happiness": 2,
+                "hurryCostModifier": 64,
+                "requiredTech": "Writing",
+"uniques": ["[+2 Science] from [Lakes] tiles [in all cities in which the majority religion is a major religion]","[+1 Production] from [Cattle] tiles [in annexed cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building249",
-                "production": 1,
-                "percentStatBonus": {"production": 8},
-"hurryCostModifier": 28,
-                "requiredTech": "Archaeology",
-"uniques": ["[+2 Food] from [Lakes] tiles [in non-enemy foreign cities]","Only available <in cities with a [Building190]>"],
+                "science": 1,
+                "hurryCostModifier": 56,
+                "requiredTech": "Refrigeration",
                 "maintenance": 2
         },
         {
                 "name": "Building250",
-                "production": 2,
-                "percentStatBonus": {"production": 13},
-"hurryCostModifier": 41,
-                "requiredTech": "Combined Arms",
-"uniques": ["New [Military] units start with [15] Experience [in cities following our religion]"],
+                "production": 3,
+                "hurryCostModifier": 40,
+                "requiredTech": "Navigation",
+"uniques": ["[+2 Production] from [Cattle] tiles [in cities following this religion]","New [Military] units start with [11] Experience [in all cities connected to capital]"],
                 "maintenance": 2
         },
         {
                 "name": "Building251",
-                "faith": 1,
-                "hurryCostModifier": 9,
-                "requiredTech": "Pharmaceuticals",
-"uniques": ["Only available <in cities with a [Building274]>"],
-                "maintenance": 3
+                "gold": 1,
+                "percentStatBonus": {"gold": 1},
+"hurryCostModifier": 44,
+                "requiredTech": "Metal Casting",
+                "maintenance": 2
         },
         {
                 "name": "Building252",
-                "happiness": 1,
-                "hurryCostModifier": 47,
-                "requiredTech": "Advanced Ballistics",
-"uniques": ["[7]% Food is carried over after population increases [in cities following our religion]"],
-                "maintenance": 1
+                "gold": 2,
+                "hurryCostModifier": 57,
+                "requiredTech": "Ecology",
+                "maintenance": 2
         },
         {
                 "name": "Building253",
-                "food": 3,
-                "hurryCostModifier": 2,
-                "requiredTech": "Construction",
-                "maintenance": 3
+                "culture": 1,
+                "hurryCostModifier": 56,
+                "requiredTech": "Compass",
+                "maintenance": 2
         },
         {
                 "name": "Building254",
-                "happiness": 1,
-                "hurryCostModifier": 56,
-                "requiredTech": "Architecture",
-"uniques": ["New [Military] units start with [25] Experience [in this city]"],
+                "food": 1,
+                "hurryCostModifier": 39,
+                "requiredTech": "Radio",
+"uniques": ["New [Military] units start with [4] Experience [in all cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building255",
-                "production": 1,
-                "hurryCostModifier": 36,
-                "requiredTech": "Banking",
-"uniques": ["Requires at least [9] population","Limited to [3] per Civilization"],
-                "maintenance": 2
+                "science": 1,
+                "hurryCostModifier": 27,
+                "requiredTech": "Replaceable Parts",
+"uniques": ["[+1 Gold] from [Cattle] tiles [in all cities in which the majority religion is a major religion]"],
+                "maintenance": 3
         },
         {
                 "name": "Building256",
-                "happiness": 1,
-                "hurryCostModifier": 14,
-                "requiredTech": "Navigation",
+                "food": 1,
+                "hurryCostModifier": 63,
+                "requiredTech": "Guilds",
+"uniques": ["Only available <in cities with a [Building10]>","Limited to [7] per Civilization"],
                 "maintenance": 2
         },
         {
                 "name": "Building257",
-                "production": 2,
-                "hurryCostModifier": 64,
-                "requiredTech": "Machinery",
-"uniques": ["New [Military] units start with [9] Experience [in all cities in which the majority religion is an enhanced religion]"],
-                "maintenance": 2
+                "happiness": 1,
+                "hurryCostModifier": 21,
+                "requiredTech": "Steel",
+"uniques": ["[+1 Production] from [Lakes] tiles [in all cities connected to capital]"],
+                "maintenance": 1
         },
         {
                 "name": "Building258",
-                "gold": 2,
-                "hurryCostModifier": 40,
-                "requiredTech": "Civil Service",
-                "maintenance": 3
+                "happiness": 1,
+                "percentStatBonus": {"happiness": 1},
+"hurryCostModifier": 32,
+                "requiredTech": "Advanced Ballistics",
+"uniques": ["Only available <in cities with a [Building299]>"],
+                "maintenance": 1
         },
         {
                 "name": "Building259",
-                "production": 1,
-                "hurryCostModifier": 56,
-                "requiredTech": "Machinery",
-"uniques": ["Limited to [10] per Civilization","New [Military] units start with [25] Experience [in all non-occupied cities]"],
+                "culture": 2,
+                "hurryCostModifier": 5,
+                "requiredTech": "Mobile Tactics",
+"uniques": ["New [Military] units start with [17] Experience [in cities following this religion]","[9]% Food is carried over after population increases [in all cities with a garrison]"],
                 "maintenance": 3
         },
         {
                 "name": "Building260",
-                "culture": 1,
-                "hurryCostModifier": 1,
-                "requiredTech": "Nanotechnology",
-"uniques": ["New [Military] units start with [15] Experience [in all cities with a garrison]"],
-                "maintenance": 2
+                "gold": 1,
+                "hurryCostModifier": 8,
+                "requiredTech": "Currency",
+"uniques": ["Requires at least [7] population"],
+                "maintenance": 1
         },
         {
                 "name": "Building261",
-                "production": 2,
-                "hurryCostModifier": 63,
-                "requiredTech": "Rifling",
-"uniques": ["[2]% Food is carried over after population increases [in enemy cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building262",
-                "gold": 1,
-                "hurryCostModifier": 45,
-                "requiredTech": "Iron Working",
-"uniques": ["[+2 Faith] from [Lakes] tiles [in all non-occupied cities]","Destroyed when the city is captured"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building263",
                 "faith": 1,
-                "hurryCostModifier": 18,
-                "requiredTech": "Fertilizer",
+                "hurryCostModifier": 57,
+                "requiredTech": "Mobile Tactics",
 "uniques": ["Destroyed when the city is captured"],
                 "maintenance": 3
         },
         {
+                "name": "Building262",
+                "production": 3,
+                "hurryCostModifier": 22,
+                "requiredTech": "Mobile Tactics",
+"uniques": ["Limited to [11] per Civilization"],
+                "maintenance": 2
+        },
+        {
+                "name": "Building263",
+                "food": 1,
+                "hurryCostModifier": 23,
+                "requiredTech": "Military Science",
+"uniques": ["Requires at least [8] population","[8]% Food is carried over after population increases [in cities being razed]"],
+                "maintenance": 3
+        },
+        {
                 "name": "Building264",
-                "faith": 2,
-                "hurryCostModifier": 43,
-                "requiredTech": "Mining",
-"uniques": ["Only available <in cities with a [Building137]>"],
+                "food": 1,
+                "hurryCostModifier": 17,
+                "requiredTech": "Sailing",
+"uniques": ["[+1 Production] from [Cattle] tiles [in holy cities]"],
                 "maintenance": 1
         },
         {
                 "name": "Building265",
-                "culture": 1,
-                "hurryCostModifier": 17,
-                "requiredTech": "Refrigeration",
-                "maintenance": 1
+                "science": 1,
+                "hurryCostModifier": 46,
+                "requiredTech": "Physics",
+                "maintenance": 3
         },
         {
                 "name": "Building266",
-                "food": 1,
-                "hurryCostModifier": 22,
-                "requiredTech": "Economics",
-"uniques": ["[+2 Happiness] from [Lakes] tiles [in all cities]"],
+                "culture": 2,
+                "hurryCostModifier": 36,
+                "requiredTech": "Currency",
+"uniques": ["New [Military] units start with [23] Experience [in cities being razed]"],
                 "maintenance": 2
         },
         {
                 "name": "Building267",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 1},
-"hurryCostModifier": 13,
-                "requiredTech": "The Wheel",
-"uniques": ["Requires at least [20] population","New [Military] units start with [14] Experience [in City-State cities]"],
+                "culture": 1,
+                "percentStatBonus": {"culture": 12},
+"hurryCostModifier": 37,
+                "requiredTech": "Refrigeration",
                 "maintenance": 3
         },
         {
                 "name": "Building268",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 2},
-"hurryCostModifier": 45,
-                "requiredTech": "Archery",
-"uniques": ["Requires at least [13] population"],
+                "culture": 2,
+                "hurryCostModifier": 3,
+                "requiredTech": "Radar",
                 "maintenance": 2
         },
         {
                 "name": "Building269",
-                "science": 1,
-                "percentStatBonus": {"science": 1},
-"hurryCostModifier": 63,
-                "requiredTech": "Electronics",
-"uniques": ["Only available <in cities with a [Building155]>","Only available <in cities with a [Building193]>"],
-                "maintenance": 1
+                "science": 3,
+                "hurryCostModifier": 60,
+                "requiredTech": "Combustion",
+"uniques": ["[+1 Production] from [Lakes] tiles [in capital]","Only available <in cities with a [Building69]>"],
+                "maintenance": 2
         },
         {
                 "name": "Building270",
-                "food": 1,
-                "percentStatBonus": {"food": 16},
-"hurryCostModifier": 60,
-                "requiredTech": "Construction",
-"uniques": ["[+2 Happiness] from [Lakes] tiles [in cities being razed]"],
-                "maintenance": 3
+                "gold": 2,
+                "hurryCostModifier": 57,
+                "requiredTech": "Banking",
+"uniques": ["[+1 Production] from [Lakes] tiles [in capital]","New [Military] units start with [17] Experience [in cities being razed]"],
+                "maintenance": 2
         },
         {
                 "name": "Building271",
-                "happiness": 1,
-                "hurryCostModifier": 33,
-                "requiredTech": "Globalization",
+                "food": 1,
+                "hurryCostModifier": 50,
+                "requiredTech": "Radar",
+"uniques": ["[+1 Faith] from [Lakes] tiles [in all cities in which the majority religion is a major religion]"],
                 "maintenance": 2
         },
         {
                 "name": "Building272",
                 "culture": 2,
-                "hurryCostModifier": 47,
-                "requiredTech": "Rifling",
-"uniques": ["Requires at least [4] population","Limited to [8] per Civilization"],
-                "maintenance": 2
+                "hurryCostModifier": 17,
+                "requiredTech": "Globalization",
+"uniques": ["Requires at least [18] population"],
+                "maintenance": 1
         },
         {
                 "name": "Building273",
-                "happiness": 1,
-                "hurryCostModifier": 55,
-                "requiredTech": "Chemistry",
-"uniques": ["[+1 Faith] from [Lakes] tiles [in all cities connected to capital]"],
+                "gold": 2,
+                "hurryCostModifier": 24,
+                "requiredTech": "Radar",
                 "maintenance": 1
         },
         {
                 "name": "Building274",
-                "science": 1,
-                "hurryCostModifier": 55,
-                "requiredTech": "Dynamite",
-"uniques": ["[7]% Food is carried over after population increases [in puppeted cities]","[5]% Food is carried over after population increases [in foreign cities]"],
-                "maintenance": 2
+                "gold": 1,
+                "hurryCostModifier": 16,
+                "requiredTech": "Flight",
+"uniques": ["Must be next to [Coast]"],
+                "maintenance": 3
         },
         {
                 "name": "Building275",
-                "gold": 2,
-                "hurryCostModifier": 38,
-                "requiredTech": "Chemistry",
-"uniques": ["Must be next to [Coast]"],
-                "maintenance": 2
+                "faith": 1,
+                "hurryCostModifier": 52,
+                "requiredTech": "Archaeology",
+"uniques": ["Limited to [1] per Civilization"],
+                "maintenance": 3
         },
         {
                 "name": "Building276",
-                "gold": 1,
-                "hurryCostModifier": 37,
-                "requiredTech": "Drama and Poetry",
-                "maintenance": 3
+                "production": 1,
+                "hurryCostModifier": 35,
+                "requiredTech": "Fertilizer",
+"uniques": ["Only available <in cities with a [Building296]>"],
+                "maintenance": 1
         },
         {
                 "name": "Building277",
-                "faith": 1,
-                "hurryCostModifier": 24,
-                "requiredTech": "Construction",
-"uniques": ["Only available <in cities with a [Building50]>","Limited to [3] per Civilization"],
-                "maintenance": 3
+                "gold": 1,
+                "hurryCostModifier": 69,
+                "requiredTech": "Atomic Theory",
+"uniques": ["[+1 Happiness] from [Lakes] tiles [in puppeted cities]"],
+                "maintenance": 2
         },
         {
                 "name": "Building278",
-                "food": 2,
-                "percentStatBonus": {"food": 6},
-"hurryCostModifier": 5,
-                "requiredTech": "Ballistics",
-"uniques": ["[+1 Culture] from [Lakes] tiles [in holy cities]","[+1 Culture] from [Lakes] tiles [in all cities with a world wonder]"],
+                "culture": 2,
+                "hurryCostModifier": 17,
+                "requiredTech": "Construction",
                 "maintenance": 3
         },
         {
                 "name": "Building279",
-                "faith": 2,
-                "hurryCostModifier": 3,
-                "requiredTech": "Telecommunications",
-                "maintenance": 2
+                "culture": 2,
+                "hurryCostModifier": 53,
+                "requiredTech": "Economics",
+"uniques": ["[+2 Production] from [Lakes] tiles [in all coastal cities]"],
+                "maintenance": 1
         },
         {
                 "name": "Building280",
-                "gold": 2,
-                "hurryCostModifier": 44,
-                "requiredTech": "Gunpowder",
-"uniques": ["Requires at least [9] population"],
-                "maintenance": 2
+                "gold": 1,
+                "hurryCostModifier": 60,
+                "requiredTech": "Architecture",
+"uniques": ["Limited to [1] per Civilization","Must be next to [Coast]"],
+                "maintenance": 1
         },
         {
                 "name": "Building281",
-                "gold": 1,
-                "percentStatBonus": {"gold": 21},
-"hurryCostModifier": 56,
-                "requiredTech": "Metallurgy",
-"uniques": ["[+2 Science] from [Lakes] tiles [in puppeted cities]","Only available <in cities with a [Building83]>"],
+                "science": 3,
+                "hurryCostModifier": 59,
+                "requiredTech": "Drama and Poetry",
+"uniques": ["Only available <in cities with a [Building296]>"],
                 "maintenance": 2
         },
         {
                 "name": "Building282",
-                "gold": 1,
-                "hurryCostModifier": 3,
-                "requiredTech": "Steam Power",
-"uniques": ["Requires at least [21] population","Requires at least [16] population"],
+                "happiness": 1,
+                "hurryCostModifier": 59,
+                "requiredTech": "Radar",
+"uniques": ["[+2 Food] from [Cattle] tiles [in capital]"],
                 "maintenance": 2
         },
         {
                 "name": "Building283",
-                "gold": 1,
-                "percentStatBonus": {"gold": 1},
-"hurryCostModifier": 23,
-                "requiredTech": "Nuclear Fusion",
-"uniques": ["[+1 Production] from [Lakes] tiles [in cities following this religion]"],
+                "gold": 3,
+                "hurryCostModifier": 37,
+                "requiredTech": "Horseback Riding",
                 "maintenance": 1
         },
         {
                 "name": "Building284",
-                "food": 2,
-                "percentStatBonus": {"food": 6},
-"hurryCostModifier": 33,
-                "requiredTech": "Architecture",
-"uniques": ["[7]% Food is carried over after population increases [in puppeted cities]"],
+                "gold": 2,
+                "percentStatBonus": {"gold": 2},
+"hurryCostModifier": 52,
+                "requiredTech": "Electronics",
+"uniques": ["New [Military] units start with [16] Experience [in all non-occupied cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building285",
                 "culture": 1,
-                "hurryCostModifier": 35,
-                "requiredTech": "Refrigeration",
+                "percentStatBonus": {"culture": 13},
+"hurryCostModifier": 62,
+                "requiredTech": "Electricity",
+"uniques": ["New [Military] units start with [16] Experience [in enemy cities]","[+1 Faith] from [Lakes] tiles [in annexed cities]"],
                 "maintenance": 2
         },
         {
                 "name": "Building286",
                 "gold": 1,
-                "percentStatBonus": {"gold": 17},
-"hurryCostModifier": 36,
-                "requiredTech": "Guilds",
-"uniques": ["Requires at least [3] population"],
-                "maintenance": 3
-        },
-        {
-                "name": "Building287",
-                "faith": 1,
-                "hurryCostModifier": 28,
-                "requiredTech": "Banking",
-"uniques": ["[+1 Gold] from [Lakes] tiles [in cities being razed]"],
+                "hurryCostModifier": 53,
+                "requiredTech": "Nuclear Fission",
+"uniques": ["Requires at least [19] population","[+1 Gold] from [Cattle] tiles [in non-enemy foreign cities]"],
                 "maintenance": 2
         },
         {
-                "name": "Building288",
+                "name": "Building287",
                 "happiness": 1,
-                "hurryCostModifier": 69,
-                "requiredTech": "Particle Physics",
-"uniques": ["[+2 Gold] from [Lakes] tiles [in holy cities]"],
+                "hurryCostModifier": 19,
+                "requiredTech": "Sailing",
+"uniques": ["Requires at least [8] population","Limited to [3] per Civilization"],
+                "maintenance": 1
+        },
+        {
+                "name": "Building288",
+                "faith": 2,
+                "percentStatBonus": {"faith": 6},
+"hurryCostModifier": 14,
+                "requiredTech": "Steam Power",
+"uniques": ["Only available <in cities with a [Building269]>"],
                 "maintenance": 1
         },
         {
                 "name": "Building289",
-                "food": 2,
-                "hurryCostModifier": 62,
-                "requiredTech": "Steam Power",
-"uniques": ["New [Military] units start with [9] Experience [in all cities with a garrison]"],
-                "maintenance": 3
+                "food": 1,
+                "hurryCostModifier": 34,
+                "requiredTech": "Chemistry",
+"uniques": ["Requires at least [10] population","[+1 Food] from [Cattle] tiles [in this city]"],
+                "maintenance": 2
         },
         {
                 "name": "Building290",
-                "happiness": 1,
-                "hurryCostModifier": 60,
-                "requiredTech": "Steam Power",
-"uniques": ["Requires at least [14] population","Limited to [8] per Civilization"],
+                "faith": 1,
+                "hurryCostModifier": 56,
+                "requiredTech": "Industrialization",
                 "maintenance": 2
         },
         {
                 "name": "Building291",
-                "faith": 1,
-                "hurryCostModifier": 34,
-                "requiredTech": "Compass",
-"uniques": ["[+1 Happiness] from [Lakes] tiles [in all coastal cities]"],
+                "faith": 2,
+                "hurryCostModifier": 18,
+                "requiredTech": "Globalization",
+"uniques": ["Must be next to [Coast]"],
                 "maintenance": 2
         },
         {
                 "name": "Building292",
-                "production": 1,
-                "hurryCostModifier": 62,
-                "requiredTech": "Guilds",
-"uniques": ["[+1 Gold] from [Lakes] tiles [in all cities in which the majority religion is an enhanced religion]","[+1 Faith] from [Cattle] tiles [in all non-occupied cities]"],
+                "happiness": 1,
+                "hurryCostModifier": 9,
+                "requiredTech": "Nuclear Fusion",
                 "maintenance": 2
         },
         {
                 "name": "Building293",
-                "gold": 1,
-                "hurryCostModifier": 29,
-                "requiredTech": "Military Science",
-"uniques": ["[+1 Production] from [Lakes] tiles [in foreign cities]","[+1 Faith] from [Cattle] tiles [in annexed cities]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building294",
-                "food": 2,
-                "hurryCostModifier": 36,
-                "requiredTech": "Printing Press",
-"uniques": ["[+1 Happiness] from [Lakes] tiles [in this city]"],
-                "maintenance": 2
-        },
-        {
-                "name": "Building295",
-                "food": 3,
-                "hurryCostModifier": 52,
-                "requiredTech": "Steam Power",
-"uniques": ["Destroyed when the city is captured","[+1 Gold] from [Cattle] tiles [in all cities]"],
+                "happiness": 2,
+                "hurryCostModifier": 55,
+                "requiredTech": "Guilds",
+"uniques": ["[+2 Culture] from [Lakes] tiles [in puppeted cities]","Must be next to [Coast]"],
                 "maintenance": 1
         },
         {
+                "name": "Building294",
+                "food": 1,
+                "hurryCostModifier": 22,
+                "requiredTech": "Pottery",
+                "maintenance": 3
+        },
+        {
+                "name": "Building295",
+                "faith": 1,
+                "hurryCostModifier": 21,
+                "requiredTech": "Archery",
+                "maintenance": 2
+        },
+        {
                 "name": "Building296",
-                "happiness": 1,
-                "hurryCostModifier": 30,
-                "requiredTech": "Chivalry",
+                "science": 1,
+                "hurryCostModifier": 5,
+                "requiredTech": "Physics",
                 "maintenance": 1
         },
         {
                 "name": "Building297",
-                "happiness": 1,
-                "percentStatBonus": {"happiness": 2},
-"hurryCostModifier": 30,
-                "requiredTech": "Chemistry",
-                "maintenance": 3
+                "food": 2,
+                "percentStatBonus": {"food": 1},
+"hurryCostModifier": 46,
+                "requiredTech": "Mobile Tactics",
+"uniques": ["Only available <in cities with a [Building87]>","Only available <in cities with a [Building98]>"],
+                "maintenance": 1
         },
         {
                 "name": "Building298",
-                "happiness": 1,
-                "hurryCostModifier": 49,
-                "requiredTech": "Guilds",
-"uniques": ["[+2 Faith] from [Lakes] tiles [in all cities with a garrison]"],
-                "maintenance": 2
+                "gold": 2,
+                "hurryCostModifier": 39,
+                "requiredTech": "Acoustics",
+"uniques": ["[+2 Faith] from [Cattle] tiles [in cities being razed]","Limited to [9] per Civilization"],
+                "maintenance": 3
         },
         {
                 "name": "Building299",
-                "science": 1,
-                "hurryCostModifier": 10,
-                "requiredTech": "Architecture",
-"uniques": ["[+1 Science] from [Lakes] tiles [in all cities connected to capital]"],
-                "maintenance": 2
+                "happiness": 1,
+                "hurryCostModifier": 37,
+                "requiredTech": "Acoustics",
+"uniques": ["Requires at least [13] population","Limited to [9] per Civilization"],
+                "maintenance": 1
         },
         {
                 "name": "Building300",
-                "food": 1,
-                "hurryCostModifier": 67,
-                "requiredTech": "Physics",
-"uniques": ["New [Military] units start with [6] Experience [in foreign cities]"],
-                "maintenance": 3
+                "faith": 2,
+                "percentStatBonus": {"faith": 1},
+"hurryCostModifier": 44,
+                "requiredTech": "Engineering",
+"uniques": ["Destroyed when the city is captured"],
+                "maintenance": 2
         }
 ]
